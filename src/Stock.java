@@ -8,13 +8,13 @@ public class Stock {
  private String stockName;
  private String tickerSym;
  private int quantity;
- 
- public Stock(String tickerSym, String stockName, int quantity, double price){
+ private double lastPrice;
+ public Stock(String tickerSym, int quantity, double price){
 	 
 	 this.tickerSym =tickerSym;
-	 this.stockName = stockName;
 	 this.quantity = quantity;
 	 this.price = price;
+	 
  }
  
  
@@ -33,19 +33,7 @@ public class Stock {
    
  private double getLowest(){	 
 	 return lowestPrice;
- }
-   
-
- 
-   private Set<IQuote> iQuote;
-   
-   public Set<IQuote> getIQuote() {
-      if (this.iQuote == null) {
-         this.iQuote = new HashSet<IQuote>();
-      }
-      return this.iQuote;
-   }
-   
+ }  
   
    public void setTickerSym(String value) {
       this.tickerSym = value;
@@ -88,6 +76,18 @@ public class Stock {
    
    public double getPrice() {
       return this.price;
+   }
+   
+   public void refreshPrice(){
+	  Quote q = new Quote(false);
+	  try{
+		  lastPrice = this.getPrice();
+		  q.setValues(tickerSym);
+		  setPrice(q.getLatest());
+	  }
+	  catch (Exception e){
+		 e.printStackTrace(); 
+	  }
    }
    
    }

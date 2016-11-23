@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Tracker {
-private ArrayList Folios;
+private ArrayList<Folio> Folios = new ArrayList<Folio>();
    
    public void setFolios(ArrayList value) {
       this.Folios = value;
@@ -11,38 +11,40 @@ private ArrayList Folios;
       return this.Folios;
    }
    
-   private Set<Folio> folio;
    
-   public Set<Folio> getFolio() {
-      if (this.folio == null) {
-         this.folio = new HashSet<Folio>();
+   public void addFolio(String Name) {
+	  Folio newFolio = new Folio(Name);
+      Folios.add(newFolio);
+   }
+   
+   public void deleteFolio(String Name) {
+      for(Folio f: Folios){
+    	  if(f.getName()==Name){
+    		  Folios.remove(f);
+    	  }
       }
-      return this.folio;
    }
    
-   public boolean addFolio(String Name) {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
+   public void addStock(String folioName, String tickerSym, int quantity,  double price) {
+	   for(Folio f: Folios){
+	    	  if(f.getName()==folioName){
+	    		 f.addStock(tickerSym, quantity, price);
+	    	  }
+	      }
    }
    
-   public boolean deleteFolio(String Name) {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
-   }
-   
-   public void addStock(String folioName, int quantity, String stockName, double price) {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
-   }
-   
-   public void editHolding(String folioName, String stockName, int quantity, double price) {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
+   public void editHolding(String folioName,String tickerSym, int newQuantity, double newPrice) {
+	   for(Folio f: Folios){
+	    	  if(f.getName()==folioName){
+	    		 f.editHolding(tickerSym, newQuantity, newPrice);
+	    	  }
+	      }
    }
    
    public void refreshPrices() {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
+	   for(Folio f: Folios){
+	    	 	f.refreshFolio();
+	      }
    }
    
    }

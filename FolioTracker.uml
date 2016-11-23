@@ -5,7 +5,14 @@
       <contents xmi:type="ecore:EAnnotation" xmi:id="_QZMOEKs9EeamfpcH5EOY8g" source="codegen">
         <details xmi:id="_QZM1IKs9EeamfpcH5EOY8g" key="codegenDirectory" value="/FolioTracker/src"/>
         <details xmi:id="_QZnE0Ks9EeamfpcH5EOY8g" key="observedFolders" value="/FolioTracker/src"/>
-        <details xmi:id="_ZMuY4KtAEeamfpcH5EOY8g" key="AssociatedSourceCode" value="/FolioTracker/src/Folio.java;835476928/1;/FolioTracker/src/Stock.java;1993471931/1;/FolioTracker/src/Tracker.java;1593201304/1;/FolioTracker/src/Quote.java;2228734974/1;/FolioTracker/src/IQuote.java;2657664817/1;/FolioTracker/src/IFolio.java;3047874981/1;/FolioTracker/src/ITracker.java;2258903806/1;/FolioTracker/src/AddListener.java;2901778691/1;/FolioTracker/src/EditListener.java;4116996811/1;/FolioTracker/src/DeleteListener.java;3453687107/1;/FolioTracker/src/DisplayListener.java;1761481167/1;/FolioTracker/src/MainFrame.java;1724200456/1;/FolioTracker/src/Tabulation.java;2482413078/1;/FolioTracker/src/Menu.java;611033189/1;/FolioTracker/src/IAddListener.java;1306842908/1;/FolioTracker/src/IEditListener.java;566426900/1;/FolioTracker/src/IDeleteListener.java;3949750086/1;/FolioTracker/src/IDisplayListener.java;2292737268/1;/FolioTracker/src/IObserver.java;3305398329/1;/FolioTracker/src/Action.java;576987295/1;/FolioTracker/src/GUI.java;2507787912/1;"/>
+        <details xmi:id="_ZMuY4KtAEeamfpcH5EOY8g" key="AssociatedSourceCode" value="/FolioTracker/src/Folio.java;2087324868/1;/FolioTracker/src/Stock.java;3101925114/1;/FolioTracker/src/Tracker.java;1388780406/1;/FolioTracker/src/Quote.java;1112643802/1;/FolioTracker/src/IQuote.java;2211353543/1;/FolioTracker/src/IFolio.java;700639677/1;/FolioTracker/src/ITracker.java;1198053995/1;/FolioTracker/src/AddListener.java;785672586/1;/FolioTracker/src/EditListener.java;12658516/1;/FolioTracker/src/DeleteListener.java;2745646708/1;/FolioTracker/src/DisplayListener.java;1745055505/1;/FolioTracker/src/MainFrame.java;3489599156/1;/FolioTracker/src/Tabulation.java;2689763472/1;/FolioTracker/src/Menu.java;3560465918/1;/FolioTracker/src/IAddListener.java;550246515/1;/FolioTracker/src/IEditListener.java;1674808410/1;/FolioTracker/src/IDeleteListener.java;1380655456/1;/FolioTracker/src/IDisplayListener.java;3093983816/1;/FolioTracker/src/IObserver.java;2778728590/1;/FolioTracker/src/Action.java;3804356783/1;/FolioTracker/src/GUI.java;2848956400/1;"/>
+      </contents>
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_nrTFoK_-EeaVnMf8ct8BhA" source="preferences">
+        <contents xmi:type="ecore:EAnnotation" xmi:id="_nrTssK_-EeaVnMf8ct8BhA" source="com.yattasolutions.codegen.reverse">
+          <details xmi:id="_nrTssa_-EeaVnMf8ct8BhA" key="com.yattasolutions.codegen.reverse.roundtrip.ReverseEngineerNewFiles" value="true"/>
+          <details xmi:id="_nrTssq_-EeaVnMf8ct8BhA" key="com.yattasolutions.codegen.reverse.roundtrip.ReverseEngineerChangedFiles" value="true"/>
+          <details xmi:id="_nrTss6_-EeaVnMf8ct8BhA" key="com.yattasolutions.codegen.reverse.roundtrip.RemoveDeletedFiles" value="true"/>
+        </contents>
       </contents>
     </eAnnotations>
     <elementImport xmi:id="_2pm1AKs9EeamfpcH5EOY8g">
@@ -61,7 +68,7 @@
           <name xsi:nil="true"/>
         </ownedParameter>
         <language>java</language>
-        <body>ArrayList Holidings = new ArrayList&lt;Stock>(); &#xD;
+        <body>ArrayList Holidings = new ArrayList&lt;Stock>(); 
 	</body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EDQb8KzZEea-s8taLLnE2w" name="editHolding" specification="_r-5wYKs-EeamfpcH5EOY8g">
@@ -79,19 +86,19 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </ownedParameter>
         <language>java</language>
-        <body>for(Stock s: Holdings){&#xD;
-		   if (s.getTickerSym()==tickerSym){&#xD;
-			   if (s.getQuantity()!=newQuantity){&#xD;
-				   s.setQuantity(newQuantity);&#xD;
-		   }&#xD;
-			   if (s.getPrice()!=newPrice){&#xD;
-				   s.setPrice(newPrice);&#xD;
-		   }&#xD;
-			   &#xD;
-		   }&#xD;
-	   &#xD;
-	   }&#xD;
-	   return true;&#xD;
+        <body>for(Stock s: Holdings){
+		   if (s.getTickerSym()==tickerSym){
+			   if (s.getQuantity()!=newQuantity){
+				   s.setQuantity(newQuantity);
+		   }
+			   if (s.getPrice()!=newPrice){
+				   s.setPrice(newPrice);
+		   }
+			   
+		   }
+	   
+	   }
+	   return true;
 </body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EDQb9azZEea-s8taLLnE2w" name="calculateValue" specification="_iuqeoKs_EeamfpcH5EOY8g">
@@ -103,15 +110,15 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
         <language>java</language>
-        <body>for(Stock s: Holdings){&#xD;
-		   if (s.getTickerSym()==tickerSym){&#xD;
-			  double p= s.getPrice();&#xD;
-			   int q = s.getQuantity();&#xD;
-			   return p*q;&#xD;
-		   }&#xD;
-		   &#xD;
-		   }&#xD;
-	   return 0;&#xD;
+        <body>for(Stock s: Holdings){
+		   if (s.getTickerSym()==tickerSym){
+			  double p= s.getPrice();
+			   int q = s.getQuantity();
+			   return p*q;
+		   }
+		   
+		   }
+	   return 0;
 	   </body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_F3JeoKzdEea-s8taLLnE2w" name="addStock" specification="_m152QKs-EeamfpcH5EOY8g">
@@ -132,11 +139,11 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </ownedParameter>
         <language>java</language>
-        <body>Stock newStock = new Stock(tickerSym, stockName, quantity, price);&#xD;
-		Holdings.add(newStock);&#xD;
-		return true;&#xD;
-&#xD;
-&#xD;
+        <body>Stock newStock = new Stock(tickerSym, stockName, quantity, price);
+		Holdings.add(newStock);
+		return true;
+
+
 </body>
       </ownedBehavior>
       <ownedOperation xmi:id="_m152QKs-EeamfpcH5EOY8g" name="addStock" method="_F3JeoKzdEea-s8taLLnE2w">
@@ -276,7 +283,7 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </ownedParameter>
         <language>java</language>
-        <body>return highestPrice;&#xD;
+        <body>return highestPrice;
  </body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_N5elEKzXEea-s8taLLnE2w" name="getLowest" specification="_N5S-4azXEea-s8taLLnE2w">
@@ -285,7 +292,7 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </ownedParameter>
         <language>java</language>
-        <body>return lowestPrice;&#xD;
+        <body>return lowestPrice;
  </body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_N5elEqzXEea-s8taLLnE2w" name="setPrice" specification="_N5WpQKzXEea-s8taLLnE2w">
@@ -293,14 +300,14 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </ownedParameter>
         <language>java</language>
-        <body>this.price = value;&#xD;
-   if (price> highestPrice){&#xD;
- 	  highestPrice= price;&#xD;
-   }&#xD;
-   &#xD;
-   if (price&lt; lowestPrice){&#xD;
- 	  lowestPrice= price;&#xD;
-   }&#xD;
+        <body>this.price = value;
+   if (price> highestPrice){
+ 	  highestPrice= price;
+   }
+   
+   if (price&lt; lowestPrice){
+ 	  lowestPrice= price;
+   }
 </body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hbJJsKzeEea-s8taLLnE2w" name="Stock" specification="_hbH7kKzeEea-s8taLLnE2w">
@@ -320,10 +327,10 @@
           <name xsi:nil="true"/>
         </ownedParameter>
         <language>java</language>
-        <body>this.tickerSym =tickerSym;&#xD;
-	 this.stockName = stockName;&#xD;
-	 this.quantity = quantity;&#xD;
-	 this.price = price;&#xD;
+        <body>this.tickerSym =tickerSym;
+	 this.stockName = stockName;
+	 this.quantity = quantity;
+	 this.price = price;
  </body>
       </ownedBehavior>
       <ownedOperation xmi:id="_N5S-4KzXEea-s8taLLnE2w" name="getHighest" visibility="private" method="_N5d-AazXEea-s8taLLnE2w">
@@ -608,13 +615,13 @@
       <name xsi:nil="true"/>
     </ownedParameter>
     <language>java</language>
-    <body>return this.Holdings;&#xD;
+    <body>return this.Holdings;
 </body>
   </uml:OpaqueBehavior>
   <uml:OpaqueBehavior xmi:id="_4G0XwqzbEea-s8taLLnE2w" name="setHoldings" specification="_4GxUcazbEea-s8taLLnE2w">
     <ownedParameter xmi:id="_4G0Xw6zbEea-s8taLLnE2w" name="value" type="_JOVXoKtCEeamfpcH5EOY8g"/>
     <language>java</language>
-    <body>this.Holdings = value;&#xD;
+    <body>this.Holdings = value;
 </body>
   </uml:OpaqueBehavior>
   <UMLLabProfile:LegacyStyledElement xmi:id="_0Q-5UK3FEeaHr55MGDbL3w" base_Element="_0Q8dEK3FEeaHr55MGDbL3w"/>
