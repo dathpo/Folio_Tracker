@@ -1344,11 +1344,6 @@
     <visualProperties xmi:id="_rG2rkbF0EeaQWNNL0SyRDQ" position="459.0,144.0" size="-1.0,-1.0"/>
     <visibility xmi:id="_rG2rkrF0EeaQWNNL0SyRDQ" label="+"/>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_YhXhsLF1EeaQWNNL0SyRDQ" name="IGUI" subclassedBy="_Fl0w0LGNEeaEoO7CzG3Wqg">
-    <modelElement href="FolioTracker1.uml#_YeE9ILF1EeaQWNNL0SyRDQ"/>
-    <visualProperties xmi:id="_rHJmgbF0EeaQWNNL0SyRDQ" position="-99.0,-69.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_YhXhsrF1EeaQWNNL0SyRDQ" label="+"/>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rG5u47F0EeaQWNNL0SyRDQ" name="Stock" generalizations="_rNChMLF2EeaQWNNL0SyRDQ">
     <modelElement href="FolioTracker1.uml#_rCqIELF0EeaQWNNL0SyRDQ"/>
     <visualProperties xmi:id="_rG5u5LF0EeaQWNNL0SyRDQ" position="401.0,724.0" size="-1.0,-1.0"/>
@@ -1690,5 +1685,10 @@
       <visibility xmi:id="_BOiBZrJGEeaCc-QMv3_NDg" label="+"/>
       <cardinality xmi:id="_BOiBZ7JGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
     </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_YhXhsLF1EeaQWNNL0SyRDQ" name="IGUI" subclassedBy="_Fl0w0LGNEeaEoO7CzG3Wqg">
+    <modelElement href="FolioTracker1.uml#_YeE9ILF1EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rHJmgbF0EeaQWNNL0SyRDQ" position="-99.0,-69.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YhXhsrF1EeaQWNNL0SyRDQ" label="+"/>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
