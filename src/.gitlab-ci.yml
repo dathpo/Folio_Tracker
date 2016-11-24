@@ -1,7 +1,0 @@
-image: strathcis/ubuntu-java:2016.0
-master:
-  script:
-  - chown -hR 2970:1095 .
-  - chmod -R 600 .
-  - find . -type d -exec chmod u+x {} \;
-  - rsync -aH --delete --exclude /.gitlab-ci.yml --exclude /.git ./ /shared/data/
