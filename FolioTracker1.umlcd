@@ -1,0 +1,1694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_q1sDELF0EeaQWNNL0SyRDQ">
+  <modelElement href="FolioTracker1.uml#_qu-XELF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rG-AULF0EeaQWNNL0SyRDQ" targetItem="_rG_OdLF0EeaQWNNL0SyRDQ" sourceItem="_rG9ZQLF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rG-AUrF0EeaQWNNL0SyRDQ" targetItem="_rG_Od7F0EeaQWNNL0SyRDQ" sourceItem="_rG-AUbF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rG-AVLF0EeaQWNNL0SyRDQ" targetItem="_rG_OfbF0EeaQWNNL0SyRDQ" sourceItem="_rG-AU7F0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rG-nYbF0EeaQWNNL0SyRDQ" targetItem="_rG_OgrF0EeaQWNNL0SyRDQ" sourceItem="_rG-nYLF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rG-nY7F0EeaQWNNL0SyRDQ" targetItem="_rG_Oh7F0EeaQWNNL0SyRDQ" sourceItem="_rG-nYrF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rG-nZbF0EeaQWNNL0SyRDQ" targetItem="_rG_OjLF0EeaQWNNL0SyRDQ" sourceItem="_rG-nZLF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rG-nZ7F0EeaQWNNL0SyRDQ" targetItem="_rG_OkbF0EeaQWNNL0SyRDQ" sourceItem="_rG-nZrF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rG-nabF0EeaQWNNL0SyRDQ" targetItem="_rG_OlrF0EeaQWNNL0SyRDQ" sourceItem="_rG-naLF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rG-na7F0EeaQWNNL0SyRDQ" targetItem="_rG_Om7F0EeaQWNNL0SyRDQ" sourceItem="_rG-narF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rG_OcbF0EeaQWNNL0SyRDQ" targetItem="_rG_OoLF0EeaQWNNL0SyRDQ" sourceItem="_rG_OcLF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rG_Oc7F0EeaQWNNL0SyRDQ" targetItem="_rG_OpbF0EeaQWNNL0SyRDQ" sourceItem="_rG_OcrF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_rHEG8LF0EeaQWNNL0SyRDQ" sourceAnchor="134.0,0.0" targetAnchor="122.0,242.0" dashed="true" superClass="_rG_OdLF0EeaQWNNL0SyRDQ" subClass="_rHGjMLF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDP99LF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_uLp5ULF0EeaQWNNL0SyRDQ" position="-762.0,-317.0"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rHEuAbF0EeaQWNNL0SyRDQ" targetItem="_rHGjPbF0EeaQWNNL0SyRDQ" sourceItem="_rHEuALF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rHEuA7F0EeaQWNNL0SyRDQ" targetItem="_rHGjRrF0EeaQWNNL0SyRDQ" sourceItem="_rHEuArF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rHFVEbF0EeaQWNNL0SyRDQ" targetItem="_rHGjTLF0EeaQWNNL0SyRDQ" sourceItem="_rHFVELF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rHFVE7F0EeaQWNNL0SyRDQ" targetItem="_rHGjUbF0EeaQWNNL0SyRDQ" sourceItem="_rHFVErF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rHFVFbF0EeaQWNNL0SyRDQ" targetItem="_rHGjVrF0EeaQWNNL0SyRDQ" sourceItem="_rHFVFLF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rHFVF7F0EeaQWNNL0SyRDQ" targetItem="_rHGjW7F0EeaQWNNL0SyRDQ" sourceItem="_rHFVFrF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rHFVGbF0EeaQWNNL0SyRDQ" targetItem="_rHGjYLF0EeaQWNNL0SyRDQ" sourceItem="_rHFVGLF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rHF8IbF0EeaQWNNL0SyRDQ" targetItem="_rHGjZbF0EeaQWNNL0SyRDQ" sourceItem="_rHF8ILF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rHF8I7F0EeaQWNNL0SyRDQ" targetItem="_rHGjarF0EeaQWNNL0SyRDQ" sourceItem="_rHF8IrF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rHF8JbF0EeaQWNNL0SyRDQ" targetItem="_rHGjb7F0EeaQWNNL0SyRDQ" sourceItem="_rHF8JLF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rHF8J7F0EeaQWNNL0SyRDQ" targetItem="_rHGjdLF0EeaQWNNL0SyRDQ" sourceItem="_rHF8JrF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rHF8KbF0EeaQWNNL0SyRDQ" targetItem="_rHGjgbF0EeaQWNNL0SyRDQ" sourceItem="_rHF8KLF0EeaQWNNL0SyRDQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_q7KHALF2EeaQWNNL0SyRDQ" sourceAnchor="200.0,0.0" targetAnchor="253.0,147.0" dashed="true" superClass="_rG5H0LF0EeaQWNNL0SyRDQ" subClass="_rG69A7F0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_q7Jf8LF2EeaQWNNL0SyRDQ"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_rNChMLF2EeaQWNNL0SyRDQ" sourceAnchor="375.0,0.0" targetAnchor="63.0,154.0" dashed="true" superClass="_rG5u4LF0EeaQWNNL0SyRDQ" subClass="_rG5u47F0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rM5-ULF2EeaQWNNL0SyRDQ"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_rfxP8LF2EeaQWNNL0SyRDQ" sourceAnchor="468.0,0.0" targetAnchor="141.0,154.0" dashed="true" superClass="_rG6V8LF0EeaQWNNL0SyRDQ" subClass="_rG69ALF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rfsXcLF2EeaQWNNL0SyRDQ"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Fl0w0LGNEeaEoO7CzG3Wqg" sourceAnchor="230.0,55.0" targetAnchor="0.0,22.0" dashed="true" superClass="_YhXhsLF1EeaQWNNL0SyRDQ" subClass="_Fl_v8LGNEeaEoO7CzG3Wqg">
+    <modelElement href="FolioTracker1.uml#_Fh56ILGNEeaEoO7CzG3Wqg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fl7egLGNEeaEoO7CzG3Wqg" source="_Fl_v8LGNEeaEoO7CzG3Wqg">
+    <modelElement href="FolioTracker1.uml#_FiK_4LGNEeaEoO7CzG3Wqg"/>
+    <stereotypes xmi:id="_Fl8FkLGNEeaEoO7CzG3Wqg" name="Reference">
+      <modelElement href="FolioTracker1.uml#_FiMOALGNEeaEoO7CzG3Wqg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Fl8FkbGNEeaEoO7CzG3Wqg" text=""/>
+    <sourceRole xmi:id="_Fl8FkrGNEeaEoO7CzG3Wqg" aggregationKind="NONE" name="">
+      <modelElement href="FolioTracker1.uml#_FiK_4bGNEeaEoO7CzG3Wqg"/>
+      <visibility xmi:id="_Fl8Fk7GNEeaEoO7CzG3Wqg" label="+"/>
+      <cardinality xmi:id="_Fl8FlLGNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Fl8FlbGNEeaEoO7CzG3Wqg" aggregationKind="NONE" name="frame" navigable="true">
+      <modelElement href="FolioTracker1.uml#_Fh8WYLGNEeaEoO7CzG3Wqg"/>
+      <visibility xmi:id="_Fl8FlrGNEeaEoO7CzG3Wqg" label="+"/>
+      <cardinality xmi:id="_Fl8Fl7GNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fl9TsLGNEeaEoO7CzG3Wqg" source="_Fl_v8LGNEeaEoO7CzG3Wqg">
+    <modelElement href="FolioTracker1.uml#_FiMOAbGNEeaEoO7CzG3Wqg"/>
+    <stereotypes xmi:id="_Fl9TsbGNEeaEoO7CzG3Wqg" name="Reference">
+      <modelElement href="FolioTracker1.uml#_FiNcILGNEeaEoO7CzG3Wqg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Fl9TsrGNEeaEoO7CzG3Wqg" text=""/>
+    <sourceRole xmi:id="_Fl9Ts7GNEeaEoO7CzG3Wqg" aggregationKind="NONE" name="">
+      <modelElement href="FolioTracker1.uml#_FiMOArGNEeaEoO7CzG3Wqg"/>
+      <visibility xmi:id="_Fl9TtLGNEeaEoO7CzG3Wqg" label="+"/>
+      <cardinality xmi:id="_Fl9TtbGNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Fl9TtrGNEeaEoO7CzG3Wqg" aggregationKind="NONE" name="contentPanel" navigable="true">
+      <modelElement href="FolioTracker1.uml#_Fh89cLGNEeaEoO7CzG3Wqg"/>
+      <stereotypes xmi:id="_AP-HYLJGEeaCc-QMv3_NDg" name="MultiDeclaration">
+        <modelElement href="FolioTracker1.uml#_Fh9kgLGNEeaEoO7CzG3Wqg"/>
+      </stereotypes>
+      <visibility xmi:id="_Fl9Tt7GNEeaEoO7CzG3Wqg" label="+"/>
+      <cardinality xmi:id="_Fl9TuLGNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fl96wLGNEeaEoO7CzG3Wqg" source="_Fl_v8LGNEeaEoO7CzG3Wqg">
+    <modelElement href="FolioTracker1.uml#_FiNcIbGNEeaEoO7CzG3Wqg"/>
+    <stereotypes xmi:id="_Fl96wbGNEeaEoO7CzG3Wqg" name="Reference">
+      <modelElement href="FolioTracker1.uml#_FiODMLGNEeaEoO7CzG3Wqg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Fl96wrGNEeaEoO7CzG3Wqg" text=""/>
+    <sourceRole xmi:id="_Fl96w7GNEeaEoO7CzG3Wqg" aggregationKind="NONE" name="">
+      <modelElement href="FolioTracker1.uml#_FiNcIrGNEeaEoO7CzG3Wqg"/>
+      <visibility xmi:id="_Fl96xLGNEeaEoO7CzG3Wqg" label="+"/>
+      <cardinality xmi:id="_Fl96xbGNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Fl96xrGNEeaEoO7CzG3Wqg" aggregationKind="NONE" name="tabbedPane" navigable="true">
+      <modelElement href="FolioTracker1.uml#_FiBO4LGNEeaEoO7CzG3Wqg"/>
+      <visibility xmi:id="_Fl96x7GNEeaEoO7CzG3Wqg" label="+"/>
+      <cardinality xmi:id="_Fl96yLGNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fl-h0LGNEeaEoO7CzG3Wqg" source="_Fl_v8LGNEeaEoO7CzG3Wqg">
+    <modelElement href="FolioTracker1.uml#_FiODMbGNEeaEoO7CzG3Wqg"/>
+    <stereotypes xmi:id="_Fl-h0bGNEeaEoO7CzG3Wqg" name="Reference">
+      <modelElement href="FolioTracker1.uml#_FiOqQLGNEeaEoO7CzG3Wqg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Fl_I4LGNEeaEoO7CzG3Wqg" text=""/>
+    <sourceRole xmi:id="_Fl_I4bGNEeaEoO7CzG3Wqg" aggregationKind="NONE" name="">
+      <modelElement href="FolioTracker1.uml#_FiODMrGNEeaEoO7CzG3Wqg"/>
+      <visibility xmi:id="_Fl_I4rGNEeaEoO7CzG3Wqg" label="+"/>
+      <cardinality xmi:id="_Fl_I47GNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Fl_I5LGNEeaEoO7CzG3Wqg" aggregationKind="NONE" name="tabPanel" navigable="true">
+      <modelElement href="FolioTracker1.uml#_FiJKsbGNEeaEoO7CzG3Wqg"/>
+      <stereotypes xmi:id="_AQBKsLJGEeaCc-QMv3_NDg" name="MultiDeclaration">
+        <modelElement href="FolioTracker1.uml#_FiJxwLGNEeaEoO7CzG3Wqg"/>
+      </stereotypes>
+      <visibility xmi:id="_Fl_I5bGNEeaEoO7CzG3Wqg" label="+"/>
+      <cardinality xmi:id="_Fl_I5rGNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_fdGUALGREeaEoO7CzG3Wqg" subClass="_Fl_v8LGNEeaEoO7CzG3Wqg">
+    <modelElement href="FolioTracker1.uml#_Fh7IQLGNEeaEoO7CzG3Wqg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BOlrwLJGEeaCc-QMv3_NDg" source="_Fl_v8LGNEeaEoO7CzG3Wqg">
+    <modelElement href="FolioTracker1.uml#_BOUmALJGEeaCc-QMv3_NDg"/>
+    <stereotypes xmi:id="_BOlrwbJGEeaCc-QMv3_NDg" name="Reference">
+      <modelElement href="FolioTracker1.uml#_BOXCQLJGEeaCc-QMv3_NDg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BOlrwrJGEeaCc-QMv3_NDg" text=""/>
+    <sourceRole xmi:id="_BOlrw7JGEeaCc-QMv3_NDg" aggregationKind="NONE" name="">
+      <modelElement href="FolioTracker1.uml#_BOUmAbJGEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_BOlrxLJGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOlrxbJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BOlrxrJGEeaCc-QMv3_NDg" aggregationKind="NONE" name="tableModel" navigable="true">
+      <modelElement href="FolioTracker1.uml#_BOMqMLJGEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_BOlrx7JGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOlryLJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BOmS0LJGEeaCc-QMv3_NDg" source="_Fl_v8LGNEeaEoO7CzG3Wqg">
+    <modelElement href="FolioTracker1.uml#_BOXpULJGEeaCc-QMv3_NDg"/>
+    <stereotypes xmi:id="_BOmS0bJGEeaCc-QMv3_NDg" name="Reference">
+      <modelElement href="FolioTracker1.uml#_BOYQYLJGEeaCc-QMv3_NDg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BOmS0rJGEeaCc-QMv3_NDg" text=""/>
+    <sourceRole xmi:id="_BOmS07JGEeaCc-QMv3_NDg" aggregationKind="NONE" name="">
+      <modelElement href="FolioTracker1.uml#_BOXpUbJGEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_BOmS1LJGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOmS1bJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BOmS1rJGEeaCc-QMv3_NDg" aggregationKind="NONE" name="table" navigable="true">
+      <modelElement href="FolioTracker1.uml#_BONRQLJGEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_BOmS17JGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOmS2LJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BOm54LJGEeaCc-QMv3_NDg" source="_Fl_v8LGNEeaEoO7CzG3Wqg">
+    <modelElement href="FolioTracker1.uml#_BOYQYbJGEeaCc-QMv3_NDg"/>
+    <stereotypes xmi:id="_BOm54bJGEeaCc-QMv3_NDg" name="Reference">
+      <modelElement href="FolioTracker1.uml#_BOasoLJGEeaCc-QMv3_NDg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BOm54rJGEeaCc-QMv3_NDg" text=""/>
+    <sourceRole xmi:id="_BOm547JGEeaCc-QMv3_NDg" aggregationKind="NONE" name="">
+      <modelElement href="FolioTracker1.uml#_BOYQYrJGEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_BOm55LJGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOm55bJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BOm55rJGEeaCc-QMv3_NDg" aggregationKind="NONE" name="scrollPane" navigable="true">
+      <modelElement href="FolioTracker1.uml#_BONRQbJGEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_BOm557JGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOm56LJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BOoIALJGEeaCc-QMv3_NDg" source="_Fl_v8LGNEeaEoO7CzG3Wqg">
+    <modelElement href="FolioTracker1.uml#_BObTsLJGEeaCc-QMv3_NDg"/>
+    <stereotypes xmi:id="_BOoIAbJGEeaCc-QMv3_NDg" name="Reference">
+      <modelElement href="FolioTracker1.uml#_BOb6wLJGEeaCc-QMv3_NDg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BOoIArJGEeaCc-QMv3_NDg" text=""/>
+    <sourceRole xmi:id="_BOoIA7JGEeaCc-QMv3_NDg" aggregationKind="NONE" name="">
+      <modelElement href="FolioTracker1.uml#_BObTsbJGEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_BOoIBLJGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOoIBbJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BOoIBrJGEeaCc-QMv3_NDg" aggregationKind="NONE" name="tickerSText" navigable="true">
+      <modelElement href="FolioTracker1.uml#_BONRQrJGEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_BO6b4LJGEeaCc-QMv3_NDg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_jPyp0LJSEeak2Pbowo3xvQ" name="MultiDeclaration">
+        <modelElement href="FolioTracker1.uml#_BON4ULJGEeaCc-QMv3_NDg"/>
+      </stereotypes>
+      <visibility xmi:id="_BOoIB7JGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOoICLJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BOovELJGEeaCc-QMv3_NDg" source="_Fl_v8LGNEeaEoO7CzG3Wqg">
+    <modelElement href="FolioTracker1.uml#_BOb6wbJGEeaCc-QMv3_NDg"/>
+    <stereotypes xmi:id="_BOovEbJGEeaCc-QMv3_NDg" name="Reference">
+      <modelElement href="FolioTracker1.uml#_BOch0LJGEeaCc-QMv3_NDg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BOovErJGEeaCc-QMv3_NDg" text=""/>
+    <sourceRole xmi:id="_BOovE7JGEeaCc-QMv3_NDg" aggregationKind="NONE" name="">
+      <modelElement href="FolioTracker1.uml#_BOb6wrJGEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_BOovFLJGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOovFbJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BOovFrJGEeaCc-QMv3_NDg" aggregationKind="NONE" name="sharesPanel" navigable="true">
+      <modelElement href="FolioTracker1.uml#_BORisLJGEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_BPMvwLJGEeaCc-QMv3_NDg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_jP1GELJSEeak2Pbowo3xvQ" name="MultiDeclaration">
+        <modelElement href="FolioTracker1.uml#_BORisbJGEeaCc-QMv3_NDg"/>
+      </stereotypes>
+      <visibility xmi:id="_BOovF7JGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOovGLJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BOrLULJGEeaCc-QMv3_NDg" source="_Fl_v8LGNEeaEoO7CzG3Wqg">
+    <modelElement href="FolioTracker1.uml#_BOch0bJGEeaCc-QMv3_NDg"/>
+    <stereotypes xmi:id="_BOrLUbJGEeaCc-QMv3_NDg" name="Reference">
+      <modelElement href="FolioTracker1.uml#_BOdI4LJGEeaCc-QMv3_NDg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BOrLUrJGEeaCc-QMv3_NDg" text=""/>
+    <sourceRole xmi:id="_BOrLU7JGEeaCc-QMv3_NDg" aggregationKind="NONE" name="">
+      <modelElement href="FolioTracker1.uml#_BOch0rJGEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_BOrLVLJGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOrLVbJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BOrLVrJGEeaCc-QMv3_NDg" aggregationKind="NONE" name="shareNumberText" navigable="true">
+      <modelElement href="FolioTracker1.uml#_BOSJwLJGEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_BPPMALJGEeaCc-QMv3_NDg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_jP27QLJSEeak2Pbowo3xvQ" name="MultiDeclaration">
+        <modelElement href="FolioTracker1.uml#_BOSJwbJGEeaCc-QMv3_NDg"/>
+      </stereotypes>
+      <visibility xmi:id="_BOrLV7JGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOrLWLJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_dwB2gLJHEeaCc-QMv3_NDg" source="_rG69A7F0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_dv1pQLJHEeaCc-QMv3_NDg"/>
+    <stereotypes xmi:id="_dwB2gbJHEeaCc-QMv3_NDg" name="Reference">
+      <modelElement href="FolioTracker1.uml#_dv23YLJHEeaCc-QMv3_NDg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_dwB2grJHEeaCc-QMv3_NDg" text=""/>
+    <sourceRole xmi:id="_dwB2g7JHEeaCc-QMv3_NDg" aggregationKind="NONE" name="">
+      <modelElement href="FolioTracker1.uml#_dv1pQbJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_dwB2hLJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_dwB2hbJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_dwB2hrJHEeaCc-QMv3_NDg" aggregationKind="NONE" name="Folios" navigable="true">
+      <modelElement href="FolioTracker1.uml#_dvu7kLJHEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_dwDEoLJHEeaCc-QMv3_NDg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_dwDrsLJHEeaCc-QMv3_NDg" name="Generics"/>
+      <stereotypes xmi:id="_dwESwLJHEeaCc-QMv3_NDg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_dwESwbJHEeaCc-QMv3_NDg" name="Generics"/>
+      <stereotypes xmi:id="_jP4JYLJSEeak2Pbowo3xvQ" name="LegacyStyledElement">
+        <modelElement href="FolioTracker1.uml#_dvu7kbJHEeaCc-QMv3_NDg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jP4JYbJSEeak2Pbowo3xvQ" name="Generics">
+        <modelElement href="FolioTracker1.uml#_dvvioLJHEeaCc-QMv3_NDg"/>
+      </stereotypes>
+      <visibility xmi:id="_dwB2h7JHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_dwB2iLJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eW0wwLJHEeaCc-QMv3_NDg" source="_rG69ALF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_eWojgLJHEeaCc-QMv3_NDg"/>
+    <stereotypes xmi:id="_eW0wwbJHEeaCc-QMv3_NDg" name="Reference">
+      <modelElement href="FolioTracker1.uml#_eWojgrJHEeaCc-QMv3_NDg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eW0wwrJHEeaCc-QMv3_NDg" text=""/>
+    <sourceRole xmi:id="_eW0ww7JHEeaCc-QMv3_NDg" aggregationKind="NONE" name="">
+      <modelElement href="FolioTracker1.uml#_eWojgbJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_eW0wxLJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_eW0wxbJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eW0wxrJHEeaCc-QMv3_NDg" aggregationKind="NONE" name="Holdings" navigable="true">
+      <modelElement href="FolioTracker1.uml#_eWk5ILJHEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_eW1-4LJHEeaCc-QMv3_NDg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_eW2l8LJHEeaCc-QMv3_NDg" name="Generics"/>
+      <stereotypes xmi:id="_eW3NALJHEeaCc-QMv3_NDg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_eW3NAbJHEeaCc-QMv3_NDg" name="Generics"/>
+      <stereotypes xmi:id="_jP5-kLJSEeak2Pbowo3xvQ" name="LegacyStyledElement">
+        <modelElement href="FolioTracker1.uml#_eWlgMLJHEeaCc-QMv3_NDg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jP6loLJSEeak2Pbowo3xvQ" name="Generics">
+        <modelElement href="FolioTracker1.uml#_eWlgMbJHEeaCc-QMv3_NDg"/>
+      </stereotypes>
+      <visibility xmi:id="_eW0wx7JHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_eW0wyLJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_PNY2ALJTEeak2Pbowo3xvQ" sourceAnchor="206.0,0.0" targetAnchor="46.0,61.0" dashed="true" superClass="_PNaEILJTEeak2Pbowo3xvQ" subClass="_rGgtULF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_OGGd0LJTEeak2Pbowo3xvQ"/>
+    <visualProperties xmi:id="_PNaEJLJTEeak2Pbowo3xvQ" position="0.0,0.0"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rG9ZQLF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rG-AULF0EeaQWNNL0SyRDQ" text="public interface that allows the setting of and retrieval of share stock values&#xD;&#xA;&#xD;&#xA;@author mark meiklejohn&#xD;&#xA; *&#xD;&#xA;@version v1 - interface added to complement &lt;code>Quote&lt;/code> class&#xD;&#xA; *&#xD;&#xA;All rights reserved. Copyright: 21 Nov 2008 15:06:18" item="_rG_OdLF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWroLF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rG-AUbF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rG-AUrF0EeaQWNNL0SyRDQ" text="This method gets the web page containing the share price information and&#xD;&#xA;&#x9; * sets up the data for retrieval&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws IOException&#xD;&#xA;&#x9; * @throws WebsiteDataException&#xD;&#xA;&#x9; * @throws NoSuchTickerException&#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @requires: tickerSymbol != null || tickerSymbol != &quot;&quot;&#xD;&#xA;&#x9; *" item="_rG_Od7F0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrobF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rG-AU7F0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rG-AVLF0EeaQWNNL0SyRDQ" text="This method returns the value of the ticker&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects String ticker: if ticker == null throws MethodException else&#xD;&#xA;&#x9; *          returns the ticker symbol for the company&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rG_OfbF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrorF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rG-nYLF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rG-nYbF0EeaQWNNL0SyRDQ" text="This method returns the latest stock price&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects Double latestValue: if latestValue == null throw MethodException&#xD;&#xA;&#x9; *          else return the latest stock value&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rG_OgrF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWro7F0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rG-nYrF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rG-nY7F0EeaQWNNL0SyRDQ" text="This method returns the date of the share values in format mm/dd/yy&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects Double date: if date == null throw MethodException else returns&#xD;&#xA;&#x9; *          the date of the share values&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rG_Oh7F0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrpLF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rG-nZLF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rG-nZbF0EeaQWNNL0SyRDQ" text="This Double returns the time of the latest share transactions in format HH:MM:AM/PM&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects String time: if time == null throw MethodException else returns&#xD;&#xA;&#x9; *          the time of the latest share transaction&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rG_OjLF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrpbF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rG-nZrF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rG-nZ7F0EeaQWNNL0SyRDQ" text="This method returns the change value of the share, if the share value has&#xD;&#xA;&#x9; * risen then it will return a value of +x.xx, however if the share value&#xD;&#xA;&#x9; * has fallen it will return -x.xx&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects Double change: if change == null throw MethodException else&#xD;&#xA;&#x9; *          returns the change value of the share&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rG_OkbF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrprF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rG-naLF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rG-nabF0EeaQWNNL0SyRDQ" text="This method returns the days opening share prive&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects Double open: if open == null throw MethodException else returns&#xD;&#xA;&#x9; *          the days opening share price&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rG_OlrF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrp7F0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rG-narF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rG-na7F0EeaQWNNL0SyRDQ" text="This method returns the days range maximum value&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects Double rangeMax: if rangeMax == null throw MethodException else&#xD;&#xA;&#x9; *          returns the days range maximum value&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rG_Om7F0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrqLF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rG_OcLF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rG_OcbF0EeaQWNNL0SyRDQ" text="This method returns the days range minimum value&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects Double rangeMin: if rangeMin == null throw Method Exception else&#xD;&#xA;&#x9; *          returns the days range minimum value&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rG_OoLF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrqbF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rG_OcrF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rG_Oc7F0EeaQWNNL0SyRDQ" text="This method returns the volume of shares available&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects Double volume: if volume == null throw MethodException else&#xD;&#xA;&#x9; *          returns the volume of the shares available&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rG_OpbF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrqrF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rHEuALF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rHEuAbF0EeaQWNNL0SyRDQ" text="Default Constructor&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param useProxy true if you want to use the university proxy server&#xD;&#xA;&#x9; * &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;else false not to." item="_rHGjPbF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrq7F0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rHEuArF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rHEuA7F0EeaQWNNL0SyRDQ" text="This method gets the web page containing the share price information and&#xD;&#xA;&#x9; * sets up the data for reterival&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws IOException&#xD;&#xA;&#x9; * @throws WebsiteDataException&#xD;&#xA;&#x9; * @throws NoSuchTickerException&#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @requires: tickerSymbol != null || tickerSymbol != &quot;&quot;&#xD;&#xA;&#x9; *" item="_rHGjRrF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrrLF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rHFVELF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rHFVEbF0EeaQWNNL0SyRDQ" text="This method returns the value of the ticker&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects String ticker: if ticker == null throws MethodException else&#xD;&#xA;&#x9; *          returns the ticker symbol for the company&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rHGjTLF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrrbF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rHFVErF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rHFVE7F0EeaQWNNL0SyRDQ" text="This method returns the latest stock price&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects String latestValue: if latestValue == null throw MethodException&#xD;&#xA;&#x9; *          else returns the latest stock value&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rHGjUbF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrrrF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rHFVFLF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rHFVFbF0EeaQWNNL0SyRDQ" text="This method returns the date of the share values in format mm/dd/yy&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects String date: if date == null throw MethodException else returns&#xD;&#xA;&#x9; *          the date of the share values&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rHGjVrF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrr7F0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rHFVFrF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rHFVF7F0EeaQWNNL0SyRDQ" text="This method returns the time of the latest share transactions in format HH:MM:AM/PM&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects String time: if time == null throw MethodException else returns&#xD;&#xA;&#x9; *          the time of the latest share transaction&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rHGjW7F0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrsLF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rHFVGLF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rHFVGbF0EeaQWNNL0SyRDQ" text="This method returns the change value of the share, if the share value has&#xD;&#xA;&#x9; * risen then it will return a value of +x.xx, however if the share value&#xD;&#xA;&#x9; * has fallen it will return x.xx&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects String change: if change == null throw MethodException else&#xD;&#xA;&#x9; *          returns the change value of the share&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rHGjYLF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrsbF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rHF8ILF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rHF8IbF0EeaQWNNL0SyRDQ" text="This method returns the days opening share prive&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects String open: if open == null throw MethodException else returns&#xD;&#xA;&#x9; *          the days opening share price&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rHGjZbF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrsrF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rHF8IrF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rHF8I7F0EeaQWNNL0SyRDQ" text="This method returns the days range maximum value&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects String rangeMax: if rangeMax == null throw MethodException else&#xD;&#xA;&#x9; *          returns the days range maximum value&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rHGjarF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDWrs7F0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rHF8JLF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rHF8JbF0EeaQWNNL0SyRDQ" text="This method returns the days range minimum value&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects String rangeMin: if rangeMin == null throw Method Exception else&#xD;&#xA;&#x9; *          returns the days range minimum value&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rHGjb7F0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDXSsLF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rHF8JrF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rHF8J7F0EeaQWNNL0SyRDQ" text="This method returns the voulme of shares available&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects String volume: if volume == null throw MethodException else&#xD;&#xA;&#x9; *          returns the volume of the shares avaliable&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; *" item="_rHGjdLF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDXSsbF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rHF8KLF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rHF8KbF0EeaQWNNL0SyRDQ" text="Method removePunc: removes all characters we dont't want in our string&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @throws MethodException&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @requires String str != null&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @effects if str == null throws method exception else returns a new string&#xD;&#xA;&#x9; *          with the characters removed that we don't want&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @modifies str" item="_rHGjgbF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rDXSsrF0EeaQWNNL0SyRDQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_D0OFwLGMEeaIPbTON9aQgg" name="TabChangeListener">
+    <modelElement href="FolioTracker1.uml#_D0NesLGMEeaIPbTON9aQgg"/>
+    <visualProperties xmi:id="_D0OFwbGMEeaIPbTON9aQgg" position="446.0,233.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_D0OFwrGMEeaIPbTON9aQgg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rG4gwLF0EeaQWNNL0SyRDQ" name="Main">
+    <modelElement href="FolioTracker1.uml#_rCo58LF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rG4gwbF0EeaQWNNL0SyRDQ" position="626.0,329.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rG4gwrF0EeaQWNNL0SyRDQ" label="+"/>
+    <operations xmi:id="_SKr3ALF2EeaQWNNL0SyRDQ" name="main" staticOperation="true">
+      <modelElement href="FolioTracker1.uml#_43etYLF1EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_SKr3BLF2EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_SKr3A7F2EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SKr3AbF2EeaQWNNL0SyRDQ" name="args">
+        <modelElement href="FolioTracker1.uml#_43etYbF1EeaQWNNL0SyRDQ"/>
+        <cardinality xmi:id="_SKr3BbF2EeaQWNNL0SyRDQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_SKr3ArF2EeaQWNNL0SyRDQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_rG5H0LF0EeaQWNNL0SyRDQ" name="ITracker" subclassedBy="_q7KHALF2EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rCphArF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rG5H0bF0EeaQWNNL0SyRDQ" position="-377.0,474.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rG5H0rF0EeaQWNNL0SyRDQ" label="+"/>
+    <operations xmi:id="_WEKaMLJLEeaCc-QMv3_NDg" name="refreshPrices">
+      <modelElement href="FolioTracker1.uml#_WEGIwLJLEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_WEKaMbJLEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_WEKaMrJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_WEM2cLJLEeaCc-QMv3_NDg" name="addFolio">
+      <modelElement href="FolioTracker1.uml#_WEHW4LJLEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_WEM2cbJLEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_WEM2crJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WEM2c7JLEeaCc-QMv3_NDg" name="Name">
+        <modelElement href="FolioTracker1.uml#_WEHW4bJLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WEM2dLJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WEM2dbJLEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WEOroLJLEeaCc-QMv3_NDg" name="deleteFolio">
+      <modelElement href="FolioTracker1.uml#_WEH98LJLEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_WEOrobJLEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_WEOrorJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WEOro7JLEeaCc-QMv3_NDg" name="Name">
+        <modelElement href="FolioTracker1.uml#_WEH98bJLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WEOrpLJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WEOrpbJLEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WEQg0LJLEeaCc-QMv3_NDg" name="addStock">
+      <modelElement href="FolioTracker1.uml#_WEIlALJLEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_WEQg0bJLEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_WEQg0rJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WEQg07JLEeaCc-QMv3_NDg" name="folioName">
+        <modelElement href="FolioTracker1.uml#_WEIlAbJLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WEQg1LJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WEQg1bJLEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WEQg1rJLEeaCc-QMv3_NDg" name="tickerSym">
+        <modelElement href="FolioTracker1.uml#_WEIlArJLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WEQg17JLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WEQg2LJLEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WEQg2bJLEeaCc-QMv3_NDg" name="quantity">
+        <modelElement href="FolioTracker1.uml#_WEIlA7JLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WEQg2rJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WEQg27JLEeaCc-QMv3_NDg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WEQg3LJLEeaCc-QMv3_NDg" name="price">
+        <modelElement href="FolioTracker1.uml#_WEIlBLJLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WEQg3bJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WEQg3rJLEeaCc-QMv3_NDg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WES9ELJLEeaCc-QMv3_NDg" name="editHolding">
+      <modelElement href="FolioTracker1.uml#_WEIlBbJLEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_WES9EbJLEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_WES9ErJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WES9E7JLEeaCc-QMv3_NDg" name="folioName">
+        <modelElement href="FolioTracker1.uml#_WEJMELJLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WES9FLJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WES9FbJLEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WES9FrJLEeaCc-QMv3_NDg" name="tickerSym">
+        <modelElement href="FolioTracker1.uml#_WEJMEbJLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WES9F7JLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WES9GLJLEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WES9GbJLEeaCc-QMv3_NDg" name="newQuantity">
+        <modelElement href="FolioTracker1.uml#_WEJMErJLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WES9GrJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WES9G7JLEeaCc-QMv3_NDg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WES9HLJLEeaCc-QMv3_NDg" name="newPrice">
+        <modelElement href="FolioTracker1.uml#_WEJME7JLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WES9HbJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WES9HrJLEeaCc-QMv3_NDg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rHCRwLF0EeaQWNNL0SyRDQ" name="NoSuchTickerException">
+    <modelElement href="FolioTracker1.uml#_rCyD4LF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rHCRwbF0EeaQWNNL0SyRDQ" position="370.0,1136.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rHCRwrF0EeaQWNNL0SyRDQ" label="+"/>
+    <attributes xmi:id="_rHCRw7F0EeaQWNNL0SyRDQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="FolioTracker1.uml#_rDUPYbF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rHCRxLF0EeaQWNNL0SyRDQ" label="-"/>
+      <cardinality xmi:id="_rHCRxbF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rHCRxrF0EeaQWNNL0SyRDQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rHCRx7F0EeaQWNNL0SyRDQ" name="NoSuchTickerException">
+      <modelElement href="FolioTracker1.uml#_rCyq8LF0EeaQWNNL0SyRDQ"/>
+      <keywords xmi:id="_rHCRyLF0EeaQWNNL0SyRDQ" keyword="create"/>
+      <visibility xmi:id="_rHCRybF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rHCRyrF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rHCRy7F0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rCyq9LF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rHCRzLF0EeaQWNNL0SyRDQ" name="NoSuchTickerException">
+          <modelElement href="FolioTracker1.uml#_rCyD4LF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rHCRzbF0EeaQWNNL0SyRDQ" name="s">
+        <modelElement href="FolioTracker1.uml#_rCyq8bF0EeaQWNNL0SyRDQ"/>
+        <cardinality xmi:id="_rHCRzrF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+        <type xmi:id="_rHCRz7F0EeaQWNNL0SyRDQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rG8LILF0EeaQWNNL0SyRDQ" name="WebsiteDataException">
+    <modelElement href="FolioTracker1.uml#_rCzSAbF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rG8LIbF0EeaQWNNL0SyRDQ" position="381.0,1241.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rG8LIrF0EeaQWNNL0SyRDQ" label="+"/>
+    <attributes xmi:id="_rG8LI7F0EeaQWNNL0SyRDQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="FolioTracker1.uml#_rDUPY7F0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rG8LJLF0EeaQWNNL0SyRDQ" label="-"/>
+      <cardinality xmi:id="_rG8LJbF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rG8LJrF0EeaQWNNL0SyRDQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rG8LJ7F0EeaQWNNL0SyRDQ" name="WebsiteDataException">
+      <modelElement href="FolioTracker1.uml#_rCzSArF0EeaQWNNL0SyRDQ"/>
+      <keywords xmi:id="_rG8LKLF0EeaQWNNL0SyRDQ" keyword="create"/>
+      <visibility xmi:id="_rG8LKbF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rG8LKrF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rG8LK7F0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rCz5E7F0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rG8LLLF0EeaQWNNL0SyRDQ" name="WebsiteDataException">
+          <modelElement href="FolioTracker1.uml#_rCzSAbF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rG8LLbF0EeaQWNNL0SyRDQ" name="s">
+        <modelElement href="FolioTracker1.uml#_rCz5ELF0EeaQWNNL0SyRDQ"/>
+        <cardinality xmi:id="_rG8LLrF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+        <type xmi:id="_rG8LL7F0EeaQWNNL0SyRDQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rHBqsLF0EeaQWNNL0SyRDQ" name="IOException">
+    <modelElement href="FolioTracker1.uml#_rDNhsLF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rHBqsbF0EeaQWNNL0SyRDQ" position="389.0,1357.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_rHBqsrF0EeaQWNNL0SyRDQ" name="Reference">
+      <modelElement href="FolioTracker1.uml#_rDOIwLF0EeaQWNNL0SyRDQ"/>
+    </stereotypes>
+    <visibility xmi:id="_rHBqs7F0EeaQWNNL0SyRDQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rHDf4LF0EeaQWNNL0SyRDQ" name="MethodException">
+    <modelElement href="FolioTracker1.uml#_rCw1wLF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rHDf4bF0EeaQWNNL0SyRDQ" position="410.0,1034.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rHDf4rF0EeaQWNNL0SyRDQ" label="+"/>
+    <attributes xmi:id="_rHDf47F0EeaQWNNL0SyRDQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="FolioTracker1.uml#_rDToVbF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rHDf5LF0EeaQWNNL0SyRDQ" label="-"/>
+      <cardinality xmi:id="_rHDf5bF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rHDf5rF0EeaQWNNL0SyRDQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rHDf57F0EeaQWNNL0SyRDQ" name="MethodException">
+      <modelElement href="FolioTracker1.uml#_rCxc0LF0EeaQWNNL0SyRDQ"/>
+      <keywords xmi:id="_rHDf6LF0EeaQWNNL0SyRDQ" keyword="create"/>
+      <visibility xmi:id="_rHDf6bF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rHDf6rF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rHDf67F0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rCxc1LF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rHDf7LF0EeaQWNNL0SyRDQ" name="MethodException">
+          <modelElement href="FolioTracker1.uml#_rCw1wLF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rHDf7bF0EeaQWNNL0SyRDQ" name="s">
+        <modelElement href="FolioTracker1.uml#_rCxc0bF0EeaQWNNL0SyRDQ"/>
+        <cardinality xmi:id="_rHDf7rF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+        <type xmi:id="_rHDf77F0EeaQWNNL0SyRDQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_rG_OdLF0EeaQWNNL0SyRDQ" comments="_rG9ZQLF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rG-AULF0EeaQWNNL0SyRDQ" name="IQuote" subclassedBy="_rHEG8LF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rCqIErF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rG_OdbF0EeaQWNNL0SyRDQ" position="73.0,1104.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rG_OdrF0EeaQWNNL0SyRDQ" label="+"/>
+    <operations xmi:id="_rG_Od7F0EeaQWNNL0SyRDQ" comments="_rG-AUbF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rG-AUrF0EeaQWNNL0SyRDQ" name="setValues">
+      <modelElement href="FolioTracker1.uml#_rCrWMLF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rG_OeLF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rG_OebF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rG_OerF0EeaQWNNL0SyRDQ" name="tickerSymbol">
+        <modelElement href="FolioTracker1.uml#_rCrWMbF0EeaQWNNL0SyRDQ"/>
+        <cardinality xmi:id="_rG_Oe7F0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+        <type xmi:id="_rG_OfLF0EeaQWNNL0SyRDQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rG_OfbF0EeaQWNNL0SyRDQ" comments="_rG-AU7F0EeaQWNNL0SyRDQ" targetConnectionVisual="_rG-AVLF0EeaQWNNL0SyRDQ" name="getTicker">
+      <modelElement href="FolioTracker1.uml#_rCr9QLF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rG_OfrF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rG_Of7F0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rG_OgLF0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rCr9QbF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rG_OgbF0EeaQWNNL0SyRDQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rG_OgrF0EeaQWNNL0SyRDQ" comments="_rG-nYLF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rG-nYbF0EeaQWNNL0SyRDQ" name="getLatest">
+      <modelElement href="FolioTracker1.uml#_rCskULF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rG_Og7F0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rG_OhLF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rG_OhbF0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rDSaMbF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rG_OhrF0EeaQWNNL0SyRDQ" name="Double">
+          <modelElement href="FolioTracker1.uml#_rDRzIbF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rG_Oh7F0EeaQWNNL0SyRDQ" comments="_rG-nYrF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rG-nY7F0EeaQWNNL0SyRDQ" name="getDate">
+      <modelElement href="FolioTracker1.uml#_rCskUbF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rG_OiLF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rG_OibF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rG_OirF0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rCskUrF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rG_Oi7F0EeaQWNNL0SyRDQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rG_OjLF0EeaQWNNL0SyRDQ" comments="_rG-nZLF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rG-nZbF0EeaQWNNL0SyRDQ" name="getTime">
+      <modelElement href="FolioTracker1.uml#_rCtLYLF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rG_OjbF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rG_OjrF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rG_Oj7F0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rCtLYbF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rG_OkLF0EeaQWNNL0SyRDQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rG_OkbF0EeaQWNNL0SyRDQ" comments="_rG-nZrF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rG-nZ7F0EeaQWNNL0SyRDQ" name="getChange">
+      <modelElement href="FolioTracker1.uml#_rCtLYrF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rG_OkrF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rG_Ok7F0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rG_OlLF0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rDSaMrF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rG_OlbF0EeaQWNNL0SyRDQ" name="Double">
+          <modelElement href="FolioTracker1.uml#_rDRzIbF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rG_OlrF0EeaQWNNL0SyRDQ" comments="_rG-naLF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rG-nabF0EeaQWNNL0SyRDQ" name="getOpen">
+      <modelElement href="FolioTracker1.uml#_rCtycLF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rG_Ol7F0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rG_OmLF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rG_OmbF0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rDSaM7F0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rG_OmrF0EeaQWNNL0SyRDQ" name="Double">
+          <modelElement href="FolioTracker1.uml#_rDRzIbF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rG_Om7F0EeaQWNNL0SyRDQ" comments="_rG-narF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rG-na7F0EeaQWNNL0SyRDQ" name="getRangeMax">
+      <modelElement href="FolioTracker1.uml#_rCtycbF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rG_OnLF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rG_OnbF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rG_OnrF0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rDSaNLF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rG_On7F0EeaQWNNL0SyRDQ" name="Double">
+          <modelElement href="FolioTracker1.uml#_rDRzIbF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rG_OoLF0EeaQWNNL0SyRDQ" comments="_rG_OcLF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rG_OcbF0EeaQWNNL0SyRDQ" name="getRangeMin">
+      <modelElement href="FolioTracker1.uml#_rCuZgLF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rG_OobF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rG_OorF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rG_Oo7F0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rDSaNbF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rG_OpLF0EeaQWNNL0SyRDQ" name="Double">
+          <modelElement href="FolioTracker1.uml#_rDRzIbF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rG_OpbF0EeaQWNNL0SyRDQ" comments="_rG_OcrF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rG_Oc7F0EeaQWNNL0SyRDQ" name="getVolume">
+      <modelElement href="FolioTracker1.uml#_rCvAkLF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rG_OprF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rG_Op7F0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rG_OqLF0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rDSaNrF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rG_OqbF0EeaQWNNL0SyRDQ" name="Double">
+          <modelElement href="FolioTracker1.uml#_rDRzIbF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rHGjMLF0EeaQWNNL0SyRDQ" name="Quote" generalizations="_rHEG8LF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rCz5FrF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rHGjMbF0EeaQWNNL0SyRDQ" position="61.0,1440.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rHGjMrF0EeaQWNNL0SyRDQ" label="+"/>
+    <attributes xmi:id="_rHGjM7F0EeaQWNNL0SyRDQ" name="_shareDataList">
+      <modelElement href="FolioTracker1.uml#_rDUPZbF0EeaQWNNL0SyRDQ"/>
+      <stereotypes xmi:id="_rHGjNLF0EeaQWNNL0SyRDQ" name="LegacyStyledElement">
+        <modelElement href="FolioTracker1.uml#_rDUPZ7F0EeaQWNNL0SyRDQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rHGjNbF0EeaQWNNL0SyRDQ" label="-"/>
+      <cardinality xmi:id="_rHGjNrF0EeaQWNNL0SyRDQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_rHGjN7F0EeaQWNNL0SyRDQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rHGjOLF0EeaQWNNL0SyRDQ" name="_useProxy">
+      <modelElement href="FolioTracker1.uml#_rDUPaLF0EeaQWNNL0SyRDQ"/>
+      <stereotypes xmi:id="_rHGjObF0EeaQWNNL0SyRDQ" name="LegacyStyledElement">
+        <modelElement href="FolioTracker1.uml#_rDU2cLF0EeaQWNNL0SyRDQ"/>
+      </stereotypes>
+      <visibility xmi:id="_rHGjOrF0EeaQWNNL0SyRDQ" label="-"/>
+      <cardinality xmi:id="_rHGjO7F0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <type xmi:id="_rHGjPLF0EeaQWNNL0SyRDQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rHGjPbF0EeaQWNNL0SyRDQ" comments="_rHEuALF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rHEuAbF0EeaQWNNL0SyRDQ" name="Quote">
+      <modelElement href="FolioTracker1.uml#_rC0gILF0EeaQWNNL0SyRDQ"/>
+      <keywords xmi:id="_rHGjPrF0EeaQWNNL0SyRDQ" keyword="create"/>
+      <visibility xmi:id="_rHGjP7F0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rHGjQLF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rHGjQbF0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rC1HM7F0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rHGjQrF0EeaQWNNL0SyRDQ" name="Quote">
+          <modelElement href="FolioTracker1.uml#_rCz5FrF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rHGjQ7F0EeaQWNNL0SyRDQ" name="useProxy">
+        <modelElement href="FolioTracker1.uml#_rC1HMLF0EeaQWNNL0SyRDQ"/>
+        <cardinality xmi:id="_rHGjRLF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+        <type xmi:id="_rHGjRbF0EeaQWNNL0SyRDQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rHGjRrF0EeaQWNNL0SyRDQ" comments="_rHEuArF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rHEuA7F0EeaQWNNL0SyRDQ" name="setValues">
+      <modelElement href="FolioTracker1.uml#_rC1HNLF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rHGjR7F0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rHGjSLF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rHGjSbF0EeaQWNNL0SyRDQ" name="tickerSymbol">
+        <modelElement href="FolioTracker1.uml#_rC1HNbF0EeaQWNNL0SyRDQ"/>
+        <cardinality xmi:id="_rHGjSrF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+        <type xmi:id="_rHGjS7F0EeaQWNNL0SyRDQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rHGjTLF0EeaQWNNL0SyRDQ" comments="_rHFVELF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rHFVEbF0EeaQWNNL0SyRDQ" name="getTicker">
+      <modelElement href="FolioTracker1.uml#_rC1HNrF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rHGjTbF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rHGjTrF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rHGjT7F0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rC1uQLF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rHGjULF0EeaQWNNL0SyRDQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rHGjUbF0EeaQWNNL0SyRDQ" comments="_rHFVErF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rHFVE7F0EeaQWNNL0SyRDQ" name="getLatest">
+      <modelElement href="FolioTracker1.uml#_rC1uQbF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rHGjUrF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rHGjU7F0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rHGjVLF0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rDTBRLF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rHGjVbF0EeaQWNNL0SyRDQ" name="Double">
+          <modelElement href="FolioTracker1.uml#_rDRzIbF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rHGjVrF0EeaQWNNL0SyRDQ" comments="_rHFVFLF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rHFVFbF0EeaQWNNL0SyRDQ" name="getDate">
+      <modelElement href="FolioTracker1.uml#_rC1uQrF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rHGjV7F0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rHGjWLF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rHGjWbF0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rC1uQ7F0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rHGjWrF0EeaQWNNL0SyRDQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rHGjW7F0EeaQWNNL0SyRDQ" comments="_rHFVFrF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rHFVF7F0EeaQWNNL0SyRDQ" name="getTime">
+      <modelElement href="FolioTracker1.uml#_rC1uRLF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rHGjXLF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rHGjXbF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rHGjXrF0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rC1uRbF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rHGjX7F0EeaQWNNL0SyRDQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rHGjYLF0EeaQWNNL0SyRDQ" comments="_rHFVGLF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rHFVGbF0EeaQWNNL0SyRDQ" name="getChange">
+      <modelElement href="FolioTracker1.uml#_rC1uRrF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rHGjYbF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rHGjYrF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rHGjY7F0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rDToULF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rHGjZLF0EeaQWNNL0SyRDQ" name="Double">
+          <modelElement href="FolioTracker1.uml#_rDRzIbF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rHGjZbF0EeaQWNNL0SyRDQ" comments="_rHF8ILF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rHF8IbF0EeaQWNNL0SyRDQ" name="getOpen">
+      <modelElement href="FolioTracker1.uml#_rC2VULF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rHGjZrF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rHGjZ7F0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rHGjaLF0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rDToUbF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rHGjabF0EeaQWNNL0SyRDQ" name="Double">
+          <modelElement href="FolioTracker1.uml#_rDRzIbF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rHGjarF0EeaQWNNL0SyRDQ" comments="_rHF8IrF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rHF8I7F0EeaQWNNL0SyRDQ" name="getRangeMax">
+      <modelElement href="FolioTracker1.uml#_rC2VUbF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rHGja7F0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rHGjbLF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rHGjbbF0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rDToUrF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rHGjbrF0EeaQWNNL0SyRDQ" name="Double">
+          <modelElement href="FolioTracker1.uml#_rDRzIbF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rHGjb7F0EeaQWNNL0SyRDQ" comments="_rHF8JLF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rHF8JbF0EeaQWNNL0SyRDQ" name="getRangeMin">
+      <modelElement href="FolioTracker1.uml#_rC2VUrF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rHGjcLF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rHGjcbF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rHGjcrF0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rDToU7F0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rHGjc7F0EeaQWNNL0SyRDQ" name="Double">
+          <modelElement href="FolioTracker1.uml#_rDRzIbF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rHGjdLF0EeaQWNNL0SyRDQ" comments="_rHF8JrF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rHF8J7F0EeaQWNNL0SyRDQ" name="getVolume">
+      <modelElement href="FolioTracker1.uml#_rC2VU7F0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rHGjdbF0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rHGjdrF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rHGjd7F0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rDToVLF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rHGjeLF0EeaQWNNL0SyRDQ" name="Double">
+          <modelElement href="FolioTracker1.uml#_rDRzIbF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rHGjebF0EeaQWNNL0SyRDQ" name="ensureNotNull">
+      <modelElement href="FolioTracker1.uml#_rC28YLF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rHGjerF0EeaQWNNL0SyRDQ" label="-"/>
+      <cardinality xmi:id="_rHGje7F0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rHGjfLF0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rC28YrF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rHGjfbF0EeaQWNNL0SyRDQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rHGjfrF0EeaQWNNL0SyRDQ" name="str">
+        <modelElement href="FolioTracker1.uml#_rC28YbF0EeaQWNNL0SyRDQ"/>
+        <cardinality xmi:id="_rHGjf7F0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+        <type xmi:id="_rHGjgLF0EeaQWNNL0SyRDQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rHGjgbF0EeaQWNNL0SyRDQ" comments="_rHF8KLF0EeaQWNNL0SyRDQ" targetConnectionVisual="_rHF8KbF0EeaQWNNL0SyRDQ" name="removePunc" staticOperation="true">
+      <modelElement href="FolioTracker1.uml#_rC28Y7F0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rHGjgrF0EeaQWNNL0SyRDQ" label="-"/>
+      <cardinality xmi:id="_rHGjg7F0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rHGjhLF0EeaQWNNL0SyRDQ">
+        <modelElement href="FolioTracker1.uml#_rC3jcLF0EeaQWNNL0SyRDQ"/>
+        <type xmi:id="_rHGjhbF0EeaQWNNL0SyRDQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rHGjhrF0EeaQWNNL0SyRDQ" name="str">
+        <modelElement href="FolioTracker1.uml#_rC28ZLF0EeaQWNNL0SyRDQ"/>
+        <cardinality xmi:id="_rHHKQLF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+        <type xmi:id="_rHHKQbF0EeaQWNNL0SyRDQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rHHKQrF0EeaQWNNL0SyRDQ" name="main" staticOperation="true">
+      <modelElement href="FolioTracker1.uml#_rC3jcbF0EeaQWNNL0SyRDQ"/>
+      <visibility xmi:id="_rHHKQ7F0EeaQWNNL0SyRDQ" label="+"/>
+      <cardinality xmi:id="_rHHKRLF0EeaQWNNL0SyRDQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rHHKRbF0EeaQWNNL0SyRDQ" name="args">
+        <modelElement href="FolioTracker1.uml#_rC3jcrF0EeaQWNNL0SyRDQ"/>
+        <cardinality xmi:id="_rHHKRrF0EeaQWNNL0SyRDQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_rHHKR7F0EeaQWNNL0SyRDQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_rG6V8LF0EeaQWNNL0SyRDQ" name="IFolio" subclassedBy="_rfxP8LF2EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rCphALF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rG6V8bF0EeaQWNNL0SyRDQ" position="195.0,478.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rG6V8rF0EeaQWNNL0SyRDQ" label="+"/>
+    <attributes xmi:id="_EreIsLJOEeaCc-QMv3_NDg" name="folioName">
+      <modelElement href="FolioTracker1.uml#_ErTJkLJOEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_EreIsbJOEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_EreIsrJOEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_EreIs7JOEeaCc-QMv3_NDg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WvPXgLJLEeaCc-QMv3_NDg" name="refreshFolio">
+      <modelElement href="FolioTracker1.uml#_WvLtILJLEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_WvPXgbJLEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_WvPXgrJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_WvQloLJLEeaCc-QMv3_NDg" name="addStock">
+      <modelElement href="FolioTracker1.uml#_WvM7QLJLEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_WvQlobJLEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_WvQlorJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WvQlo7JLEeaCc-QMv3_NDg">
+        <modelElement href="FolioTracker1.uml#_WvM7RLJLEeaCc-QMv3_NDg"/>
+        <type xmi:id="_WvQlpLJLEeaCc-QMv3_NDg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WvQlpbJLEeaCc-QMv3_NDg" name="tickerSym">
+        <modelElement href="FolioTracker1.uml#_WvM7QbJLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WvQlprJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WvQlp7JLEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WvQlqLJLEeaCc-QMv3_NDg" name="quantity">
+        <modelElement href="FolioTracker1.uml#_WvM7QrJLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WvQlqbJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WvQlqrJLEeaCc-QMv3_NDg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WvQlq7JLEeaCc-QMv3_NDg" name="price">
+        <modelElement href="FolioTracker1.uml#_WvM7Q7JLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WvQlrLJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WvQlrbJLEeaCc-QMv3_NDg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WvSa0LJLEeaCc-QMv3_NDg" name="editHolding">
+      <modelElement href="FolioTracker1.uml#_WvNiULJLEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_WvSa0bJLEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_WvSa0rJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WvSa07JLEeaCc-QMv3_NDg">
+        <modelElement href="FolioTracker1.uml#_WvNiVLJLEeaCc-QMv3_NDg"/>
+        <type xmi:id="_WvSa1LJLEeaCc-QMv3_NDg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WvSa1bJLEeaCc-QMv3_NDg" name="tickerSym">
+        <modelElement href="FolioTracker1.uml#_WvNiUbJLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WvSa1rJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WvSa17JLEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WvSa2LJLEeaCc-QMv3_NDg" name="newQuantity">
+        <modelElement href="FolioTracker1.uml#_WvNiUrJLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WvSa2bJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WvSa2rJLEeaCc-QMv3_NDg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WvSa27JLEeaCc-QMv3_NDg" name="newPrice">
+        <modelElement href="FolioTracker1.uml#_WvNiU7JLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WvSa3LJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WvSa3bJLEeaCc-QMv3_NDg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WvUQALJLEeaCc-QMv3_NDg" name="calculateValue">
+      <modelElement href="FolioTracker1.uml#_WvOJYLJLEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_WvUQAbJLEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_WvUQArJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WvUQA7JLEeaCc-QMv3_NDg">
+        <modelElement href="FolioTracker1.uml#_WvOJYrJLEeaCc-QMv3_NDg"/>
+        <type xmi:id="_WvUQBLJLEeaCc-QMv3_NDg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WvUQBbJLEeaCc-QMv3_NDg" name="tickerSym">
+        <modelElement href="FolioTracker1.uml#_WvOJYbJLEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_WvUQBrJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_WvUQB7JLEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rG69A7F0EeaQWNNL0SyRDQ" name="Tracker" associationsOut="_dwB2gLJHEeaCc-QMv3_NDg" generalizations="_q7KHALF2EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rCqIEbF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rG69BLF0EeaQWNNL0SyRDQ" position="-324.0,685.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rG69BbF0EeaQWNNL0SyRDQ" label="+"/>
+    <attributes xmi:id="_dv-MILJHEeaCc-QMv3_NDg" defaultValue="new ArrayList&lt;Folio>()" name="Folios">
+      <modelElement href="FolioTracker1.uml#_dvu7kLJHEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_jSVngLJSEeak2Pbowo3xvQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_jSWOkLJSEeak2Pbowo3xvQ" name="Generics"/>
+      <stereotypes xmi:id="_jSW1oLJSEeak2Pbowo3xvQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_jSXcsLJSEeak2Pbowo3xvQ" name="Generics"/>
+      <stereotypes xmi:id="_jSf_kLJSEeak2Pbowo3xvQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_jSf_kbJSEeak2Pbowo3xvQ" name="Generics"/>
+      <visibility xmi:id="_dv-MI7JHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_dv-MJLJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_dv-MJbJHEeaCc-QMv3_NDg" name="ArrayList">
+        <modelElement href="FolioTracker1.uml#_dvrRMLJHEeaCc-QMv3_NDg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dv3ecLJHEeaCc-QMv3_NDg" name="refreshPrices">
+      <modelElement href="FolioTracker1.uml#_dvgSELJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_dv3ecbJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_dv3ecrJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_dv4FgLJHEeaCc-QMv3_NDg" name="addFolio">
+      <modelElement href="FolioTracker1.uml#_dvj8cLJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_dv4FgbJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_dv4FgrJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dv4Fg7JHEeaCc-QMv3_NDg" name="Name">
+        <modelElement href="FolioTracker1.uml#_dvkjgLJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_dv4FhLJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_dv4FhbJHEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dv5ToLJHEeaCc-QMv3_NDg" name="deleteFolio">
+      <modelElement href="FolioTracker1.uml#_dvkjgbJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_dv5TobJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_dv5TorJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dv5To7JHEeaCc-QMv3_NDg" name="Name">
+        <modelElement href="FolioTracker1.uml#_dvkjgrJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_dv5TpLJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_dv5TpbJHEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dv6hwLJHEeaCc-QMv3_NDg" name="addStock">
+      <modelElement href="FolioTracker1.uml#_dvlKkLJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_dv6hwbJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_dv6hwrJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dv6hw7JHEeaCc-QMv3_NDg" name="folioName">
+        <modelElement href="FolioTracker1.uml#_dvlKkbJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_dv6hxLJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_dv6hxbJHEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dv6hxrJHEeaCc-QMv3_NDg" name="tickerSym">
+        <modelElement href="FolioTracker1.uml#_dvlKkrJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_dv6hx7JHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_dv6hyLJHEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dv6hybJHEeaCc-QMv3_NDg" name="quantity">
+        <modelElement href="FolioTracker1.uml#_dvlKk7JHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_dv6hyrJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_dv6hy7JHEeaCc-QMv3_NDg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dv6hzLJHEeaCc-QMv3_NDg" name="price">
+        <modelElement href="FolioTracker1.uml#_dvlxoLJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_dv6hzbJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_dv6hzrJHEeaCc-QMv3_NDg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dv8W8LJHEeaCc-QMv3_NDg" name="editHolding">
+      <modelElement href="FolioTracker1.uml#_dvlxobJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_dv8W8bJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_dv8W8rJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dv8W87JHEeaCc-QMv3_NDg" name="folioName">
+        <modelElement href="FolioTracker1.uml#_dvlxorJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_dv8W9LJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_dv8W9bJHEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dv8W9rJHEeaCc-QMv3_NDg" name="tickerSym">
+        <modelElement href="FolioTracker1.uml#_dvmYsLJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_dv8W97JHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_dv8W-LJHEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dv8W-bJHEeaCc-QMv3_NDg" name="newQuantity">
+        <modelElement href="FolioTracker1.uml#_dvmYsbJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_dv8W-rJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_dv8W-7JHEeaCc-QMv3_NDg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dv8W_LJHEeaCc-QMv3_NDg" name="newPrice">
+        <modelElement href="FolioTracker1.uml#_dvmYsrJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_dv8W_bJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_dv8W_rJHEeaCc-QMv3_NDg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rG69ALF0EeaQWNNL0SyRDQ" name="Folio" associationsOut="_eW0wwLJHEeaCc-QMv3_NDg" generalizations="_rfxP8LF2EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rCo58bF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rG69AbF0EeaQWNNL0SyRDQ" position="-132.0,861.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rG69ArF0EeaQWNNL0SyRDQ" label="+"/>
+    <attributes xmi:id="_eWxGYLJHEeaCc-QMv3_NDg" name="Holdings">
+      <modelElement href="FolioTracker1.uml#_eWk5ILJHEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_jSbHELJSEeak2Pbowo3xvQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_jSc8QLJSEeak2Pbowo3xvQ" name="Generics"/>
+      <stereotypes xmi:id="_jSeKYLJSEeak2Pbowo3xvQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_jSexcLJSEeak2Pbowo3xvQ" name="Generics"/>
+      <stereotypes xmi:id="_jSjC4LJSEeak2Pbowo3xvQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_jSjp8LJSEeak2Pbowo3xvQ" name="Generics"/>
+      <visibility xmi:id="_eWxGY7JHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_eWxGZLJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_eWxGZbJHEeaCc-QMv3_NDg" name="ArrayList">
+        <modelElement href="FolioTracker1.uml#_dvrRMLJHEeaCc-QMv3_NDg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_j6ueMLJHEeaCc-QMv3_NDg" name="folioName">
+      <modelElement href="FolioTracker1.uml#_j6sB8LJHEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_j6ueMbJHEeaCc-QMv3_NDg" name="LegacyStyledElement">
+        <modelElement href="FolioTracker1.uml#_j6sB8bJHEeaCc-QMv3_NDg"/>
+      </stereotypes>
+      <visibility xmi:id="_j6ueMrJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_j6ueM7JHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_j6ueNLJHEeaCc-QMv3_NDg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eWpxoLJHEeaCc-QMv3_NDg" name="getFolioName">
+      <modelElement href="FolioTracker1.uml#_eWgAoLJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_eWpxobJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_eWpxorJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FDzwMLJOEeaCc-QMv3_NDg">
+        <modelElement href="FolioTracker1.uml#_FDwF0LJOEeaCc-QMv3_NDg"/>
+        <type xmi:id="_FDzwMbJOEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eWq_wLJHEeaCc-QMv3_NDg" name="refreshFolio">
+      <modelElement href="FolioTracker1.uml#_eWgnsLJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_eWq_wbJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_eWq_wrJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eWrm0LJHEeaCc-QMv3_NDg" name="Folio">
+      <modelElement href="FolioTracker1.uml#_eWic4LJHEeaCc-QMv3_NDg"/>
+      <keywords xmi:id="_eWrm0bJHEeaCc-QMv3_NDg" keyword="create"/>
+      <visibility xmi:id="_eWrm0rJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_eWrm07JHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eWrm1LJHEeaCc-QMv3_NDg">
+        <modelElement href="FolioTracker1.uml#_eWic4rJHEeaCc-QMv3_NDg"/>
+        <type xmi:id="_eWrm1bJHEeaCc-QMv3_NDg" name="Folio">
+          <modelElement href="FolioTracker1.uml#_rCo58bF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eWrm1rJHEeaCc-QMv3_NDg" name="folioName">
+        <modelElement href="FolioTracker1.uml#_eWic4bJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_eWrm17JHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_eWrm2LJHEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eWs08LJHEeaCc-QMv3_NDg" name="addStock">
+      <modelElement href="FolioTracker1.uml#_eWjD8bJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_eWs08bJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_eWs08rJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eWs087JHEeaCc-QMv3_NDg">
+        <modelElement href="FolioTracker1.uml#_eWjD9bJHEeaCc-QMv3_NDg"/>
+        <type xmi:id="_eWs09LJHEeaCc-QMv3_NDg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eWs09bJHEeaCc-QMv3_NDg" name="tickerSym">
+        <modelElement href="FolioTracker1.uml#_eWjD8rJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_eWs09rJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_eWs097JHEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eWs0-LJHEeaCc-QMv3_NDg" name="quantity">
+        <modelElement href="FolioTracker1.uml#_eWjD87JHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_eWs0-bJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_eWs0-rJHEeaCc-QMv3_NDg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eWs0-7JHEeaCc-QMv3_NDg" name="price">
+        <modelElement href="FolioTracker1.uml#_eWjD9LJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_eWs0_LJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_eWs0_bJHEeaCc-QMv3_NDg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eWuDELJHEeaCc-QMv3_NDg" name="editHolding">
+      <modelElement href="FolioTracker1.uml#_eWjrALJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_eWuDEbJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_eWuDErJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eWuDE7JHEeaCc-QMv3_NDg">
+        <modelElement href="FolioTracker1.uml#_eWjrBLJHEeaCc-QMv3_NDg"/>
+        <type xmi:id="_eWuDFLJHEeaCc-QMv3_NDg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eWuDFbJHEeaCc-QMv3_NDg" name="tickerSym">
+        <modelElement href="FolioTracker1.uml#_eWjrAbJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_eWuDFrJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_eWuDF7JHEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eWuDGLJHEeaCc-QMv3_NDg" name="newQuantity">
+        <modelElement href="FolioTracker1.uml#_eWjrArJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_eWuDGbJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_eWuDGrJHEeaCc-QMv3_NDg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eWuDG7JHEeaCc-QMv3_NDg" name="newPrice">
+        <modelElement href="FolioTracker1.uml#_eWjrA7JHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_eWuDHLJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_eWuDHbJHEeaCc-QMv3_NDg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eWvRMLJHEeaCc-QMv3_NDg" name="calculateValue">
+      <modelElement href="FolioTracker1.uml#_eWkSELJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_eWvRMbJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_eWvRMrJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eWvRM7JHEeaCc-QMv3_NDg">
+        <modelElement href="FolioTracker1.uml#_eWkSErJHEeaCc-QMv3_NDg"/>
+        <type xmi:id="_eWvRNLJHEeaCc-QMv3_NDg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eWvRNbJHEeaCc-QMv3_NDg" name="tickerSym">
+        <modelElement href="FolioTracker1.uml#_eWkSEbJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_eWvRNrJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_eWvRN7JHEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_rG5u4LF0EeaQWNNL0SyRDQ" name="IStock" subclassedBy="_rNChMLF2EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rCphAbF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rG5u4bF0EeaQWNNL0SyRDQ" position="713.0,478.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rG5u4rF0EeaQWNNL0SyRDQ" label="+"/>
+    <attributes xmi:id="_fP8-4LJMEeaCc-QMv3_NDg" name="tickerSym">
+      <modelElement href="FolioTracker1.uml#_fOlF4LJMEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_fP8-4bJMEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_fP8-4rJMEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_fP8-47JMEeaCc-QMv3_NDg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fP8-5LJMEeaCc-QMv3_NDg" name="quantity">
+      <modelElement href="FolioTracker1.uml#_fOlF4bJMEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_fP8-5bJMEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_fP8-5rJMEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_fP8-57JMEeaCc-QMv3_NDg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fP8-6LJMEeaCc-QMv3_NDg" name="stockName">
+      <modelElement href="FolioTracker1.uml#_fOls8LJMEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_fP8-6bJMEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_fP8-6rJMEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_fP8-67JMEeaCc-QMv3_NDg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fP8-7LJMEeaCc-QMv3_NDg" name="price">
+      <modelElement href="FolioTracker1.uml#_fOls8bJMEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_fP8-7bJMEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_fP8-7rJMEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_fP8-77JMEeaCc-QMv3_NDg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_fOmUALJMEeaCc-QMv3_NDg" name="refreshPrice">
+      <modelElement href="FolioTracker1.uml#_fOke0LJMEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_fOmUAbJMEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_fOmUArJMEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rGgtULF0EeaQWNNL0SyRDQ" name="MenuListener" generalizations="_PNY2ALJTEeak2Pbowo3xvQ">
+    <modelElement href="FolioTracker1.uml#_rCoS4bF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rGgtUbF0EeaQWNNL0SyRDQ" position="450.0,55.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rGgtUrF0EeaQWNNL0SyRDQ" label="+"/>
+    <operations xmi:id="_OGNLgLJTEeak2Pbowo3xvQ" name="actionPerformed">
+      <modelElement href="FolioTracker1.uml#_OGI6ELJTEeak2Pbowo3xvQ"/>
+      <stereotypes xmi:id="_OGNLgbJTEeak2Pbowo3xvQ" name="LegacyStyledElement">
+        <modelElement href="FolioTracker1.uml#_OGJhILJTEeak2Pbowo3xvQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OGNLgrJTEeak2Pbowo3xvQ" name="Annotations">
+        <modelElement href="FolioTracker1.uml#_OGKIMLJTEeak2Pbowo3xvQ"/>
+      </stereotypes>
+      <visibility xmi:id="_OGNLg7JTEeak2Pbowo3xvQ" label="+"/>
+      <cardinality xmi:id="_OGNLhLJTEeak2Pbowo3xvQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OGNLhbJTEeak2Pbowo3xvQ" name="e">
+        <modelElement href="FolioTracker1.uml#_OGI6EbJTEeak2Pbowo3xvQ"/>
+        <cardinality xmi:id="_OGNLhrJTEeak2Pbowo3xvQ" label="1" max="1" min="1"/>
+        <type xmi:id="_OGNLh7JTEeak2Pbowo3xvQ" name="ActionEvent">
+          <modelElement href="FolioTracker1.uml#_OGCzcLJTEeak2Pbowo3xvQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_PNaEILJTEeak2Pbowo3xvQ" name="ActionListener" subclassedBy="_PNY2ALJTEeak2Pbowo3xvQ">
+    <modelElement href="FolioTracker1.uml#_OGEBkLJTEeak2Pbowo3xvQ"/>
+    <visualProperties xmi:id="_PNaEIbJTEeak2Pbowo3xvQ" position="610.0,-81.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PNaEIrJTEeak2Pbowo3xvQ" name="Reference">
+      <modelElement href="FolioTracker1.uml#_OGFPsLJTEeak2Pbowo3xvQ"/>
+    </stereotypes>
+    <visibility xmi:id="_PNaEI7JTEeak2Pbowo3xvQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rG2rkLF0EeaQWNNL0SyRDQ" name="SellShareListener">
+    <modelElement href="FolioTracker1.uml#_rCoS4rF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rG2rkbF0EeaQWNNL0SyRDQ" position="459.0,144.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rG2rkrF0EeaQWNNL0SyRDQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rG5u47F0EeaQWNNL0SyRDQ" name="Stock" generalizations="_rNChMLF2EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_rCqIELF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rG5u5LF0EeaQWNNL0SyRDQ" position="401.0,724.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rG5u5bF0EeaQWNNL0SyRDQ" label="+"/>
+    <attributes xmi:id="_eEGpELJHEeaCc-QMv3_NDg" name="highestPrice">
+      <modelElement href="FolioTracker1.uml#_eD8RALJHEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_eEGpEbJHEeaCc-QMv3_NDg" name="LegacyStyledElement">
+        <modelElement href="FolioTracker1.uml#_eD84ELJHEeaCc-QMv3_NDg"/>
+      </stereotypes>
+      <visibility xmi:id="_eEGpErJHEeaCc-QMv3_NDg" label="-"/>
+      <cardinality xmi:id="_eEGpE7JHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_eEGpFLJHEeaCc-QMv3_NDg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eEGpFbJHEeaCc-QMv3_NDg" name="lowestPrice">
+      <modelElement href="FolioTracker1.uml#_eD84EbJHEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_eEGpFrJHEeaCc-QMv3_NDg" name="LegacyStyledElement">
+        <modelElement href="FolioTracker1.uml#_eD84ErJHEeaCc-QMv3_NDg"/>
+      </stereotypes>
+      <visibility xmi:id="_eEGpF7JHEeaCc-QMv3_NDg" label="-"/>
+      <cardinality xmi:id="_eEGpGLJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_eEGpGbJHEeaCc-QMv3_NDg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eEGpGrJHEeaCc-QMv3_NDg" name="price">
+      <modelElement href="FolioTracker1.uml#_eD84E7JHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_eEGpG7JHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_eEGpHLJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_eEGpHbJHEeaCc-QMv3_NDg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eEGpHrJHEeaCc-QMv3_NDg" name="stockName">
+      <modelElement href="FolioTracker1.uml#_eD9fILJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_eEGpH7JHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_eEGpILJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_eEGpIbJHEeaCc-QMv3_NDg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eEGpIrJHEeaCc-QMv3_NDg" name="tickerSym">
+      <modelElement href="FolioTracker1.uml#_eD9fIbJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_eEGpI7JHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_eEGpJLJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_eEGpJbJHEeaCc-QMv3_NDg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eEGpJrJHEeaCc-QMv3_NDg" name="quantity">
+      <modelElement href="FolioTracker1.uml#_eD9fIrJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_eEGpJ7JHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_eEGpKLJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_eEGpKbJHEeaCc-QMv3_NDg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eEGpKrJHEeaCc-QMv3_NDg" name="lastPrice">
+      <modelElement href="FolioTracker1.uml#_eD9fI7JHEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_eEGpK7JHEeaCc-QMv3_NDg" name="LegacyStyledElement">
+        <modelElement href="FolioTracker1.uml#_eD-GMLJHEeaCc-QMv3_NDg"/>
+      </stereotypes>
+      <visibility xmi:id="_eEGpLLJHEeaCc-QMv3_NDg" label="-"/>
+      <cardinality xmi:id="_eEGpLbJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_eEGpLrJHEeaCc-QMv3_NDg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eEAicLJHEeaCc-QMv3_NDg" name="getHighest">
+      <modelElement href="FolioTracker1.uml#_eD1jULJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_eEAicbJHEeaCc-QMv3_NDg" label="-"/>
+      <cardinality xmi:id="_eEAicrJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eEAic7JHEeaCc-QMv3_NDg">
+        <modelElement href="FolioTracker1.uml#_eD6b0LJHEeaCc-QMv3_NDg"/>
+        <type xmi:id="_eEAidLJHEeaCc-QMv3_NDg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eEBJgLJHEeaCc-QMv3_NDg" name="getLowest">
+      <modelElement href="FolioTracker1.uml#_eD1jUbJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_eEBJgbJHEeaCc-QMv3_NDg" label="-"/>
+      <cardinality xmi:id="_eEBJgrJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eEBJg7JHEeaCc-QMv3_NDg">
+        <modelElement href="FolioTracker1.uml#_eD6b0bJHEeaCc-QMv3_NDg"/>
+        <type xmi:id="_eEBJhLJHEeaCc-QMv3_NDg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eECXoLJHEeaCc-QMv3_NDg" name="refreshPrice">
+      <modelElement href="FolioTracker1.uml#_eD1jUrJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_eECXobJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_eECXorJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eEC-sLJHEeaCc-QMv3_NDg" name="Stock">
+      <modelElement href="FolioTracker1.uml#_eD5NsLJHEeaCc-QMv3_NDg"/>
+      <keywords xmi:id="_eEDlwLJHEeaCc-QMv3_NDg" keyword="create"/>
+      <visibility xmi:id="_eEDlwbJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_eEDlwrJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eEDlw7JHEeaCc-QMv3_NDg">
+        <modelElement href="FolioTracker1.uml#_eD50w7JHEeaCc-QMv3_NDg"/>
+        <type xmi:id="_eEDlxLJHEeaCc-QMv3_NDg" name="Stock">
+          <modelElement href="FolioTracker1.uml#_rCqIELF0EeaQWNNL0SyRDQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eEDlxbJHEeaCc-QMv3_NDg" name="tickerSym">
+        <modelElement href="FolioTracker1.uml#_eD50wLJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_eEDlxrJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_eEDlx7JHEeaCc-QMv3_NDg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eEDlyLJHEeaCc-QMv3_NDg" name="quantity">
+        <modelElement href="FolioTracker1.uml#_eD50wbJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_eEDlybJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_eEDlyrJHEeaCc-QMv3_NDg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eEDly7JHEeaCc-QMv3_NDg" name="price">
+        <modelElement href="FolioTracker1.uml#_eD50wrJHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_eEDlzLJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_eEDlzbJHEeaCc-QMv3_NDg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eEEM0LJHEeaCc-QMv3_NDg" name="setPrice">
+      <modelElement href="FolioTracker1.uml#_eD6b0rJHEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_eEEM0bJHEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_eEEM0rJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eEEM07JHEeaCc-QMv3_NDg" name="value">
+        <modelElement href="FolioTracker1.uml#_eD6b07JHEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_eEEM1LJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_eEEM1bJHEeaCc-QMv3_NDg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rGffMLF0EeaQWNNL0SyRDQ" name="BuyShareListener">
+    <modelElement href="FolioTracker1.uml#_rCnEwLF0EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rGffMbF0EeaQWNNL0SyRDQ" position="451.0,-17.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rGffMrF0EeaQWNNL0SyRDQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Fl_v8LGNEeaEoO7CzG3Wqg" name="GUI" associationsOut="_Fl7egLGNEeaEoO7CzG3Wqg _Fl9TsLGNEeaEoO7CzG3Wqg _Fl96wLGNEeaEoO7CzG3Wqg _Fl-h0LGNEeaEoO7CzG3Wqg _BOlrwLJGEeaCc-QMv3_NDg _BOmS0LJGEeaCc-QMv3_NDg _BOm54LJGEeaCc-QMv3_NDg _BOoIALJGEeaCc-QMv3_NDg _BOovELJGEeaCc-QMv3_NDg _BOrLULJGEeaCc-QMv3_NDg" generalizations="_Fl0w0LGNEeaEoO7CzG3Wqg _fdGUALGREeaEoO7CzG3Wqg">
+    <modelElement href="FolioTracker1.uml#_j0YPkLGMEeaIPbTON9aQgg"/>
+    <visualProperties xmi:id="_Fl_v8bGNEeaEoO7CzG3Wqg" position="-390.0,-102.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Fl_v8rGNEeaEoO7CzG3Wqg" name="LegacyStyledElement">
+      <modelElement href="FolioTracker1.uml#_FhcAELGNEeaEoO7CzG3Wqg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Fl_v87GNEeaEoO7CzG3Wqg" name="Annotations">
+      <modelElement href="FolioTracker1.uml#_FhiGsLGNEeaEoO7CzG3Wqg"/>
+    </stereotypes>
+    <visibility xmi:id="_Fl_v9LGNEeaEoO7CzG3Wqg" label="+"/>
+    <attributes xmi:id="_Fl_v9bGNEeaEoO7CzG3Wqg" name="frame">
+      <modelElement href="FolioTracker1.uml#_Fh8WYLGNEeaEoO7CzG3Wqg"/>
+      <visibility xmi:id="_Fl_v9rGNEeaEoO7CzG3Wqg" label="+"/>
+      <cardinality xmi:id="_Fl_v97GNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+      <type xmi:id="_Fl_v-LGNEeaEoO7CzG3Wqg" name="JFrame">
+        <modelElement href="FolioTracker1.uml#_mcZ3MLGLEeaIPbTON9aQgg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Fl_v-bGNEeaEoO7CzG3Wqg" name="contentPanel">
+      <modelElement href="FolioTracker1.uml#_Fh89cLGNEeaEoO7CzG3Wqg"/>
+      <stereotypes xmi:id="_AQaMQLJGEeaCc-QMv3_NDg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_AQcogLJGEeaCc-QMv3_NDg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_AQgS4LJGEeaCc-QMv3_NDg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_jR7X0LJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_jR90ELJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_jSmGMLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <visibility xmi:id="_Fl_v-7GNEeaEoO7CzG3Wqg" label="+"/>
+      <cardinality xmi:id="_Fl_v_LGNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+      <type xmi:id="_Fl_v_bGNEeaEoO7CzG3Wqg" name="JPanel">
+        <modelElement href="FolioTracker1.uml#_ZWQ3cLF3EeaQWNNL0SyRDQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Fl_v_rGNEeaEoO7CzG3Wqg" name="tabbedPane">
+      <modelElement href="FolioTracker1.uml#_FiBO4LGNEeaEoO7CzG3Wqg"/>
+      <visibility xmi:id="_Fl_v_7GNEeaEoO7CzG3Wqg" label="+"/>
+      <cardinality xmi:id="_Fl_wALGNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+      <type xmi:id="_Fl_wAbGNEeaEoO7CzG3Wqg" name="JTabbedPane">
+        <modelElement href="FolioTracker1.uml#_mcc6gbGLEeaIPbTON9aQgg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Fl_wArGNEeaEoO7CzG3Wqg" name="tabPanel">
+      <modelElement href="FolioTracker1.uml#_FiJKsbGNEeaEoO7CzG3Wqg"/>
+      <stereotypes xmi:id="_AQd2oLJGEeaCc-QMv3_NDg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_AQedsLJGEeaCc-QMv3_NDg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_AQg58LJGEeaCc-QMv3_NDg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_jSCFgLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_jSCskLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_jSmtQLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <visibility xmi:id="_Fl_wBLGNEeaEoO7CzG3Wqg" label="+"/>
+      <cardinality xmi:id="_Fl_wBbGNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+      <type xmi:id="_Fl_wBrGNEeaEoO7CzG3Wqg" name="JPanel">
+        <modelElement href="FolioTracker1.uml#_ZWQ3cLF3EeaQWNNL0SyRDQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOkdoLJGEeaCc-QMv3_NDg" defaultValue="0" name="numTabs">
+      <modelElement href="FolioTracker1.uml#_BOKN8LJGEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_BOkdobJGEeaCc-QMv3_NDg" label="~"/>
+      <cardinality xmi:id="_BOkdorJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_BOkdo7JGEeaCc-QMv3_NDg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOkdpLJGEeaCc-QMv3_NDg" name="tableModel">
+      <modelElement href="FolioTracker1.uml#_BOMqMLJGEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_BOkdpbJGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOkdprJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_BOkdp7JGEeaCc-QMv3_NDg" name="DefaultTableModel">
+        <modelElement href="FolioTracker1.uml#_BODgQLJGEeaCc-QMv3_NDg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOkdqLJGEeaCc-QMv3_NDg" name="table">
+      <modelElement href="FolioTracker1.uml#_BONRQLJGEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_BOkdqbJGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOkdqrJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_BOkdq7JGEeaCc-QMv3_NDg" name="JTable">
+        <modelElement href="FolioTracker1.uml#_BN_14LJGEeaCc-QMv3_NDg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOkdrLJGEeaCc-QMv3_NDg" name="scrollPane">
+      <modelElement href="FolioTracker1.uml#_BONRQbJGEeaCc-QMv3_NDg"/>
+      <visibility xmi:id="_BOkdrbJGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOkdrrJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_BOkdr7JGEeaCc-QMv3_NDg" name="JScrollPane">
+        <modelElement href="FolioTracker1.uml#_BN8ykLJGEeaCc-QMv3_NDg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOkdsLJGEeaCc-QMv3_NDg" name="tickerSText">
+      <modelElement href="FolioTracker1.uml#_BONRQrJGEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_jSGW8LJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_jSG-ALJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_jSoicLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <visibility xmi:id="_BOkdsrJGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOkds7JGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_BOkdtLJGEeaCc-QMv3_NDg" name="JTextField">
+        <modelElement href="FolioTracker1.uml#_BOCSIbJGEeaCc-QMv3_NDg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOkdtbJGEeaCc-QMv3_NDg" name="sharesPanel">
+      <modelElement href="FolioTracker1.uml#_BORisLJGEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_jSKBULJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_jSSkMLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_jSpwkLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <visibility xmi:id="_BOkdt7JGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOkduLJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_BOkdubJGEeaCc-QMv3_NDg" name="JPanel">
+        <modelElement href="FolioTracker1.uml#_ZWQ3cLF3EeaQWNNL0SyRDQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOkdurJGEeaCc-QMv3_NDg" name="shareNumberText">
+      <modelElement href="FolioTracker1.uml#_BOSJwLJGEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_jSTyULJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_jSUZYLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_jSqXoLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <visibility xmi:id="_BOkdvLJGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOkdvbJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <type xmi:id="_BOkdvrJGEeaCc-QMv3_NDg" name="JTextField">
+        <modelElement href="FolioTracker1.uml#_BOCSIbJGEeaCc-QMv3_NDg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Fl_wB7GNEeaEoO7CzG3Wqg" name="GUI">
+      <modelElement href="FolioTracker1.uml#_Fhd1QLGNEeaEoO7CzG3Wqg"/>
+      <keywords xmi:id="_Fl_wCLGNEeaEoO7CzG3Wqg" keyword="create"/>
+      <stereotypes xmi:id="_9kaCoLGNEeaEoO7CzG3Wqg" name="StyledElement">
+        <modelElement href="FolioTracker1.uml#_9kXmYLGNEeaEoO7CzG3Wqg"/>
+      </stereotypes>
+      <visibility xmi:id="_Fl_wCbGNEeaEoO7CzG3Wqg" label="+"/>
+      <cardinality xmi:id="_Fl_wCrGNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Fl_wC7GNEeaEoO7CzG3Wqg">
+        <modelElement href="FolioTracker1.uml#_FhfDYrGNEeaEoO7CzG3Wqg"/>
+        <type xmi:id="_Fl_wDLGNEeaEoO7CzG3Wqg" name="GUI">
+          <modelElement href="FolioTracker1.uml#_j0YPkLGMEeaIPbTON9aQgg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Fl_wDbGNEeaEoO7CzG3Wqg" name="build">
+      <modelElement href="FolioTracker1.uml#_FhfqcLGNEeaEoO7CzG3Wqg"/>
+      <visibility xmi:id="_Fl_wD7GNEeaEoO7CzG3Wqg" label="+"/>
+      <cardinality xmi:id="_Fl_wELGNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Fl_wEbGNEeaEoO7CzG3Wqg" name="buildMainFrame">
+      <modelElement href="FolioTracker1.uml#_FhgRgLGNEeaEoO7CzG3Wqg"/>
+      <stereotypes xmi:id="_Fl_wErGNEeaEoO7CzG3Wqg" name="StyledElement">
+        <modelElement href="FolioTracker1.uml#_FhgRgbGNEeaEoO7CzG3Wqg"/>
+      </stereotypes>
+      <visibility xmi:id="_Fl_wE7GNEeaEoO7CzG3Wqg" label="+"/>
+      <cardinality xmi:id="_Fl_wFLGNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Fl_wHbGNEeaEoO7CzG3Wqg" name="createButtons">
+      <modelElement href="FolioTracker1.uml#_Fhg4k7GNEeaEoO7CzG3Wqg"/>
+      <stereotypes xmi:id="_Fl_wHrGNEeaEoO7CzG3Wqg" name="StyledElement">
+        <modelElement href="FolioTracker1.uml#_FhhfoLGNEeaEoO7CzG3Wqg"/>
+      </stereotypes>
+      <visibility xmi:id="_Fl_wH7GNEeaEoO7CzG3Wqg" label="-"/>
+      <cardinality xmi:id="_Fl_wILGNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eJD5QLGREeaEoO7CzG3Wqg" name="buildPanels">
+      <modelElement href="FolioTracker1.uml#_eJCEELGREeaEoO7CzG3Wqg"/>
+      <stereotypes xmi:id="_eJD5QbGREeaEoO7CzG3Wqg" name="StyledElement">
+        <modelElement href="FolioTracker1.uml#_eJCrILGREeaEoO7CzG3Wqg"/>
+      </stereotypes>
+      <visibility xmi:id="_eJD5QrGREeaEoO7CzG3Wqg" label="+"/>
+      <cardinality xmi:id="_eJD5Q7GREeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_BOhaULJGEeaCc-QMv3_NDg" name="buildMenuBar">
+      <modelElement href="FolioTracker1.uml#_BNKvcLJGEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_BOhaUbJGEeaCc-QMv3_NDg" name="StyledElement">
+        <modelElement href="FolioTracker1.uml#_BNVHgLJGEeaCc-QMv3_NDg"/>
+      </stereotypes>
+      <visibility xmi:id="_BOhaUrJGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOhaU7JGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BOhaVLJGEeaCc-QMv3_NDg" name="frame">
+        <modelElement href="FolioTracker1.uml#_BNPA4LJGEeaCc-QMv3_NDg"/>
+        <cardinality xmi:id="_BOhaVbJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+        <type xmi:id="_BOhaVrJGEeaCc-QMv3_NDg" name="JFrame">
+          <modelElement href="FolioTracker1.uml#_mcZ3MLGLEeaIPbTON9aQgg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BOiBYLJGEeaCc-QMv3_NDg" name="buildTabs">
+      <modelElement href="FolioTracker1.uml#_BNQPALJGEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_BOiBYbJGEeaCc-QMv3_NDg" name="StyledElement">
+        <modelElement href="FolioTracker1.uml#_BNWVoLJGEeaCc-QMv3_NDg"/>
+      </stereotypes>
+      <visibility xmi:id="_BOiBYrJGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOiBY7JGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_BOiBZLJGEeaCc-QMv3_NDg" name="NewPFAlert">
+      <modelElement href="FolioTracker1.uml#_BNQ2ELJGEeaCc-QMv3_NDg"/>
+      <stereotypes xmi:id="_BOiBZbJGEeaCc-QMv3_NDg" name="StyledElement">
+        <modelElement href="FolioTracker1.uml#_BNWVobJGEeaCc-QMv3_NDg"/>
+      </stereotypes>
+      <visibility xmi:id="_BOiBZrJGEeaCc-QMv3_NDg" label="+"/>
+      <cardinality xmi:id="_BOiBZ7JGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_YhXhsLF1EeaQWNNL0SyRDQ" name="IGUI" subclassedBy="_Fl0w0LGNEeaEoO7CzG3Wqg">
+    <modelElement href="FolioTracker1.uml#_YeE9ILF1EeaQWNNL0SyRDQ"/>
+    <visualProperties xmi:id="_rHJmgbF0EeaQWNNL0SyRDQ" position="-99.0,-69.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YhXhsrF1EeaQWNNL0SyRDQ" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
