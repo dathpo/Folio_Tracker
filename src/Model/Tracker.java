@@ -31,7 +31,7 @@ public class Tracker implements ITracker {
 	   public void addStock(String folioName, String tickerSym, int quantity,  double price) {
 		   for(Folio f: Folios){
 		    	  if(f.getFolioName()==folioName){
-		    		 f.addStock(tickerSym, quantity, price);
+		    		 f.addStock(tickerSym, quantity);
 		    	  }
 		      }
 	   }

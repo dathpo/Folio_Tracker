@@ -4,7 +4,7 @@ public interface IFolio {
 	
 	public String getFolioName();
 	
-	public boolean addStock(String tickerSym, int quantity, double price);
+	public boolean addStock(String tickerSym, int quantity);
 	
 	public boolean editHolding(String tickerSym, int newQuantity, double newPrice);
 	

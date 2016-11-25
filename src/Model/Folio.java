@@ -18,8 +18,8 @@ public class Folio implements IFolio {
 	public String getFolioName() {
 		return this.folioName;
 	}
-	public boolean addStock(String tickerSym, int quantity, double price) {
-		Stock newStock = new Stock(tickerSym, quantity, price);
+	public boolean addStock(String tickerSym, int quantity) {
+		Stock newStock = new Stock(tickerSym, quantity);
 		Holdings.add(newStock);
 		return true;
 	}
