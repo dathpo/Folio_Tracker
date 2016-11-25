@@ -321,6 +321,23 @@
     <bendpoints xmi:id="_CXiHMLL-EeaTqPhOseHZBg" sourceX="35" targetX="-59" targetY="135"/>
     <bendpoints xmi:id="_CXiHMbL-EeaTqPhOseHZBg" sourceX="35" sourceY="-135" targetX="-59"/>
   </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DtQOQLNREea7l_3imF4pqg" source="_rG6V8LF0EeaQWNNL0SyRDQ">
+    <modelElement href="FolioTracker1.uml#_Ds7eILNREea7l_3imF4pqg"/>
+    <stereotypes xmi:id="_DtQOQbNREea7l_3imF4pqg" name="Reference">
+      <modelElement href="FolioTracker1.uml#_Ds8FMLNREea7l_3imF4pqg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_DtQOQrNREea7l_3imF4pqg" text=""/>
+    <sourceRole xmi:id="_DtQOQ7NREea7l_3imF4pqg" aggregationKind="NONE" name="">
+      <modelElement href="FolioTracker1.uml#_Ds7eIbNREea7l_3imF4pqg"/>
+      <visibility xmi:id="_DtQORLNREea7l_3imF4pqg" label="+"/>
+      <cardinality xmi:id="_DtQORbNREea7l_3imF4pqg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_DtQORrNREea7l_3imF4pqg" aggregationKind="NONE" name="holdings" navigable="true">
+      <modelElement href="FolioTracker1.uml#_Ds0wcLNREea7l_3imF4pqg"/>
+      <visibility xmi:id="_DtQOR7NREea7l_3imF4pqg" label="+"/>
+      <cardinality xmi:id="_DtQOSLNREea7l_3imF4pqg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
   <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rG9ZQLF0EeaQWNNL0SyRDQ" sourceConnectionVisual="_rG-AULF0EeaQWNNL0SyRDQ" text="public interface that allows the setting of and retrieval of share stock values&#xD;&#xA;&#xD;&#xA;@author mark meiklejohn&#xD;&#xA; *&#xD;&#xA;@version v1 - interface added to complement &lt;code>Quote&lt;/code> class&#xD;&#xA; *&#xD;&#xA;All rights reserved. Copyright: 21 Nov 2008 15:06:18" item="_rG_OdLF0EeaQWNNL0SyRDQ">
     <modelElement href="FolioTracker1.uml#_rDWroLF0EeaQWNNL0SyRDQ"/>
   </nodes>
@@ -1389,7 +1406,7 @@
       </parameters>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_rG6V8LF0EeaQWNNL0SyRDQ" name="IFolio" subclassedBy="_rfxP8LF2EeaQWNNL0SyRDQ">
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_rG6V8LF0EeaQWNNL0SyRDQ" name="IFolio" associationsOut="_DtQOQLNREea7l_3imF4pqg" subclassedBy="_rfxP8LF2EeaQWNNL0SyRDQ">
     <modelElement href="FolioTracker1.uml#_rCphALF0EeaQWNNL0SyRDQ"/>
     <visualProperties xmi:id="_rG6V8bF0EeaQWNNL0SyRDQ" position="195.0,478.0" size="-1.0,-1.0"/>
     <visibility xmi:id="_rG6V8rF0EeaQWNNL0SyRDQ" label="+"/>
@@ -1400,6 +1417,14 @@
       <cardinality xmi:id="_EreIsrJOEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
       <type xmi:id="_EreIs7JOEeaCc-QMv3_NDg" name="String">
         <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DtOZELNREea7l_3imF4pqg" name="holdings">
+      <modelElement href="FolioTracker1.uml#_Ds0wcLNREea7l_3imF4pqg"/>
+      <visibility xmi:id="_DtOZEbNREea7l_3imF4pqg" label="+"/>
+      <cardinality xmi:id="_DtOZErNREea7l_3imF4pqg" label="1" max="1" min="1"/>
+      <type xmi:id="_DtOZE7NREea7l_3imF4pqg" name="ArrayList">
+        <modelElement href="FolioTracker1.uml#_dvrRMLJHEeaCc-QMv3_NDg"/>
       </type>
     </attributes>
     <operations xmi:id="_WvPXgLJLEeaCc-QMv3_NDg" name="refreshFolio">
@@ -1431,13 +1456,6 @@
         <cardinality xmi:id="_WvQlqbJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
         <type xmi:id="_WvQlqrJLEeaCc-QMv3_NDg" name="int">
           <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_WvQlq7JLEeaCc-QMv3_NDg" name="price">
-        <modelElement href="FolioTracker1.uml#_WvM7Q7JLEeaCc-QMv3_NDg"/>
-        <cardinality xmi:id="_WvQlrLJLEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
-        <type xmi:id="_WvQlrbJLEeaCc-QMv3_NDg" name="double">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </type>
       </parameters>
     </operations>
@@ -1770,13 +1788,6 @@
           <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </type>
       </parameters>
-      <parameters xmi:id="_eEDly7JHEeaCc-QMv3_NDg" name="price">
-        <modelElement href="FolioTracker1.uml#_eD50wrJHEeaCc-QMv3_NDg"/>
-        <cardinality xmi:id="_eEDlzLJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
-        <type xmi:id="_eEDlzbJHEeaCc-QMv3_NDg" name="double">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
-        </type>
-      </parameters>
     </operations>
     <operations xmi:id="_eEEM0LJHEeaCc-QMv3_NDg" name="setPrice">
       <modelElement href="FolioTracker1.uml#_eD6b0rJHEeaCc-QMv3_NDg"/>
@@ -1788,6 +1799,24 @@
         <cardinality xmi:id="_eEEM1LJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
         <type xmi:id="_eEEM1bJHEeaCc-QMv3_NDg" name="double">
           <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_DtMj4LNREea7l_3imF4pqg" name="equals">
+      <modelElement href="FolioTracker1.uml#_DswfALNREea7l_3imF4pqg"/>
+      <visibility xmi:id="_DtMj4bNREea7l_3imF4pqg" label="+"/>
+      <cardinality xmi:id="_DtMj4rNREea7l_3imF4pqg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_DtMj47NREea7l_3imF4pqg">
+        <modelElement href="FolioTracker1.uml#_Ds3MsLNREea7l_3imF4pqg"/>
+        <type xmi:id="_DtMj5LNREea7l_3imF4pqg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_DtMj5bNREea7l_3imF4pqg" name="obj">
+        <modelElement href="FolioTracker1.uml#_DsxGELNREea7l_3imF4pqg"/>
+        <cardinality xmi:id="_DtMj5rNREea7l_3imF4pqg" label="1" max="1" min="1"/>
+        <type xmi:id="_DtMj57NREea7l_3imF4pqg" name="Stock">
+          <modelElement href="FolioTracker1.uml#_rCqIELF0EeaQWNNL0SyRDQ"/>
         </type>
       </parameters>
     </operations>
@@ -1908,13 +1937,6 @@
         <cardinality xmi:id="_eWs0-bJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
         <type xmi:id="_eWs0-rJHEeaCc-QMv3_NDg" name="int">
           <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_eWs0-7JHEeaCc-QMv3_NDg" name="price">
-        <modelElement href="FolioTracker1.uml#_eWjD9LJHEeaCc-QMv3_NDg"/>
-        <cardinality xmi:id="_eWs0_LJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
-        <type xmi:id="_eWs0_bJHEeaCc-QMv3_NDg" name="double">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </type>
       </parameters>
     </operations>

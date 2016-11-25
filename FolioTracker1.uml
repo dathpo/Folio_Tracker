@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_q3FKMLF0EeaQWNNL0SyRDQ" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_q3FKMbF0EeaQWNNL0SyRDQ" source="codegen">
         <details xmi:id="_q3FKMrF0EeaQWNNL0SyRDQ" key="codegenDirectory" value="/FolioTracker1/src"/>
-        <details xmi:id="_rGQ1sLF0EeaQWNNL0SyRDQ" key="AssociatedSourceCode" value="/FolioTracker1/src/Controller/MenuListener.java;1818701874/1;/FolioTracker1/src/Main/Main.java;1409497231/1;/FolioTracker1/src/Model/Folio.java;1977077401/1;/FolioTracker1/src/Model/IFolio.java;269288115/1;/FolioTracker1/src/Model/IStock.java;2041026861/1;/FolioTracker1/src/Model/ITracker.java;4272946476/1;/FolioTracker1/src/Model/Stock.java;171370684/1;/FolioTracker1/src/Model/Tracker.java;180450372/1;/FolioTracker1/src/QuoteServer/IQuote.java;2305687288/1;/FolioTracker1/src/QuoteServer/MethodException.java;427060312/1;/FolioTracker1/src/QuoteServer/NoSuchTickerException.java;3714847431/1;/FolioTracker1/src/QuoteServer/WebsiteDataException.java;3274379183/1;/FolioTracker1/src/QuoteServer/Quote.java;2202875725/1;/FolioTracker1/src/View/IGUI.java;193508508/1;/FolioTracker1/src/Controller/TabChangeListener.java;3565162017/1;/FolioTracker1/src/View/GUI.java;3466182853/1;/FolioTracker1/src/Controller/BuyShareListener.java;1746297076/1;/FolioTracker1/src/Controller/SellShareListener.java;3535791321/1;"/>
+        <details xmi:id="_rGQ1sLF0EeaQWNNL0SyRDQ" key="AssociatedSourceCode" value="/FolioTracker1/src/Controller/MenuListener.java;1818701874/1;/FolioTracker1/src/Main/Main.java;1409497231/1;/FolioTracker1/src/Model/Folio.java;3604907392/1;/FolioTracker1/src/Model/IFolio.java;1010770938/1;/FolioTracker1/src/Model/IStock.java;2041026861/1;/FolioTracker1/src/Model/ITracker.java;4272946476/1;/FolioTracker1/src/Model/Stock.java;3824037716/1;/FolioTracker1/src/Model/Tracker.java;3757892430/1;/FolioTracker1/src/QuoteServer/IQuote.java;2305687288/1;/FolioTracker1/src/QuoteServer/MethodException.java;427060312/1;/FolioTracker1/src/QuoteServer/NoSuchTickerException.java;3714847431/1;/FolioTracker1/src/QuoteServer/WebsiteDataException.java;3274379183/1;/FolioTracker1/src/QuoteServer/Quote.java;2202875725/1;/FolioTracker1/src/View/IGUI.java;193508508/1;/FolioTracker1/src/Controller/TabChangeListener.java;3565162017/1;/FolioTracker1/src/View/GUI.java;3466182853/1;/FolioTracker1/src/Controller/BuyShareListener.java;1746297076/1;/FolioTracker1/src/Controller/SellShareListener.java;3535791321/1;"/>
       </contents>
       <contents xmi:type="ecore:EAnnotation" xmi:id="_mSyoMLGLEeaIPbTON9aQgg" source="preferences">
         <contents xmi:type="ecore:EAnnotation" xmi:id="_mSyoMbGLEeaIPbTON9aQgg" source="com.yattasolutions.codegen.reverse">
@@ -106,15 +106,12 @@
           <ownedParameter xmi:id="_eWnVYrJHEeaCc-QMv3_NDg" name="quantity">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_eWnVY7JHEeaCc-QMv3_NDg" name="price">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
-          </ownedParameter>
           <ownedParameter xmi:id="_eWnVZLJHEeaCc-QMv3_NDg" direction="return">
             <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
           <language>java</language>
-          <body>Stock newStock = new Stock(tickerSym, quantity, price);&#xD;
+          <body>Stock newStock = new Stock(tickerSym, quantity);&#xD;
 		Holdings.add(newStock);&#xD;
 		return true;&#xD;
 	</body>
@@ -195,9 +192,6 @@
           <ownedParameter xmi:id="_eWjD87JHEeaCc-QMv3_NDg" name="quantity">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_eWjD9LJHEeaCc-QMv3_NDg" name="price">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
-          </ownedParameter>
           <ownedParameter xmi:id="_eWjD9bJHEeaCc-QMv3_NDg" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
@@ -229,6 +223,7 @@
         <ownedAttribute xmi:id="_ErTJkLJOEeaCc-QMv3_NDg" name="folioName" isReadOnly="true">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
+        <ownedAttribute xmi:id="_Ds0wcLNREea7l_3imF4pqg" name="holdings" type="_dvrRMLJHEeaCc-QMv3_NDg" isReadOnly="true" association="_Ds7eILNREea7l_3imF4pqg"/>
         <ownedOperation xmi:id="_WvLtILJLEeaCc-QMv3_NDg" name="refreshFolio"/>
         <ownedOperation xmi:id="_WvM7QLJLEeaCc-QMv3_NDg" name="addStock">
           <ownedParameter xmi:id="_WvM7QbJLEeaCc-QMv3_NDg" name="tickerSym">
@@ -236,9 +231,6 @@
           </ownedParameter>
           <ownedParameter xmi:id="_WvM7QrJLEeaCc-QMv3_NDg" name="quantity">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-          </ownedParameter>
-          <ownedParameter xmi:id="_WvM7Q7JLEeaCc-QMv3_NDg" name="price">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
           </ownedParameter>
           <ownedParameter xmi:id="_WvM7RLJLEeaCc-QMv3_NDg" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
@@ -353,17 +345,20 @@
           <ownedParameter xmi:id="_eD-tQrJHEeaCc-QMv3_NDg" name="quantity">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_eD-tQ7JHEeaCc-QMv3_NDg" name="price">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
-          </ownedParameter>
           <ownedParameter xmi:id="_eD-tRLJHEeaCc-QMv3_NDg" type="_rCqIELF0EeaQWNNL0SyRDQ" direction="return">
             <name xsi:nil="true"/>
           </ownedParameter>
           <language>java</language>
           <body>this.tickerSym = tickerSym;&#xD;
 		this.quantity = quantity;&#xD;
-		this.price = price;&#xD;
-&#xD;
+		Quote q = new Quote(false);&#xD;
+			try{&#xD;
+				lastPrice = this.getPrice();&#xD;
+				q.setValues(tickerSym);&#xD;
+				setPrice(q.getLatest());&#xD;
+				}catch(Exception e){&#xD;
+					e.printStackTrace();&#xD;
+				}&#xD;
 	</body>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_eD-tRbJHEeaCc-QMv3_NDg" name="getHighest" specification="_eD1jULJHEeaCc-QMv3_NDg">
@@ -411,6 +406,18 @@
 		}&#xD;
 	</body>
         </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ds5o8LNREea7l_3imF4pqg" name="equals" specification="_DswfALNREea7l_3imF4pqg">
+          <ownedParameter xmi:id="_Ds5o8bNREea7l_3imF4pqg" name="obj" type="_rCqIELF0EeaQWNNL0SyRDQ"/>
+          <ownedParameter xmi:id="_Ds5o8rNREea7l_3imF4pqg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean result = false;&#xD;
+		if(obj instanceof Stock)&#xD;
+		      result = (this.getStockName() == obj.getStockName());&#xD;
+		    return result;&#xD;
+		  </body>
+        </ownedBehavior>
         <ownedOperation xmi:id="_eD1jULJHEeaCc-QMv3_NDg" name="getHighest" visibility="private" method="_eD-tRbJHEeaCc-QMv3_NDg">
           <ownedParameter xmi:id="_eD6b0LJHEeaCc-QMv3_NDg" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
@@ -432,14 +439,17 @@
           <ownedParameter xmi:id="_eD50wbJHEeaCc-QMv3_NDg" name="quantity">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_eD50wrJHEeaCc-QMv3_NDg" name="price">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
-          </ownedParameter>
           <ownedParameter xmi:id="_eD50w7JHEeaCc-QMv3_NDg" type="_rCqIELF0EeaQWNNL0SyRDQ" direction="return"/>
         </ownedOperation>
         <ownedOperation xmi:id="_eD6b0rJHEeaCc-QMv3_NDg" name="setPrice" method="_eD-tSbJHEeaCc-QMv3_NDg">
           <ownedParameter xmi:id="_eD6b07JHEeaCc-QMv3_NDg" name="value">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_DswfALNREea7l_3imF4pqg" name="equals" method="_Ds5o8LNREea7l_3imF4pqg">
+          <ownedParameter xmi:id="_DsxGELNREea7l_3imF4pqg" name="obj" type="_rCqIELF0EeaQWNNL0SyRDQ"/>
+          <ownedParameter xmi:id="_Ds3MsLNREea7l_3imF4pqg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
         </ownedOperation>
       </packagedElement>
@@ -485,7 +495,7 @@
           <language>java</language>
           <body>for(Folio f: Folios){&#xD;
 		    	  if(f.getFolioName()==folioName){&#xD;
-		    		 f.addStock(tickerSym, quantity, price);&#xD;
+		    		 f.addStock(tickerSym, quantity);&#xD;
 		    	  }&#xD;
 		      }&#xD;
 	   </body>
@@ -563,6 +573,9 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_eWojgLJHEeaCc-QMv3_NDg" name="" memberEnd="_eWojgbJHEeaCc-QMv3_NDg _eWk5ILJHEeaCc-QMv3_NDg">
         <ownedEnd xmi:id="_eWojgbJHEeaCc-QMv3_NDg" name="" type="_rCo58bF0EeaQWNNL0SyRDQ" association="_eWojgLJHEeaCc-QMv3_NDg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Ds7eILNREea7l_3imF4pqg" name="" memberEnd="_Ds7eIbNREea7l_3imF4pqg _Ds0wcLNREea7l_3imF4pqg">
+        <ownedEnd xmi:id="_Ds7eIbNREea7l_3imF4pqg" name="" type="_rCphALF0EeaQWNNL0SyRDQ" association="_Ds7eILNREea7l_3imF4pqg"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_rCUJ0LF0EeaQWNNL0SyRDQ" name="java">
@@ -1667,4 +1680,5 @@ All rights reserved. Copyright: 21 Nov 2008 15:06:18</body>
   <UMLLabProfile:Annotations xmi:id="_Dls_8bL9EeaTqPhOseHZBg" base_Element="_DlsY4bL9EeaTqPhOseHZBg">
     <annotations xmi:id="_Dls_8rL9EeaTqPhOseHZBg" name="Override"/>
   </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_Ds8FMLNREea7l_3imF4pqg" base_Element="_Ds7eILNREea7l_3imF4pqg"/>
 </xmi:XMI>
