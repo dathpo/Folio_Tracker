@@ -82,5 +82,10 @@ public class Stock implements IStock {
 			e.printStackTrace();
 		}
 	}
-
-}
+	public boolean equals(Stock obj){
+		boolean result = false;
+		if(obj instanceof Stock)
+		      result = (this.getStockName() == obj.getStockName());
+		    return result;
+		  }
+	}

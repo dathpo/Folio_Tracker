@@ -1,5 +1,7 @@
 package Model;
 
+import java.util.ArrayList;
+
 public interface IFolio {
 	
 	public String getFolioName();
@@ -12,4 +14,5 @@ public interface IFolio {
 	
 	public void refreshFolio();
 	
+	public ArrayList getHoldings();
    }
