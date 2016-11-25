@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_q3FKMLF0EeaQWNNL0SyRDQ" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_q3FKMbF0EeaQWNNL0SyRDQ" source="codegen">
         <details xmi:id="_q3FKMrF0EeaQWNNL0SyRDQ" key="codegenDirectory" value="/FolioTracker1/src"/>
-        <details xmi:id="_rGQ1sLF0EeaQWNNL0SyRDQ" key="AssociatedSourceCode" value="/FolioTracker1/src/Controller/MenuListener.java;1818701874/1;/FolioTracker1/src/Main/Main.java;1409497231/1;/FolioTracker1/src/Model/Folio.java;1977077401/1;/FolioTracker1/src/Model/IFolio.java;269288115/1;/FolioTracker1/src/Model/IStock.java;2041026861/1;/FolioTracker1/src/Model/ITracker.java;4272946476/1;/FolioTracker1/src/Model/Stock.java;171370684/1;/FolioTracker1/src/Model/Tracker.java;180450372/1;/FolioTracker1/src/QuoteServer/IQuote.java;2305687288/1;/FolioTracker1/src/QuoteServer/MethodException.java;427060312/1;/FolioTracker1/src/QuoteServer/NoSuchTickerException.java;3714847431/1;/FolioTracker1/src/QuoteServer/WebsiteDataException.java;3274379183/1;/FolioTracker1/src/QuoteServer/Quote.java;2202875725/1;/FolioTracker1/src/View/IGUI.java;193508508/1;/FolioTracker1/src/Controller/TabChangeListener.java;3565162017/1;/FolioTracker1/src/View/GUI.java;1469175865/1;/FolioTracker1/src/Controller/BuyShareListener.java;1746297076/1;/FolioTracker1/src/Controller/SellShareListener.java;3535791321/1;"/>
+        <details xmi:id="_rGQ1sLF0EeaQWNNL0SyRDQ" key="AssociatedSourceCode" value="/FolioTracker1/src/Controller/MenuListener.java;1818701874/1;/FolioTracker1/src/Main/Main.java;1409497231/1;/FolioTracker1/src/Model/Folio.java;1977077401/1;/FolioTracker1/src/Model/IFolio.java;269288115/1;/FolioTracker1/src/Model/IStock.java;2041026861/1;/FolioTracker1/src/Model/ITracker.java;4272946476/1;/FolioTracker1/src/Model/Stock.java;171370684/1;/FolioTracker1/src/Model/Tracker.java;180450372/1;/FolioTracker1/src/QuoteServer/IQuote.java;2305687288/1;/FolioTracker1/src/QuoteServer/MethodException.java;427060312/1;/FolioTracker1/src/QuoteServer/NoSuchTickerException.java;3714847431/1;/FolioTracker1/src/QuoteServer/WebsiteDataException.java;3274379183/1;/FolioTracker1/src/QuoteServer/Quote.java;2202875725/1;/FolioTracker1/src/View/IGUI.java;193508508/1;/FolioTracker1/src/Controller/TabChangeListener.java;3565162017/1;/FolioTracker1/src/View/GUI.java;3466182853/1;/FolioTracker1/src/Controller/BuyShareListener.java;1746297076/1;/FolioTracker1/src/Controller/SellShareListener.java;3535791321/1;"/>
       </contents>
       <contents xmi:type="ecore:EAnnotation" xmi:id="_mSyoMLGLEeaIPbTON9aQgg" source="preferences">
         <contents xmi:type="ecore:EAnnotation" xmi:id="_mSyoMbGLEeaIPbTON9aQgg" source="com.yattasolutions.codegen.reverse">
@@ -579,10 +579,13 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_rDPW4bF0EeaQWNNL0SyRDQ" name="Arrays"/>
         <packagedElement xmi:type="uml:Interface" xmi:id="_rDP98LF0EeaQWNNL0SyRDQ" name="List"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_dvrRMLJHEeaCc-QMv3_NDg" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_8hIxALL8EeaTqPhOseHZBg" name="Observer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_DlougLL9EeaTqPhOseHZBg" name="Observable"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_rDRzILF0EeaQWNNL0SyRDQ" name="lang">
         <packagedElement xmi:type="uml:DataType" xmi:id="_rDRzIbF0EeaQWNNL0SyRDQ" name="Double"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_rDSaN7F0EeaQWNNL0SyRDQ" name="Exception"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Dlrx0LL9EeaTqPhOseHZBg" name="Object"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_mcIKYLGLEeaIPbTON9aQgg" name="awt">
         <packagedElement xmi:type="uml:Package" xmi:id="_OF8s0LJTEeak2Pbowo3xvQ" name="event">
@@ -1261,6 +1264,7 @@ All rights reserved. Copyright: 21 Nov 2008 15:06:18</body>
         <ownedAttribute xmi:id="_BORisLJGEeaCc-QMv3_NDg" name="sharesPanel" type="_ZWQ3cLF3EeaQWNNL0SyRDQ" association="_BOb6wbJGEeaCc-QMv3_NDg"/>
         <ownedAttribute xmi:id="_BOSJwLJGEeaCc-QMv3_NDg" name="shareNumberText" type="_BOCSIbJGEeaCc-QMv3_NDg" association="_BOch0bJGEeaCc-QMv3_NDg"/>
         <interfaceRealization xmi:id="_Fh56ILGNEeaEoO7CzG3Wqg" client="_j0YPkLGMEeaIPbTON9aQgg" supplier="_YeE9ILF1EeaQWNNL0SyRDQ" contract="_YeE9ILF1EeaQWNNL0SyRDQ"/>
+        <interfaceRealization xmi:id="_8hL0ULL8EeaTqPhOseHZBg" client="_j0YPkLGMEeaIPbTON9aQgg" supplier="_8hIxALL8EeaTqPhOseHZBg" contract="_8hIxALL8EeaTqPhOseHZBg"/>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_FiDrILGNEeaEoO7CzG3Wqg" name="buildMainFrame" specification="_FhgRgLGNEeaEoO7CzG3Wqg">
           <language>java</language>
           <body>frame = new JFrame(&quot;Folio Tracker&quot;);&#xD;
@@ -1467,6 +1471,10 @@ All rights reserved. Copyright: 21 Nov 2008 15:06:18</body>
         </ownedOperation>
         <ownedOperation xmi:id="_BNQPALJGEeaCc-QMv3_NDg" name="buildTabs" method="_BOQUkrJGEeaCc-QMv3_NDg"/>
         <ownedOperation xmi:id="_BNQ2ELJGEeaCc-QMv3_NDg" name="NewPFAlert" method="_BOQUk7JGEeaCc-QMv3_NDg"/>
+        <ownedOperation xmi:id="_DlsY4bL9EeaTqPhOseHZBg" name="update">
+          <ownedParameter xmi:id="_DlsY4rL9EeaTqPhOseHZBg" name="o" type="_DlougLL9EeaTqPhOseHZBg"/>
+          <ownedParameter xmi:id="_Dls_8LL9EeaTqPhOseHZBg" name="arg" type="_Dlrx0LL9EeaTqPhOseHZBg"/>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_FiK_4LGNEeaEoO7CzG3Wqg" name="" memberEnd="_FiK_4bGNEeaEoO7CzG3Wqg _Fh8WYLGNEeaEoO7CzG3Wqg">
         <ownedEnd xmi:id="_FiK_4bGNEeaEoO7CzG3Wqg" name="" type="_j0YPkLGMEeaIPbTON9aQgg" association="_FiK_4LGNEeaEoO7CzG3Wqg"/>
@@ -1653,4 +1661,10 @@ All rights reserved. Copyright: 21 Nov 2008 15:06:18</body>
   <UMLLabProfile:Reference xmi:id="_53RawLJXEeak2Pbowo3xvQ" base_Element="_53QzsLJXEeak2Pbowo3xvQ"/>
   <UMLLabProfile:Reference xmi:id="_53SB0bJXEeak2Pbowo3xvQ" base_Element="_53SB0LJXEeak2Pbowo3xvQ"/>
   <UMLLabProfile:Reference xmi:id="_53VsMLJXEeak2Pbowo3xvQ" base_Element="_53VFILJXEeak2Pbowo3xvQ"/>
+  <UMLLabProfile:Reference xmi:id="_8hJ_ILL8EeaTqPhOseHZBg" base_Element="_8hIxALL8EeaTqPhOseHZBg"/>
+  <UMLLabProfile:Reference xmi:id="_DlpVkLL9EeaTqPhOseHZBg" base_Element="_DlougLL9EeaTqPhOseHZBg"/>
+  <UMLLabProfile:Reference xmi:id="_DlsY4LL9EeaTqPhOseHZBg" base_Element="_Dlrx0LL9EeaTqPhOseHZBg"/>
+  <UMLLabProfile:Annotations xmi:id="_Dls_8bL9EeaTqPhOseHZBg" base_Element="_DlsY4bL9EeaTqPhOseHZBg">
+    <annotations xmi:id="_Dls_8rL9EeaTqPhOseHZBg" name="Override"/>
+  </UMLLabProfile:Annotations>
 </xmi:XMI>

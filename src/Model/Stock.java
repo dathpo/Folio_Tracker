@@ -12,12 +12,17 @@ public class Stock implements IStock {
 	private int quantity;
 	private double lastPrice;
 
-	public Stock(String tickerSym, int quantity, double price) {
-
+	public Stock(String tickerSym, int quantity) {
 		this.tickerSym = tickerSym;
 		this.quantity = quantity;
-		this.price = price;
-
+		Quote q = new Quote(false);
+			try{
+				lastPrice = this.getPrice();
+				q.setValues(tickerSym);
+				setPrice(q.getLatest());
+				}catch(Exception e){
+					e.printStackTrace();
+				}
 	}
 
 	private double getHighest() {
@@ -77,5 +82,10 @@ public class Stock implements IStock {
 			e.printStackTrace();
 		}
 	}
-
-}
+	public boolean equals(Stock obj){
+		boolean result = false;
+		if(obj instanceof Stock)
+		      result = (this.getStockName() == obj.getStockName());
+		    return result;
+		  }
+	}

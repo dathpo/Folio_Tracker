@@ -2,6 +2,8 @@ package View;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
+import java.util.Observable;
+import java.util.Observer;
 
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
@@ -24,7 +26,7 @@ import Model.IFolio;
 import Model.ITracker;
 
 @SuppressWarnings("serial")
-public class GUI extends JFrame implements IGUI {
+public class GUI extends JFrame implements IGUI, Observer {
 	int numTabs = 0;
 	public JFrame frame;
 	public JPanel contentPanel, tabPanel, sharesPanel;
@@ -218,6 +220,11 @@ public class GUI extends JFrame implements IGUI {
 //			portfolioBag.addPortfolio(folio);
 
 		}
+	}
+
+	@Override
+	public void update(Observable o, Object arg) {
+		
 	}
 	
 }
