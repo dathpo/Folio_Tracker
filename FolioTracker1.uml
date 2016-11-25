@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_q3FKMLF0EeaQWNNL0SyRDQ" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_q3FKMbF0EeaQWNNL0SyRDQ" source="codegen">
         <details xmi:id="_q3FKMrF0EeaQWNNL0SyRDQ" key="codegenDirectory" value="/FolioTracker1/src"/>
-        <details xmi:id="_rGQ1sLF0EeaQWNNL0SyRDQ" key="AssociatedSourceCode" value="/FolioTracker1/src/Controller/MenuListener.java;1818701874/1;/FolioTracker1/src/Main/Main.java;1408670299/1;/FolioTracker1/src/Model/Folio.java;1977077401/1;/FolioTracker1/src/Model/IFolio.java;269288115/1;/FolioTracker1/src/Model/IStock.java;2041026861/1;/FolioTracker1/src/Model/ITracker.java;4272946476/1;/FolioTracker1/src/Model/Stock.java;171370684/1;/FolioTracker1/src/Model/Tracker.java;180450372/1;/FolioTracker1/src/QuoteServer/IQuote.java;2305687288/1;/FolioTracker1/src/QuoteServer/MethodException.java;427060312/1;/FolioTracker1/src/QuoteServer/NoSuchTickerException.java;3714847431/1;/FolioTracker1/src/QuoteServer/WebsiteDataException.java;3274379183/1;/FolioTracker1/src/QuoteServer/Quote.java;2202875725/1;/FolioTracker1/src/View/IGUI.java;193508508/1;/FolioTracker1/src/Controller/TabChangeListener.java;3565162017/1;/FolioTracker1/src/View/GUI.java;1469175865/1;/FolioTracker1/src/Controller/BuyShareListener.java;1746297076/1;/FolioTracker1/src/Controller/SellShareListener.java;3535791321/1;"/>
+        <details xmi:id="_rGQ1sLF0EeaQWNNL0SyRDQ" key="AssociatedSourceCode" value="/FolioTracker1/src/Controller/MenuListener.java;1818701874/1;/FolioTracker1/src/Main/Main.java;1409497231/1;/FolioTracker1/src/Model/Folio.java;1977077401/1;/FolioTracker1/src/Model/IFolio.java;269288115/1;/FolioTracker1/src/Model/IStock.java;2041026861/1;/FolioTracker1/src/Model/ITracker.java;4272946476/1;/FolioTracker1/src/Model/Stock.java;171370684/1;/FolioTracker1/src/Model/Tracker.java;180450372/1;/FolioTracker1/src/QuoteServer/IQuote.java;2305687288/1;/FolioTracker1/src/QuoteServer/MethodException.java;427060312/1;/FolioTracker1/src/QuoteServer/NoSuchTickerException.java;3714847431/1;/FolioTracker1/src/QuoteServer/WebsiteDataException.java;3274379183/1;/FolioTracker1/src/QuoteServer/Quote.java;2202875725/1;/FolioTracker1/src/View/IGUI.java;193508508/1;/FolioTracker1/src/Controller/TabChangeListener.java;3565162017/1;/FolioTracker1/src/View/GUI.java;1469175865/1;/FolioTracker1/src/Controller/BuyShareListener.java;1746297076/1;/FolioTracker1/src/Controller/SellShareListener.java;3535791321/1;"/>
       </contents>
       <contents xmi:type="ecore:EAnnotation" xmi:id="_mSyoMLGLEeaIPbTON9aQgg" source="preferences">
         <contents xmi:type="ecore:EAnnotation" xmi:id="_mSyoMbGLEeaIPbTON9aQgg" source="com.yattasolutions.codegen.reverse">
@@ -749,7 +749,9 @@ All rights reserved. Copyright: 21 Nov 2008 15:06:18</body>
           <ownedParameter xmi:id="_rDU2crF0EeaQWNNL0SyRDQ" name="s">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_rDU2c7F0EeaQWNNL0SyRDQ" type="_rCw1wLF0EeaQWNNL0SyRDQ" direction="return"/>
+          <ownedParameter xmi:id="_rDU2c7F0EeaQWNNL0SyRDQ" type="_rCw1wLF0EeaQWNNL0SyRDQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>super(s);&#xD;
 &#xD;
@@ -775,7 +777,9 @@ All rights reserved. Copyright: 21 Nov 2008 15:06:18</body>
           <ownedParameter xmi:id="_rDU2dbF0EeaQWNNL0SyRDQ" name="s">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_rDU2drF0EeaQWNNL0SyRDQ" type="_rCyD4LF0EeaQWNNL0SyRDQ" direction="return"/>
+          <ownedParameter xmi:id="_rDU2drF0EeaQWNNL0SyRDQ" type="_rCyD4LF0EeaQWNNL0SyRDQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>super(s);&#xD;
 		&#xD;
@@ -801,7 +805,9 @@ All rights reserved. Copyright: 21 Nov 2008 15:06:18</body>
           <ownedParameter xmi:id="_rDVdgbF0EeaQWNNL0SyRDQ" name="s">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_rDVdgrF0EeaQWNNL0SyRDQ" type="_rCzSAbF0EeaQWNNL0SyRDQ" direction="return"/>
+          <ownedParameter xmi:id="_rDVdgrF0EeaQWNNL0SyRDQ" type="_rCzSAbF0EeaQWNNL0SyRDQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>super(s);&#xD;
 		&#xD;
@@ -830,7 +836,9 @@ All rights reserved. Copyright: 21 Nov 2008 15:06:18</body>
           <ownedParameter xmi:id="_rDVdhLF0EeaQWNNL0SyRDQ" name="useProxy">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_rDVdhbF0EeaQWNNL0SyRDQ" type="_rCz5FrF0EeaQWNNL0SyRDQ" direction="return"/>
+          <ownedParameter xmi:id="_rDVdhbF0EeaQWNNL0SyRDQ" type="_rCz5FrF0EeaQWNNL0SyRDQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>_useProxy = useProxy;&#xD;
 	</body>
@@ -895,6 +903,7 @@ All rights reserved. Copyright: 21 Nov 2008 15:06:18</body>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rDVdiLF0EeaQWNNL0SyRDQ" name="getTicker" specification="_rC1HNrF0EeaQWNNL0SyRDQ">
           <ownedParameter xmi:id="_rDVdibF0EeaQWNNL0SyRDQ" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
           <language>java</language>
@@ -902,13 +911,16 @@ All rights reserved. Copyright: 21 Nov 2008 15:06:18</body>
 	</body>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rDVdirF0EeaQWNNL0SyRDQ" name="getLatest" specification="_rC1uQbF0EeaQWNNL0SyRDQ">
-          <ownedParameter xmi:id="_rDVdi7F0EeaQWNNL0SyRDQ" type="_rDRzIbF0EeaQWNNL0SyRDQ" direction="return"/>
+          <ownedParameter xmi:id="_rDVdi7F0EeaQWNNL0SyRDQ" type="_rDRzIbF0EeaQWNNL0SyRDQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>return ensureNotNull(_shareDataList.get(1)) ? Double.valueOf(_shareDataList.get(1)):null;&#xD;
 	</body>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rDVdjLF0EeaQWNNL0SyRDQ" name="getDate" specification="_rC1uQrF0EeaQWNNL0SyRDQ">
           <ownedParameter xmi:id="_rDVdjbF0EeaQWNNL0SyRDQ" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
           <language>java</language>
@@ -917,6 +929,7 @@ All rights reserved. Copyright: 21 Nov 2008 15:06:18</body>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rDVdjrF0EeaQWNNL0SyRDQ" name="getTime" specification="_rC1uRLF0EeaQWNNL0SyRDQ">
           <ownedParameter xmi:id="_rDVdj7F0EeaQWNNL0SyRDQ" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
           <language>java</language>
@@ -924,31 +937,41 @@ All rights reserved. Copyright: 21 Nov 2008 15:06:18</body>
 	</body>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rDVdkLF0EeaQWNNL0SyRDQ" name="getChange" specification="_rC1uRrF0EeaQWNNL0SyRDQ">
-          <ownedParameter xmi:id="_rDVdkbF0EeaQWNNL0SyRDQ" type="_rDRzIbF0EeaQWNNL0SyRDQ" direction="return"/>
+          <ownedParameter xmi:id="_rDVdkbF0EeaQWNNL0SyRDQ" type="_rDRzIbF0EeaQWNNL0SyRDQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>return ensureNotNull(_shareDataList.get(4)) ? Double.valueOf(_shareDataList.get(4)):null;&#xD;
 	</body>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rDWEkLF0EeaQWNNL0SyRDQ" name="getOpen" specification="_rC2VULF0EeaQWNNL0SyRDQ">
-          <ownedParameter xmi:id="_rDWEkbF0EeaQWNNL0SyRDQ" type="_rDRzIbF0EeaQWNNL0SyRDQ" direction="return"/>
+          <ownedParameter xmi:id="_rDWEkbF0EeaQWNNL0SyRDQ" type="_rDRzIbF0EeaQWNNL0SyRDQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>return ensureNotNull(_shareDataList.get(5)) ? Double.valueOf(_shareDataList.get(5)):null;&#xD;
 	</body>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rDWEkrF0EeaQWNNL0SyRDQ" name="getRangeMax" specification="_rC2VUbF0EeaQWNNL0SyRDQ">
-          <ownedParameter xmi:id="_rDWEk7F0EeaQWNNL0SyRDQ" type="_rDRzIbF0EeaQWNNL0SyRDQ" direction="return"/>
+          <ownedParameter xmi:id="_rDWEk7F0EeaQWNNL0SyRDQ" type="_rDRzIbF0EeaQWNNL0SyRDQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>return ensureNotNull(_shareDataList.get(6)) ? Double.valueOf(_shareDataList.get(6)):null;&#xD;
 	</body>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rDWElLF0EeaQWNNL0SyRDQ" name="getRangeMin" specification="_rC2VUrF0EeaQWNNL0SyRDQ">
-          <ownedParameter xmi:id="_rDWElbF0EeaQWNNL0SyRDQ" type="_rDRzIbF0EeaQWNNL0SyRDQ" direction="return"/>
+          <ownedParameter xmi:id="_rDWElbF0EeaQWNNL0SyRDQ" type="_rDRzIbF0EeaQWNNL0SyRDQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>return ensureNotNull(_shareDataList.get(7)) ? Double.valueOf(_shareDataList.get(7)):null;&#xD;
 	</body>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rDWElrF0EeaQWNNL0SyRDQ" name="getVolume" specification="_rC2VU7F0EeaQWNNL0SyRDQ">
-          <ownedParameter xmi:id="_rDWEl7F0EeaQWNNL0SyRDQ" type="_rDRzIbF0EeaQWNNL0SyRDQ" direction="return"/>
+          <ownedParameter xmi:id="_rDWEl7F0EeaQWNNL0SyRDQ" type="_rDRzIbF0EeaQWNNL0SyRDQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>return ensureNotNull(_shareDataList.get(8)) ? Double.valueOf(_shareDataList.get(8)):null;&#xD;
 	</body>
@@ -958,6 +981,7 @@ All rights reserved. Copyright: 21 Nov 2008 15:06:18</body>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
           <ownedParameter xmi:id="_rDWEmrF0EeaQWNNL0SyRDQ" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
           <language>java</language>
@@ -972,6 +996,7 @@ All rights reserved. Copyright: 21 Nov 2008 15:06:18</body>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
           <ownedParameter xmi:id="_rDWEnbF0EeaQWNNL0SyRDQ" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
           <language>java</language>

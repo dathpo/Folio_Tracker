@@ -1017,6 +1017,12 @@
       <stereotypes xmi:id="_jSXcsLJSEeak2Pbowo3xvQ" name="Generics"/>
       <stereotypes xmi:id="_jSf_kLJSEeak2Pbowo3xvQ" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_jSf_kbJSEeak2Pbowo3xvQ" name="Generics"/>
+      <stereotypes xmi:id="_GMxssLL5EeaTqPhOseHZBg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_GMxssbL5EeaTqPhOseHZBg" name="Generics"/>
+      <stereotypes xmi:id="_GMy60LL5EeaTqPhOseHZBg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_GMzh4LL5EeaTqPhOseHZBg" name="Generics"/>
+      <stereotypes xmi:id="_GM3zULL5EeaTqPhOseHZBg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_GM3zUbL5EeaTqPhOseHZBg" name="Generics"/>
       <visibility xmi:id="_dv-MI7JHEeaCc-QMv3_NDg" label="+"/>
       <cardinality xmi:id="_dv-MJLJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
       <type xmi:id="_dv-MJbJHEeaCc-QMv3_NDg" name="ArrayList">
@@ -1131,6 +1137,12 @@
       <stereotypes xmi:id="_jSexcLJSEeak2Pbowo3xvQ" name="Generics"/>
       <stereotypes xmi:id="_jSjC4LJSEeak2Pbowo3xvQ" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_jSjp8LJSEeak2Pbowo3xvQ" name="Generics"/>
+      <stereotypes xmi:id="_GM0I8LL5EeaTqPhOseHZBg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_GM0wALL5EeaTqPhOseHZBg" name="Generics"/>
+      <stereotypes xmi:id="_GM1XELL5EeaTqPhOseHZBg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_GM1-ILL5EeaTqPhOseHZBg" name="Generics"/>
+      <stereotypes xmi:id="_GM4aYLL5EeaTqPhOseHZBg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_GM5BcLL5EeaTqPhOseHZBg" name="Generics"/>
       <visibility xmi:id="_eWxGY7JHEeaCc-QMv3_NDg" label="+"/>
       <cardinality xmi:id="_eWxGZLJHEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
       <type xmi:id="_eWxGZbJHEeaCc-QMv3_NDg" name="ArrayList">
@@ -1517,6 +1529,9 @@
       <stereotypes xmi:id="_jR7X0LJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
       <stereotypes xmi:id="_jR90ELJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
       <stereotypes xmi:id="_jSmGMLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_GMjDMLL5EeaTqPhOseHZBg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_GMlfcLL5EeaTqPhOseHZBg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_GNT4MLL5EeaTqPhOseHZBg" name="MultiDeclaration"/>
       <visibility xmi:id="_Fl_v-7GNEeaEoO7CzG3Wqg" label="+"/>
       <cardinality xmi:id="_Fl_v_LGNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
       <type xmi:id="_Fl_v_bGNEeaEoO7CzG3Wqg" name="JPanel">
@@ -1539,6 +1554,9 @@
       <stereotypes xmi:id="_jSCFgLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
       <stereotypes xmi:id="_jSCskLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
       <stereotypes xmi:id="_jSmtQLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_GMn7sLL5EeaTqPhOseHZBg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_GMoiwLL5EeaTqPhOseHZBg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_GNVGULL5EeaTqPhOseHZBg" name="MultiDeclaration"/>
       <visibility xmi:id="_Fl_wBLGNEeaEoO7CzG3Wqg" label="+"/>
       <cardinality xmi:id="_Fl_wBbGNEeaEoO7CzG3Wqg" label="1" max="1" min="1"/>
       <type xmi:id="_Fl_wBrGNEeaEoO7CzG3Wqg" name="JPanel">
@@ -1582,6 +1600,9 @@
       <stereotypes xmi:id="_jSGW8LJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
       <stereotypes xmi:id="_jSG-ALJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
       <stereotypes xmi:id="_jSoicLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_GMrmELL5EeaTqPhOseHZBg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_GMs0MLL5EeaTqPhOseHZBg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_GNWUcLL5EeaTqPhOseHZBg" name="MultiDeclaration"/>
       <visibility xmi:id="_BOkdsrJGEeaCc-QMv3_NDg" label="+"/>
       <cardinality xmi:id="_BOkds7JGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
       <type xmi:id="_BOkdtLJGEeaCc-QMv3_NDg" name="JTextField">
@@ -1593,6 +1614,9 @@
       <stereotypes xmi:id="_jSKBULJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
       <stereotypes xmi:id="_jSSkMLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
       <stereotypes xmi:id="_jSpwkLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_GMuCULL5EeaTqPhOseHZBg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_GMupYLL5EeaTqPhOseHZBg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_GNW7gLL5EeaTqPhOseHZBg" name="MultiDeclaration"/>
       <visibility xmi:id="_BOkdt7JGEeaCc-QMv3_NDg" label="+"/>
       <cardinality xmi:id="_BOkduLJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
       <type xmi:id="_BOkdubJGEeaCc-QMv3_NDg" name="JPanel">
@@ -1604,6 +1628,9 @@
       <stereotypes xmi:id="_jSTyULJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
       <stereotypes xmi:id="_jSUZYLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
       <stereotypes xmi:id="_jSqXoLJSEeak2Pbowo3xvQ" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_GMv3gLL5EeaTqPhOseHZBg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_GMwekLL5EeaTqPhOseHZBg" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_GNXikLL5EeaTqPhOseHZBg" name="MultiDeclaration"/>
       <visibility xmi:id="_BOkdvLJGEeaCc-QMv3_NDg" label="+"/>
       <cardinality xmi:id="_BOkdvbJGEeaCc-QMv3_NDg" label="1" max="1" min="1"/>
       <type xmi:id="_BOkdvrJGEeaCc-QMv3_NDg" name="JTextField">
