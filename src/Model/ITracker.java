@@ -1,15 +1,20 @@
-package Model;
+package model;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+
+import view.IGUI;
 
 public interface ITracker {
-
-	 public void addFolio(String Name);
-	 
-	 public void deleteFolio(String Name);
-	 
-	 public void addStock(String folioName, String tickerSym, int quantity,  double price);
-	 
-	 public void editHolding(String folioName,String tickerSym, int newQuantity, double newPrice);
-	 
-	 public void refreshPrices();
 	
-   }
+	ArrayList<IFolio> getFolios();
+
+	IFolio openFile(File fileName, IGUI gui) throws FileNotFoundException;
+
+	void saveFile(IFolio currentFolio, String folioName);
+
+	void newFolio(IFolio folio, String folioName);
+
+	void closeFolio(IFolio folio);
+}

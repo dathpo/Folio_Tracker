@@ -1,4 +1,4 @@
-package Model;
+package model;
 
 import java.util.ArrayList;
 
@@ -12,7 +12,7 @@ public interface IFolio {
 	
 	public double calculateValue(String tickerSym);
 	
-	public void refreshFolio();
+	public void refreshData();
 	
 	public ArrayList getHoldings();
    }

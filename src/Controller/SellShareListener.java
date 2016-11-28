@@ -1,5 +1,7 @@
-package Controller;
+package controller;
 
-public class SellShareListener {
+import java.awt.event.ActionListener;
+
+public class SellShareListener implements ActionListener {
 	
 }

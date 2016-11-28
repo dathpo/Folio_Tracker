@@ -1,4 +1,6 @@
-package Controller;
+package controller;
 
-public class TabChangeListener {
+import javax.swing.event.ChangeListener;
+
+public class TabChangeListener implements ChangeListener {
 }

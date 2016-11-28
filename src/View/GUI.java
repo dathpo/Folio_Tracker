@@ -1,7 +1,11 @@
-package View;
+package view;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.util.ArrayList;
+import java.util.Locale;
 import java.util.Observable;
 import java.util.Observer;
 
@@ -21,210 +25,277 @@ import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.table.DefaultTableModel;
 
-import Model.Folio;
-import Model.IFolio;
-import Model.ITracker;
+import controller.BuyShareListener;
+import controller.MenuListener;
+import controller.SellShareListener;
+import controller.TabChangeListener;
+import model.Folio;
+import model.IFolio;
+import model.ITracker;
+import model.IStock;
 
-@SuppressWarnings("serial")
-public class GUI extends JFrame implements IGUI, Observer {
-	int numTabs = 0;
-	public JFrame frame;
-	public JPanel contentPanel, tabPanel, sharesPanel;
-	public JTabbedPane tabbedPane;
-	public DefaultTableModel tableModel;
-	public JTable table;
-	public JScrollPane scrollPane;
-	public JTextField tickerSText, shareNumberText;
+public class GUI implements IGUI, Observer {
 
-	public GUI() {
+	private ITracker tracker;
+	private JFrame frame;
+	private JPanel contentPanel;
+	private JTabbedPane tabbedPane;
+	private ArrayList<JTable> tables;
+	private JScrollPane scrollPane;
+	private JLabel folioValue;
+	private JTextField tickerSText;
+	private JTextField shareNumberText;
+
+	public JTabbedPane getTabbedPane() {
+		return tabbedPane;
+	}
+	
+	public ArrayList<JTable> getTables() {
+		return tables;
+	}
+
+	public JTextField getTickerSText() {
+		return tickerSText;
+	}
+
+	public JTextField getShareNumberText() {
+		return shareNumberText;
+	}
+
+
+	public JLabel getFolioValue() {
+		return folioValue;
+	}
+	
+	public GUI(ITracker t) {
+		this.tracker = t;
 		buildMainFrame();
-		buildMenuBar(frame);
-		buildPanels();
-//		buildTable();
-		buildTabs();
 	}
 
-	public void build() {
+	private void buildMainFrame() {
 
-	}
-
-	public void buildMainFrame() {
+		// Frame
 		frame = new JFrame("Folio Tracker");
-		frame.setSize(700, 500);
-		frame.setLayout(new BorderLayout());
 		frame.setResizable(false);
+		frame.setSize(700, 500);
 		frame.setLocationRelativeTo(null);
-//		frame.pack();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	}
+		tables = new ArrayList<JTable>();
 
-	public void buildMenuBar(JFrame frame) {
-		JMenuBar menuBar = new JMenuBar();
-		frame.setJMenuBar(menuBar);
-
-		JMenu fileMenu = new JMenu("File");
-		JMenu portfolioMenu = new JMenu("Portfolio");
-		JMenu optionsMenu = new JMenu("Options");
-		JMenu helpMenu = new JMenu("Help");
-		menuBar.add(fileMenu);
-		menuBar.add(portfolioMenu);
-		menuBar.add(optionsMenu);
-		menuBar.add(helpMenu);
-
-		JMenuItem fMOpen = new JMenuItem("Open");
-		JMenuItem fMSaveAs = new JMenuItem("Save As");
-		JSeparator fMSeparator = new JSeparator();
-		JMenuItem fMExit = new JMenuItem("Exit");
-		fMOpen.addActionListener(null);
-		fMSaveAs.addActionListener(null);
-		fMExit.addActionListener(null);
-		fileMenu.add(fMOpen);
-		fileMenu.add(fMSaveAs);
-		fileMenu.add(fMSeparator);
-		fileMenu.add(fMExit);
-
-		JMenuItem pfMNew = new JMenuItem("New");
-		JMenuItem pfMClose = new JMenuItem("Close");
-		JSeparator pfMSeparator = new JSeparator();
-		JMenuItem pfMDelete = new JMenuItem("Delete");
-		pfMNew.addActionListener(null);
-		pfMClose.addActionListener(null);
-		pfMDelete.addActionListener(null);
-		portfolioMenu.add(pfMNew);
-		portfolioMenu.add(pfMClose);
-		portfolioMenu.add(pfMSeparator);
-		portfolioMenu.add(pfMDelete);
-
-		JMenuItem oMRefresh = new JMenuItem("Refresh Share Prices");
-		oMRefresh.addActionListener(null);
-		optionsMenu.add(oMRefresh);
-
-		JMenuItem hMAbout = new JMenuItem("About Folio Tracker");
-		hMAbout.addActionListener(null);
-		helpMenu.add(hMAbout);
-	}
-
-	public void buildPanels() {
+		// Buy Share Ticker Label
 		contentPanel = new JPanel();
 		frame.setContentPane(contentPanel);
 		contentPanel.setLayout(new BorderLayout(0, 0));
-
+		
+		// Top Panel
 		JPanel topPanel = new JPanel();
 		contentPanel.add(topPanel, BorderLayout.NORTH);
-
+		
+		// Ticker Symbol label
 		JLabel tickerSLabel = new JLabel("Ticker Symbol:");
 		topPanel.add(tickerSLabel);
-		
+
+		// Ticker Symbol text field
 		tickerSText = new JTextField();
-		tickerSText.setColumns(8);
+		tickerSText.setPreferredSize(new Dimension(90, 25));
 		topPanel.add(tickerSText);
-		
-		JLabel shareNumberLabel = new JLabel("Number of Shares:");
-		topPanel.add(shareNumberLabel);
-		
+
+		// Number of Shares label
+		JLabel lblQty = new JLabel("Number of Shares:");
+		topPanel.add(lblQty);
+
+		// Number of Shares text field
 		shareNumberText = new JTextField();
-		shareNumberText.setColumns(8);
+		shareNumberText.setPreferredSize(new Dimension(80, 25));
 		topPanel.add(shareNumberText);
 		
-		JButton buyButton = new JButton("Buy");
-		JButton sellButton = new JButton("Sell");
-		buyButton.addActionListener(null);
-		sellButton.addActionListener(null);
-		topPanel.add(buyButton);
-		topPanel.add(sellButton);
+		// Buy Share Button
+		JButton btnAddStock = new JButton("Buy");
+		topPanel.add(btnAddStock);
+		btnAddStock.addActionListener(new BuyShareListener(this, tracker));
+		btnAddStock.setPreferredSize(new Dimension(80, 25));
+		
+		// Sell Share Button
+		JButton btnSellStock = new JButton("Sell");
+		btnSellStock.addActionListener(new SellShareListener(this, tracker));
+		topPanel.add(btnSellStock);
+		btnSellStock.setPreferredSize(new Dimension(80, 25));	
 
-		JPanel bottomPanel = new JPanel();
-		contentPanel.add(bottomPanel, BorderLayout.SOUTH);
-		JLabel totalPFValueLabel = new JLabel("Total Portfolio Value: $" + "totalPFValue");
-		// totalPFValue = totalPFValueNumber;
-		bottomPanel.add(totalPFValueLabel);
-
-		frame.setVisible(true);
-	}
-
-	private void createButtons() {
-
-		// contentPanel.add(topPanel, BorderLayout.CENTER);
-	}
-	
-	public void buildTabs() {
+		// Tabbed Pane
 		tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 		frame.getContentPane().add(tabbedPane);
-		tabbedPane.addTab("A", table);
-		tabbedPane.addTab("B", scrollPane);
-		tabbedPane.addTab("C", scrollPane);
-		tabbedPane.addTab("D", scrollPane);
+		tabbedPane.addChangeListener(new TabChangeListener(this, tracker));
+		tabbedPane.addTab("Welcome", null, null, null);
+
+		// Bottom Panel
+		JPanel bottomPanel = new JPanel();
+		contentPanel.add(bottomPanel, BorderLayout.SOUTH);
 		
-		tabPanel = new JPanel();
+		// Portfolio Value label
+		JLabel folioValueLabel = new JLabel("Total Portfolio Value:");
+		bottomPanel.add(folioValueLabel);
 
-		if(tabbedPane.getTabCount()==0) {
-			//
-		}
-
-		tableModel = new DefaultTableModel();
-		table = new JTable(tableModel);
-		scrollPane = new JScrollPane(table);
-		table.setEnabled(true);
-		JPanel tablePanel = new JPanel();
-		contentPanel.add(tablePanel);
-		contentPanel.add(tabPanel);
-//		tabPanel.add(new JScrollPane(table));
-
-		tableModel.addColumn("#");
-		tableModel.addColumn("Ticker Symbol");
-		tableModel.addColumn("Stock Name");
-		tableModel.addColumn("Number of Shares");
-		tableModel.addColumn("Price per Share");
-		tableModel.addColumn("Holding Value");
-		tableModel.addColumn("Change (%)");
-		tableModel.addColumn("Highest ($)");
-		tableModel.addColumn("Lowest ($)");
+		// Portfolio Value
+		folioValue = new JLabel("");
+		bottomPanel.add(folioValue);
 		
-		table.setVisible(true);
-		tabbedPane.setVisible(true);
+		this.buildMenu(frame);
+
+		// Make the whole thing Visible!
+		frame.setVisible(true);
+
 	}
-	
-	public void NewPFAlert() {
 
-		JTextField newPFName = new JTextField(20);
-		JLabel newPFLabel = new JLabel("Enter the Portfolio Name:");
-		JPanel newPFPanel = new JPanel();
+	private void buildMenu(JFrame frame) {
+		JMenuBar menuBar = new JMenuBar();
+		frame.setJMenuBar(menuBar);
 
-		newPFPanel.setLayout(new BoxLayout(newPFPanel, BoxLayout.Y_AXIS));
+		// Menus
+		JMenu fileMenu = new JMenu("File");
+		JMenu portfolioMenu = new JMenu("Portfolio");
+		JMenu helpMenu = new JMenu("Help");
+		menuBar.add(fileMenu);
+		menuBar.add(portfolioMenu);
+		menuBar.add(helpMenu);
+		
+		// File Menu Items
+		JMenuItem fMOpen = new JMenuItem("Open");
+		JMenuItem fMSave = new JMenuItem("Save");
+		JSeparator fMSeparator = new JSeparator();
+		JMenuItem fMExit = new JMenuItem("Exit");
+		fMOpen.setActionCommand("OpenFile");
+		fMSave.setActionCommand("SaveFile");
+		fMExit.setActionCommand("Exit");
+		fMOpen.addActionListener(new MenuListener(this, tracker, null));
+		fMSave.addActionListener(new MenuListener(this, tracker));
+		fMExit.addActionListener(new MenuListener(this, tracker));
+		fileMenu.add(fMOpen);
+		fileMenu.add(fMSave);
+		fileMenu.add(fMSeparator);
+		fileMenu.add(fMExit);
+		
+		// Portfolio Menu
+		JMenuItem pfMNew = new JMenuItem("New");
+		JMenuItem pfMRefresh = new JMenuItem("Refresh");
+		JSeparator pfMSeparator = new JSeparator();
+		JMenuItem pfMClose = new JMenuItem("Close");
+		pfMNew.setActionCommand("NewFolio");
+		pfMRefresh.setActionCommand("RefreshFolio");
+		pfMClose.setActionCommand("CloseFolio");
+		pfMNew.addActionListener(new MenuListener(this, tracker));
+		pfMRefresh.addActionListener(new MenuListener(this, tracker));
+		pfMClose.addActionListener(new MenuListener(this, tracker));
+		portfolioMenu.add(pfMNew);
+		portfolioMenu.add(pfMRefresh);
+		portfolioMenu.add(pfMSeparator);
+		portfolioMenu.add(pfMClose);
+		
+		// Help Menu
+		JMenuItem hMAbout = new JMenuItem("About Folio Tracker");
+		pfMNew.setActionCommand("About");
+		hMAbout.addActionListener(new MenuListener(this, tracker));
+		helpMenu.add(hMAbout);
+	}
 
-		newPFName.setMaximumSize(new Dimension(1500, 20));
+	public void showNewFolioAlert() {
 
-		newPFPanel.add(newPFLabel);
-		newPFPanel.add(newPFName);
+		JTextField portFolioName = new JTextField(20);
+		JLabel portFolioNameLabel = new JLabel("Enter PortFolio Name:");
+		JPanel portFolioPanel = new JPanel();
 
-		int result = JOptionPane.showConfirmDialog(null, newPFPanel, "Create a new Portfolio",
+		portFolioPanel.setLayout(new BoxLayout(portFolioPanel, BoxLayout.Y_AXIS));
+
+		portFolioName.setMaximumSize(new Dimension(1500, 20));
+
+		portFolioPanel.add(portFolioNameLabel);
+		portFolioPanel.add(portFolioName);
+
+		int result = JOptionPane.showConfirmDialog(null, portFolioPanel, "Create New PortFolio",
 				JOptionPane.OK_CANCEL_OPTION);
 
-		String pfName = (newPFName.getText());
+		String folioName = (portFolioName.getText());
 
 		if (result == JOptionPane.CANCEL_OPTION) {
 			return;
 		}
-		if (newPFName.equals("")) {
-			JLabel enterFilenameLabel = new JLabel("Enter a correct name.");
-			newPFPanel.add(enterFilenameLabel);
+		if (folioName.equals("")) {
+			JLabel enterFilenameLabel = new JLabel("Portfolio Name cannot blank.");
+			portFolioPanel.add(enterFilenameLabel);
 			JOptionPane.showMessageDialog(null, "Error");
-			NewPFAlert();
+			showNewFolioAlert();
 
 		} else {
-//			// Creates the tab and portfolio
-//			
-//			IFolio IFolio = new IFolio();
-//			createPortfolioTab(folio.getFolioName());
-//			IFolio.addObserver(this);
-//			portfolioBag.addPortfolio(folio);
+			// Creates the tab and portfolio
+			createPortfolioTab(folioName);
+			IFolio folio = new Folio(folioName);
+			((Observable) folio).addObserver(this);
+			tracker.addFolio(folio);
 
 		}
 	}
 
+	// CREATE NEW PORTFOLIO TAB
+	public void createPortfolioTab(String PortfolioName) {
+		DefaultTableModel model = new DefaultTableModel();
+		model.addColumn("Ticker Symbol");
+		model.addColumn("Number of Shares");
+		model.addColumn("Price per Share ($)");
+		model.addColumn("Holding Value ($)");
+		model.addColumn("Change (%)");
+
+		// MAKE TABLE NON EDITABLE
+		JTable table = new JTable(model) {
+			private static final long serialVersionUID = 1L;
+
+			// Stops the cells from being edited individually
+			public boolean isCellEditable(int row, int column) {
+				return false;
+			};
+		};
+		table.setFillsViewportHeight(false);
+
+		// ADD TABLE TO PANNEL
+		scrollPane = new JScrollPane(table);
+
+		tabbedPane.addTab(PortfolioName, null, scrollPane, null);
+
+//		 REMOVE EMPTY INITIAL TAB
+		if (tabbedPane.getTabCount() > 0 && tables.isEmpty()) {
+			tabbedPane.removeTabAt(0);
+		}
+		
+		tables.add(table);
+
+	}
+
+	// UPDATE SHARE DATA IN TABLE
 	@Override
 	public void update(Observable o, Object arg) {
-		
+
+		IFolio folio = (IFolio) o;
+		// Ensures there is a table to modify
+		if (this.tables.size() > 0) {
+			DefaultTableModel tblModel = (DefaultTableModel) this.tables.get(this.getTabbedPane().getSelectedIndex())
+					.getModel();
+
+			// Clear the table
+			tblModel.setRowCount(0);
+
+			// Add entries for all the shares in the portfolio
+			for (IStock s : folio.getShares()) {
+				// Add a row to the table
+				tblModel.addRow(new Object[] {
+						s.getTicker(),
+						s.getAmountOwned(),
+						new DecimalFormat("0.00").format(s.getSharePrice()),
+						new DecimalFormat("0.00").format(folio.getShare(s.getTicker()).getSharePrice() * s.getAmountOwned()),
+						s.getChange()
+						});
+
+			}
+			// Update the total value of the folio
+			NumberFormat formatter = NumberFormat.getCurrencyInstance(Locale.US);
+			this.folioValue.setText(formatter.format(folio.getFolioValue()));
+		}
 	}
-	
 }

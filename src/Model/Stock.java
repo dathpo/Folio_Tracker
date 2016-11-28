@@ -1,6 +1,6 @@
-package Model;
+package model;
 
-import QuoteServer.Quote;
+import quote.Quote;
 
 public class Stock implements IStock {
 
