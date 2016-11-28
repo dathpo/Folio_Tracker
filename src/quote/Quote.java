@@ -1,4 +1,4 @@
-package quote_;
+package quote;
 
 /** 
  * This class Quote.java retrieves a file from the yahoo webpage, and reads

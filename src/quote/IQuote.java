@@ -1,4 +1,4 @@
-package quote_;
+package quote;
 
 import java.io.IOException;
 

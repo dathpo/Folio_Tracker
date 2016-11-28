@@ -1,4 +1,4 @@
-package view_;
+package view;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -25,14 +25,14 @@ import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.table.DefaultTableModel;
 
-import controller_.BuyShareListener;
-import controller_.MenuListener;
-import controller_.SellShareListener;
-import controller_.TabChangeListener;
-import model_.Folio;
-import model_.IFolio;
-import model_.IStock;
-import model_.ITracker;
+import controller.BuyShareListener;
+import controller.MenuListener;
+import controller.SellShareListener;
+import controller.TabChangeListener;
+import model.Folio;
+import model.IFolio;
+import model.IStock;
+import model.ITracker;
 
 public class GUI implements IGUI, Observer {
 

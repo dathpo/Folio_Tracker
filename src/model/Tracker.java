@@ -1,10 +1,10 @@
-package model_;
+package model;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
-import view_.IGUI;
+import view.IGUI;
 
 public class Tracker implements ITracker {
 

@@ -1,4 +1,4 @@
-package quote_;
+package quote;
 
 ///:MethodException.java
 

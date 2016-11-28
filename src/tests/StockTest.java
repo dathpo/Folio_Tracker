@@ -1,11 +1,11 @@
-package tests_;
+package tests;
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import model_.Stock;
-import quote_.Quote;
+import model.Stock;
+import quote.Quote;
 
 public class StockTest {
 

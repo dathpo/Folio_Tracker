@@ -1,9 +1,8 @@
-package controller_;
+package controller;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import View.GUIInterface;
 import model.IFolio;
 import model.ITracker;
 import view.IGUI;
@@ -12,12 +11,10 @@ public class MenuListener implements ActionListener {
 
 	private IGUI gui;
 	private ITracker tracker;
-	private IFolio folio;
 
-	public MenuListener(IGUI gui, ITracker tracker, IFolio folio){
+	public MenuListener(IGUI gui, ITracker tracker){
 		this.gui = gui;
 		this.tracker = tracker;
-		this.folio = folio;
 	}
 
 	@Override
@@ -40,7 +37,7 @@ public class MenuListener implements ActionListener {
 		}
 
 		else if(e.getActionCommand().equals("RefreshData")) {
-			folio.refreshData();
+			tracker.refreshData();
 		}
 
 		else if(e.getActionCommand().equals("CloseFolio"))

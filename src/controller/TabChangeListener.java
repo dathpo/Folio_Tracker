@@ -1,4 +1,4 @@
-package controller_;
+package controller;
 
 import javax.swing.event.ChangeListener;
 

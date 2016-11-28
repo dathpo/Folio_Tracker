@@ -1,7 +1,7 @@
-package view_;
+package view;
 
-import model_.ITracker;
-import model_.Tracker;
+import model.ITracker;
+import model.Tracker;
 
 public class Main {
 

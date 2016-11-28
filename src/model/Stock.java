@@ -1,6 +1,6 @@
-package model_;
+package model;
 
-import quote_.Quote;
+import quote.Quote;
 
 public class Stock implements IStock {
 
