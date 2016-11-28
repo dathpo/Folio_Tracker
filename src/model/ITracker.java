@@ -17,4 +17,6 @@ public interface ITracker {
 	void newFolio(IFolio folio, String folioName);
 
 	void closeFolio(IFolio folio);
+
+	void refreshAllData();
 }

@@ -26,5 +26,4 @@ public interface IGUI {
 	
 	public void update(Observable o, Object arg);
 	
-	
 }

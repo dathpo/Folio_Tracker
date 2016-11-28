@@ -12,7 +12,7 @@ public interface IFolio {
 	
 	public double calculateValue(String tickerSym);
 	
-	public void refreshData();
-	
 	public ArrayList getHoldings();
+	
+	void refreshFolioData();
    }

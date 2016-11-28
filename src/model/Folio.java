@@ -46,7 +46,8 @@ public class Folio implements IFolio {
 		}
 		return 0;
 	}
-	public void refreshFolio(){
+	
+	public void refreshFolioData() {
 		for(Stock s : Holdings){
 			s.refreshPrice();
 		}

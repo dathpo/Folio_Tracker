@@ -1,15 +1,18 @@
 package controller;
 
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.event.MenuEvent;
-import javax.swing.event.MenuListener;
-
 import model.ITracker;
+import view.IGUI;
 
 public class BuyShareListener implements ActionListener {
 
-	public BuyShareListener(GUI gui, ITracker t) {
+	public BuyShareListener(IGUI gui, ITracker t) {
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
 	}
 
 }

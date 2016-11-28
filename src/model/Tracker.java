@@ -31,6 +31,9 @@ public class Tracker implements ITracker {
 		folios.remove(folio);
 	}
 
+	public void refreshAllData() {
+	}
+
 	//		   public void setFolios(ArrayList value) {
 		//	      this.folios = value;
 	//	   }

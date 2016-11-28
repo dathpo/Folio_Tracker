@@ -166,7 +166,7 @@ public class GUI implements IGUI, Observer {
 		fMOpen.setActionCommand("OpenFile");
 		fMSave.setActionCommand("SaveFile");
 		fMExit.setActionCommand("Exit");
-		fMOpen.addActionListener(new MenuListener(this, tracker, null));
+		fMOpen.addActionListener(new MenuListener(this, tracker));
 		fMSave.addActionListener(new MenuListener(this, tracker));
 		fMExit.addActionListener(new MenuListener(this, tracker));
 		fileMenu.add(fMOpen);
@@ -229,7 +229,7 @@ public class GUI implements IGUI, Observer {
 			createPortfolioTab(folioName);
 			IFolio folio = new Folio(folioName);
 			((Observable) folio).addObserver(this);
-			tracker.addFolio(folio);
+			tracker.newFolio(folio, folioName);
 
 		}
 	}
@@ -267,35 +267,35 @@ public class GUI implements IGUI, Observer {
 		tables.add(table);
 
 	}
+	
 
 	// UPDATE SHARE DATA IN TABLE
 	@Override
 	public void update(Observable o, Object arg) {
 
-		IFolio folio = (IFolio) o;
-		// Ensures there is a table to modify
-		if (this.tables.size() > 0) {
-			DefaultTableModel tblModel = (DefaultTableModel) this.tables.get(this.getTabbedPane().getSelectedIndex())
-					.getModel();
-
-			// Clear the table
-			tblModel.setRowCount(0);
-
-			// Add entries for all the shares in the portfolio
-			for (IStock s : folio.getShares()) {
-				// Add a row to the table
-				tblModel.addRow(new Object[] {
-						s.getTicker(),
-						s.getAmountOwned(),
-						new DecimalFormat("0.00").format(s.getSharePrice()),
-						new DecimalFormat("0.00").format(folio.getShare(s.getTicker()).getSharePrice() * s.getAmountOwned()),
-						s.getChange()
-						});
-
-			}
-			// Update the total value of the folio
-			NumberFormat formatter = NumberFormat.getCurrencyInstance(Locale.US);
-			this.folioValue.setText(formatter.format(folio.getFolioValue()));
+//		IFolio folio = (IFolio) o;
+//		// Ensures there is a table to modify
+//		if (this.tables.size() > 0) {
+//			DefaultTableModel tblModel = (DefaultTableModel) this.tables.get(this.getTabbedPane().getSelectedIndex())
+//					.getModel();
+//
+//			// Clear the table
+//			tblModel.setRowCount(0);
+//
+//			// Add entries for all the shares in the portfolio
+//			for (IStock s : folio.getShares()) {
+//				// Add a row to the table
+//				tblModel.addRow(new Object[] {
+//						s.getTicker(),
+//						s.getAmountOwned(),
+//						new DecimalFormat("0.00").format(s.getSharePrice()),
+//						new DecimalFormat("0.00").format(folio.getShare(s.getTicker()).getSharePrice() * s.getAmountOwned()),
+//						s.getChange()
+//						});
+//
+//			}
+//			// Update the total value of the folio
+//			NumberFormat formatter = NumberFormat.getCurrencyInstance(Locale.US);
+//			this.folioValue.setText(formatter.format(folio.getFolioValue()));
 		}
 	}
-}

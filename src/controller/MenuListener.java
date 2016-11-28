@@ -2,6 +2,8 @@ package controller;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.FileNotFoundException;
 
 import model.IFolio;
 import model.ITracker;
@@ -21,11 +23,18 @@ public class MenuListener implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 
 		if(e.getActionCommand().equals("OpenFile")) {
-			tracker.openFile();
+			File fileName = null;
+			try {
+				tracker.openFile(fileName, gui);
+			} catch (FileNotFoundException e1) {
+				e1.printStackTrace();
+			}
 		}
 
 		else if(e.getActionCommand().equals("SaveFile")) {
-			tracker.saveFile();
+			IFolio currentFolio = null;
+			String folioName = null;
+			tracker.saveFile(currentFolio, folioName);
 		}
 		
 		else if(e.getActionCommand().equals("Exit")) {
@@ -33,20 +42,21 @@ public class MenuListener implements ActionListener {
 		}
 		
 		else if(e.getActionCommand().equals("NewFolio")) {
-			tracker.newFolio();
+			IFolio folio = null;
+			tracker.newFolio(folio, null);
 		}
 
 		else if(e.getActionCommand().equals("RefreshData")) {
-			tracker.refreshData();
+			tracker.refreshAllData();
 		}
 
 		else if(e.getActionCommand().equals("CloseFolio"))
 		{
-			tracker.closeFolio();
+			IFolio folio = null;
+			tracker.closeFolio(folio);
 		}
-
-		else if(e.getActionCommand().equals("About"))
-		{
-			gui.about();
-	}	
+	}
 }
+
+		
+
