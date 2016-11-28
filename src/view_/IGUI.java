@@ -1,4 +1,4 @@
-package view;
+package view_;
 
 import java.util.ArrayList;
 import java.util.Observable;

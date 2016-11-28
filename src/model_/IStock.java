@@ -1,4 +1,4 @@
-package model;
+package model_;
 
 public interface IStock {
 	

@@ -1,10 +1,10 @@
-package model;
+package model_;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
-import view.IGUI;
+import view_.IGUI;
 
 public interface ITracker {
 	

@@ -1,4 +1,4 @@
-package tests;
+package tests_;
 
 import static org.junit.Assert.*;
 
@@ -6,9 +6,9 @@ import java.util.ArrayList;
 
 import org.junit.Test;
 
-import model.Folio;
-import model.IFolio;
-import model.Stock;
+import model_.Folio;
+import model_.IFolio;
+import model_.Stock;
 
 public class FolioTest {
 
