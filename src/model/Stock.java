@@ -1,8 +1,9 @@
 package model;
 
 import quote.Quote;
+import java.util.Observable;
 
-public class Stock implements IStock {
+public class Stock extends Observable implements IStock {
 
 	private double highestPrice;
 	private double lowestPrice;
@@ -33,10 +34,6 @@ public class Stock implements IStock {
 		return lowestPrice;
 	}
 
-	public void setTickerSym(String value) {
-		this.tickerSym = value;
-	}
-
 	public String getTickerSym() {
 		return this.tickerSym;
 	}
@@ -48,23 +45,23 @@ public class Stock implements IStock {
 	public int getQuantity() {
 		return this.quantity;
 	}
-
-	public void setStockName(String value) {
-		this.stockName = value;
-	}
-
-	public String getStockName() {
-		return this.stockName;
+	public double getLast(){
+		return this.lastPrice;
 	}
 
 	public void setPrice(double value) {
+		this.lastPrice = this.price; 
 		this.price = value;
 		if (price > highestPrice) {
 			highestPrice = price;
+			notifyObservers();
+
 		}
 
 		if (price < lowestPrice) {
 			lowestPrice = price;
+			notifyObservers();
+
 		}
 	}
 
@@ -78,14 +75,19 @@ public class Stock implements IStock {
 			lastPrice = this.getPrice();
 			q.setValues(tickerSym);
 			setPrice(q.getLatest());
+			notifyObservers();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
+	
+	public double calculateValue() {
+		return this.getQuantity() * this.getPrice();
+	}
 	public boolean equals(Stock obj){
 		boolean result = false;
 		if(obj instanceof Stock)
-		      result = (this.getStockName() == obj.getStockName());
+		      result = (this.getTickerSym() == obj.getTickerSym());
 		    return result;
 		  }
 	}

@@ -20,7 +20,7 @@ public interface IGUI {
 	
 	public JLabel getFolioValue();
 
-	public void showNewFolioAlert();
+	public String showNewFolioAlert();
 	
 	public void createPortfolioTab(String PortfolioName);
 	

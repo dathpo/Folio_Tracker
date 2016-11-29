@@ -5,7 +5,9 @@ import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.FileNotFoundException;
 
+
 import model.IFolio;
+import model.Folio;
 import model.ITracker;
 import view.IGUI;
 
@@ -21,7 +23,7 @@ public class MenuListener implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-
+	
 		if(e.getActionCommand().equals("OpenFile")) {
 			File fileName = null;
 			try {
@@ -32,7 +34,7 @@ public class MenuListener implements ActionListener {
 		}
 
 		else if(e.getActionCommand().equals("SaveFile")) {
-			IFolio currentFolio = null;
+			IFolio currentFolio = tracker.getCurrFolio();
 			String folioName = null;
 			tracker.saveFile(currentFolio, folioName);
 		}
@@ -42,8 +44,12 @@ public class MenuListener implements ActionListener {
 		}
 		
 		else if(e.getActionCommand().equals("NewFolio")) {
-			IFolio folio = null;
-			tracker.newFolio(folio, null);
+			String folioName = gui.showNewFolioAlert();
+			System.out.println(folioName+" newFolio action");
+			IFolio folio = new Folio(folioName);
+			
+			tracker.newFolio(folio);
+			System.out.println(tracker.getCurrFolio().getFolioName());
 		}
 
 		else if(e.getActionCommand().equals("RefreshData")) {
@@ -52,8 +58,10 @@ public class MenuListener implements ActionListener {
 
 		else if(e.getActionCommand().equals("CloseFolio"))
 		{
-			IFolio folio = null;
+			IFolio folio = tracker.getCurrFolio();
+			System.out.println(tracker.getCurrFolio().getFolioName());
 			tracker.closeFolio(folio);
+			System.out.println(tracker.getCurrFolio().getFolioName());
 		}
 	}
 }

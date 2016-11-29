@@ -2,7 +2,6 @@ package model;
 
 public interface IStock {
 	
-	public void setTickerSym(String value);
 	
 	public String getTickerSym();
 	
@@ -10,14 +9,10 @@ public interface IStock {
 	
 	public int getQuantity();
 	
-	public void setStockName(String value);
-	
-	public String getStockName();
-	
 	public void setPrice(double value);
 	
 	public double getPrice();
 	
 	public void refreshPrice();
-	
+	public double getLast();
    }

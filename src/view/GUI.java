@@ -33,6 +33,7 @@ import model.Folio;
 import model.IFolio;
 import model.IStock;
 import model.ITracker;
+import model.Stock;
 
 public class GUI implements IGUI, Observer {
 
@@ -192,12 +193,11 @@ public class GUI implements IGUI, Observer {
 		
 		// Help Menu
 		JMenuItem hMAbout = new JMenuItem("About Folio Tracker");
-		pfMNew.setActionCommand("About");
 		hMAbout.addActionListener(new MenuListener(this, tracker));
 		helpMenu.add(hMAbout);
 	}
 
-	public void showNewFolioAlert() {
+	public String showNewFolioAlert() {
 
 		JTextField portFolioName = new JTextField(20);
 		JLabel portFolioNameLabel = new JLabel("Enter PortFolio Name:");
@@ -211,13 +211,11 @@ public class GUI implements IGUI, Observer {
 		portFolioPanel.add(portFolioName);
 
 		int result = JOptionPane.showConfirmDialog(null, portFolioPanel, "Create New PortFolio",
-				JOptionPane.OK_CANCEL_OPTION);
+				JOptionPane.OK_OPTION);
 
 		String folioName = (portFolioName.getText());
 
-		if (result == JOptionPane.CANCEL_OPTION) {
-			return;
-		}
+		
 		if (folioName.equals("")) {
 			JLabel enterFilenameLabel = new JLabel("Portfolio Name cannot blank.");
 			portFolioPanel.add(enterFilenameLabel);
@@ -227,11 +225,10 @@ public class GUI implements IGUI, Observer {
 		} else {
 			// Creates the tab and portfolio
 			createPortfolioTab(folioName);
-			IFolio folio = new Folio(folioName);
-			((Observable) folio).addObserver(this);
-			tracker.newFolio(folio, folioName);
+			return folioName;
 
 		}
+		return null;
 	}
 
 	// CREATE NEW PORTFOLIO TAB
@@ -263,39 +260,45 @@ public class GUI implements IGUI, Observer {
 		if (tabbedPane.getTabCount() > 0 && tables.isEmpty()) {
 			tabbedPane.removeTabAt(0);
 		}
-		
 		tables.add(table);
-
+		
 	}
 	
 
-	// UPDATE SHARE DATA IN TABLE
-	@Override
-	public void update(Observable o, Object arg) {
+	// UPDATE SHARE DATA IN TABLe
+public void update(Observable obs, Object obj){
+	IFolio folio = (IFolio) obs;
+	folio.refreshFolioData();
+	//check that there is a table to modify
+	if (this.tables.size() > 0) {
+		//put selected table into a defaulttablemodel to clear it
+		DefaultTableModel modelTable = (DefaultTableModel) this.tables.get(this.getTabbedPane().getSelectedIndex()).getModel();
 
-//		IFolio folio = (IFolio) o;
-//		// Ensures there is a table to modify
-//		if (this.tables.size() > 0) {
-//			DefaultTableModel tblModel = (DefaultTableModel) this.tables.get(this.getTabbedPane().getSelectedIndex())
-//					.getModel();
-//
-//			// Clear the table
-//			tblModel.setRowCount(0);
-//
-//			// Add entries for all the shares in the portfolio
-//			for (IStock s : folio.getShares()) {
-//				// Add a row to the table
-//				tblModel.addRow(new Object[] {
-//						s.getTicker(),
-//						s.getAmountOwned(),
-//						new DecimalFormat("0.00").format(s.getSharePrice()),
-//						new DecimalFormat("0.00").format(folio.getShare(s.getTicker()).getSharePrice() * s.getAmountOwned()),
-//						s.getChange()
-//						});
-//
-//			}
-//			// Update the total value of the folio
-//			NumberFormat formatter = NumberFormat.getCurrencyInstance(Locale.US);
-//			this.folioValue.setText(formatter.format(folio.getFolioValue()));
+		// Clear the table
+		modelTable.setRowCount(0);
+	
+		for (Stock s : folio.getHoldings()){
+			double change = ((s.getLast()-s.getPrice())/s.getLast())*100;
+			modelTable.insertRow(0, new Object[] { s.getTickerSym(),s.getQuantity(), s.getPrice(), s.calculateValue(), change});
 		}
+			
 	}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

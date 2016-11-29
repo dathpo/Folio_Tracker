@@ -3,15 +3,20 @@ package model;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-
+import java.util.Observable;
 import view.IGUI;
 
-public class Tracker implements ITracker {
+public class Tracker extends Observable implements ITracker {
 
 	private ArrayList<IFolio> folios = new ArrayList<IFolio>();
-
+	private IFolio currentFolio;
+	
+	
 	public ArrayList<IFolio> getFolios() {
 		return this.folios;
+	}
+	public IFolio getCurrFolio(){
+		return this.currentFolio;
 	}
 
 	public IFolio openFile(File fileName, IGUI gui) throws FileNotFoundException {
@@ -19,46 +24,34 @@ public class Tracker implements ITracker {
 	}
 
 	public void saveFile(IFolio currentFolio, String folioName) {
-
+		
 	}
 
-	public void newFolio(IFolio folio, String folioName) {
-		IFolio newFolio = new Folio(folioName);
-		folios.add(newFolio);
+	public void newFolio(IFolio folio) {
+		
+		folios.add(folio);
+		currentFolio = folio;
+		System.out.println(folio.getFolioName());
+		notifyObservers();
 	}
 
 	public void closeFolio(IFolio folio) {
+		
+		currentFolio = folios.get((folios.indexOf(currentFolio)-1));
 		folios.remove(folio);
+	
+		notifyObservers();
+
 	}
 
 	public void refreshAllData() {
+		for(IFolio f: folios){
+			 f.refreshFolioData();
+			}
 	}
 
-	//		   public void setFolios(ArrayList value) {
-		//	      this.folios = value;
-	//	   }
-	//		
-	//	   public void addStock(String folioName, String tickerSym, int quantity,  double price) {
-	//		   for(IFolio f: folios){
-	//		    	  if(f.getFolioName()==folioName){
-	//		    		 f.addStock(tickerSym, quantity);
-	//		    	  }
-	//		      }
-	//	   }
-	//	   
-	//	   public void editHolding(String folioName,String tickerSym, int newQuantity, double newPrice) {
-	//		   for(Folio f: folios){
-	//		    	  if(f.getFolioName()==folioName){
-	//		    		 f.editHolding(tickerSym, newQuantity, newPrice);
-	//		    	  }
-	//		      }
-	//	   }
-	//	   
-	//	   public void refreshPrices() {
-	//		   for(Folio f: folios){
-	//		    	 	f.refreshFolio();
-	//		      }
-	//	   }
-
+public void changeCurrFolio(int index){
+	currentFolio = folios.get(index);
+}
 
 }

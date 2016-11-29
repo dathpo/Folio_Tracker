@@ -19,7 +19,7 @@ public class TrackerTest {
 		Tracker t1 = new Tracker();
 		IFolio Folio = new Folio("test");
 		ArrayList<IFolio> Folios = t1.getFolios();
-		t1.newFolio(Folio, "test");
+		t1.newFolio(Folio);
 		assertTrue(Folios.contains("test"));
 }
 }

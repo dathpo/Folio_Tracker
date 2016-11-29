@@ -14,9 +14,11 @@ public interface ITracker {
 
 	void saveFile(IFolio currentFolio, String folioName);
 
-	void newFolio(IFolio folio, String folioName);
+	void newFolio(IFolio folio);
 
 	void closeFolio(IFolio folio);
 
 	void refreshAllData();
+	IFolio getCurrFolio();
+	void changeCurrFolio(int index);
 }
