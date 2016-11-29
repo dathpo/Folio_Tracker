@@ -34,9 +34,14 @@ public class BuyShareListener implements ActionListener {
 	if (e.getActionCommand().equals("Sell")){
 		String  ticker = gui.getTickerSText().getText();
 		int numShares = Integer.parseInt(gui.getShareNumberText().getText());
-		numShares= numShares*-1;
-		int indexStock = track.getCurrFolio().getStocks().indexOf(ticker);
-		track.getCurrFolio().getStocks().get(indexStock).setQuantity(numShares);
+		numShares= numShares*(-1);
+		for(IStock s : track.getCurrFolio().getStocks()){
+		System.out.println("Stock s"+ticker+s.toString());
+			if (s.getTickerSym().equals(ticker)){
+				s.setQuantity(numShares);
+				System.out.println("number of shares"+numShares);
+			}
+		}
 		System.out.println("Sold "+ track.getCurrFolio().getStocks().get(0).getQuantity());
 		
 	}
