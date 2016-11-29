@@ -3,19 +3,39 @@ package controller;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import model.IStock;
 import model.ITracker;
+import model.Stock;
 import view.IGUI;
 
 public class BuyShareListener implements ActionListener {
-
+	private IGUI gui;
+	private ITracker track;
 	public BuyShareListener(IGUI gui, ITracker t) {
-		
+		this.gui = gui;
+		this.track = t;
 	}
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
+		System.out.println(e.getActionCommand());
+		if (e.getActionCommand().equals("Buy")){
+			String  ticker = gui.getTickerSText().getText();
+			int numShares = Integer.parseInt(gui.getShareNumberText().getText());
+			IStock newStock = new Stock(ticker, numShares);
+			track.getCurrFolio().addStock(newStock);
+	
+		}
+	
+	if (e.getActionCommand().equals("Sell")){
+		String  ticker = gui.getTickerSText().getText();
+		int numShares = Integer.parseInt(gui.getShareNumberText().getText());
+		track.getCurrFolio().editHolding(ticker, numShares);
+		System.out.println("Sold "+ track.getCurrFolio().getStocks().get(0).getQuantity());
+		
 	}
 
+}
 }
 /*
 public class AddTickerListener implements ActionListener {

@@ -119,7 +119,7 @@ public class GUI implements IGUI, Observer {
 		
 		// Sell Share Button
 		JButton btnSellStock = new JButton("Sell");
-		btnSellStock.addActionListener(new SellShareListener(this, tracker));
+		btnSellStock.addActionListener(new BuyShareListener(this, tracker));
 		topPanel.add(btnSellStock);
 		btnSellStock.setPreferredSize(new Dimension(80, 25));	
 

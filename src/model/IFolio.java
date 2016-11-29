@@ -6,16 +6,18 @@ public interface IFolio {
 	
 	public String getFolioName();
 
-	public void createStock(String tickerSym, int quantity);
+	public IStock createStock(String tickerSym, int quantity);
 	
-	public IStock addStock(IStock stock);
+	public void addStock(IStock stock);
 	
-	public boolean editHolding(String tickerSym, int newQuantity, double newPrice);
+	public boolean editHolding(String tickerSym, int newQuantity);
 	
 	public double calculateValue(IFolio folio);
 	
 	public ArrayList<IStock> getStocks();
 	
 	void refreshFolioData();
+	
+	void sellShares(String tickerSym, int numSold);
 
    }

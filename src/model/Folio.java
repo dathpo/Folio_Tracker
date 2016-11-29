@@ -7,6 +7,7 @@ public class Folio extends Observable implements IFolio {
 	
 	public IStock stock;
 	public String folioName;
+	private double newPrice;
 	private ArrayList<IStock> stocks;
 	
 	public ArrayList<IStock> getStocks() {
@@ -22,23 +23,24 @@ public class Folio extends Observable implements IFolio {
 		return this.folioName;
 	}
 	
-	public void createStock(String tickerSym, int quantity) {
+	public IStock createStock(String tickerSym, int quantity) {
 		stock = new Stock(tickerSym, quantity);
+		return stock;
 	}
 	
-	public IStock addStock(IStock stock) {
+	public void addStock(IStock stock) {
 		stocks.add(stock);
 		setChanged();
 		notifyObservers();
-		return stock;
+
 	}
 	@Override
 	public String toString(){
 		return folioName;
 	}
-	public boolean editHolding(String tickerSym, int newQuantity, double newPrice) {
+	public boolean editHolding(String tickerSym, int newQuantity) {
 		for (IStock s : stocks) {
-			if (s.getTickerSym() == tickerSym) {
+			if (s.getTickerSym().equals(tickerSym) ) {
 				if (s.getQuantity() != newQuantity) {
 					s.setQuantity(newQuantity);
 					notifyObservers();
@@ -73,15 +75,23 @@ public class Folio extends Observable implements IFolio {
 
 		}
 	}
+	@Override
+	public void sellShares(String tickerSym, int numSold) {
+		for (IStock s: stocks){
+			System.out.println("tickerSym"+tickerSym+ "s.gettickerSym"+s.getTickerSym());
+			if (tickerSym.equals(s.getTickerSym())){
+				System.out.println(s.getQuantity());
+				s.setQuantity(s.getQuantity()- numSold);
+			}
+		}
+		
+	}
 	
 	   
 //	   public void addStock(String folioName, String tickerSym, int quantity,  double price) {
 //		   	this.addStock(tickerSym, quantity); 
 //	   }
-	   
-	   public void editHolding(String folioName,String tickerSym, int newQuantity, double newPrice) {
-		   this.editHolding(tickerSym, newQuantity, newPrice); 	
-	   }
+	
 	   
 
 		
