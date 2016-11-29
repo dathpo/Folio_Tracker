@@ -55,7 +55,6 @@ public class Folio extends Observable implements IFolio {
 	}
 	
 	public double calculateValue(IFolio folio) {
-		double folioValue = 0;
 		double stockValue = 0;
 		for (IStock s : stocks) {
 				double p = s.getPrice();

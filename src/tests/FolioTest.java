@@ -26,7 +26,7 @@ public class FolioTest {
 	
 	
 	@Test
-	public void testCalculateValue(){
+	public void testPortFolioVal(){
 		IFolio testFolio2 = new Folio("test2");
 		IStock stock1 = new Stock("MSFT", 1);
 		IStock stock2 = new Stock("GOOG", 1);
@@ -38,11 +38,12 @@ public class FolioTest {
 			  q.setValues("GOOG");
 			  q.setValues("MSFT"); 
 			  price=stock1.getPrice()+stock2.getPrice();
+			  testFolio2.refreshFolioData();
 		  }
 		  catch (Exception e){
 			 e.printStackTrace(); 
 		  }
-		  assertTrue(price == (testFolio2.calculateValue(testFolio2)));
+		  assertTrue(price == (testFolio2.getTotalValue()));
 	}
 	@Test
 	public void testSellShares(){
