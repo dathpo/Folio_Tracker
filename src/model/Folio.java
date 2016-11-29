@@ -54,20 +54,20 @@ public class Folio extends Observable implements IFolio {
 		return true;
 	}
 	
-	public double calculateValue(IFolio folio) {
-		double stockValue = 0;
+	public double calculateValue() {
+	
 		for (IStock s : stocks) {
 				double p = s.getPrice();
 				int q = s.getQuantity();
-				stockValue = p * q;
+				portfolioVal += p * q;
 		}
-		return stockValue;
+		return portfolioVal;
 	}
 	
 	public void refreshFolioData() {
 		for(IStock s : stocks){
 			s.refreshPrice();
-			portfolioVal+=s.calculateValue();
+	
 			notifyObservers();
 
 		}
