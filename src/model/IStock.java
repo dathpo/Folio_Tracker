@@ -15,4 +15,6 @@ public interface IStock {
 	
 	public void refreshPrice();
 	public double getLast();
+
+	public double calculateValue();
    }

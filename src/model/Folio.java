@@ -3,38 +3,41 @@ package model;
 import java.util.ArrayList;
 import java.util.Observable;
 
-public class Folio extends Observable implements IFolio  {
-
-	public String folioName;
-	private ArrayList<Stock> Holdings;
+public class Folio extends Observable implements IFolio {
 	
-	public void setHoldings(ArrayList value) {
-		this.Holdings = value;
-		notifyObservers();
-	}
-	public ArrayList<Stock> getHoldings() {
-		return this.Holdings;
+	public IStock stock;
+	public String folioName;
+	private ArrayList<IStock> stocks;
+	
+	public ArrayList<IStock> getStocks() {
+		return this.stocks;
 	}
 	public Folio(String folioName) {
 		this.folioName = folioName;
-		ArrayList<Stock> Holdings = new ArrayList<Stock>();
+		stocks = new ArrayList<IStock>();
+		setChanged();
 		notifyObservers();
 	}
 	public String getFolioName() {
 		return this.folioName;
 	}
-	public boolean addStock(String tickerSym, int quantity) {
-		Stock newStock = new Stock(tickerSym, quantity);
-		Holdings.add(newStock);
+	
+	public void createStock(String tickerSym, int quantity) {
+		stock = new Stock(tickerSym, quantity);
+	}
+	
+	public IStock addStock(IStock stock) {
+		stocks.add(stock);
+		setChanged();
 		notifyObservers();
-		return true;
+		return stock;
 	}
 	@Override
 	public String toString(){
 		return folioName;
 	}
 	public boolean editHolding(String tickerSym, int newQuantity, double newPrice) {
-		for (Stock s : Holdings) {
+		for (IStock s : stocks) {
 			if (s.getTickerSym() == tickerSym) {
 				if (s.getQuantity() != newQuantity) {
 					s.setQuantity(newQuantity);
@@ -53,7 +56,7 @@ public class Folio extends Observable implements IFolio  {
 	}
 	
 	public double calculateValue(String tickerSym) {
-		for (Stock s : Holdings) {
+		for (IStock s : stocks) {
 			if (s.getTickerSym() == tickerSym) {
 				double p = s.getPrice();
 				int q = s.getQuantity();
@@ -64,7 +67,7 @@ public class Folio extends Observable implements IFolio  {
 	}
 	
 	public void refreshFolioData() {
-		for(Stock s : Holdings){
+		for(IStock s : stocks){
 			s.refreshPrice();
 			notifyObservers();
 
@@ -72,9 +75,9 @@ public class Folio extends Observable implements IFolio  {
 	}
 	
 	   
-	   public void addStock(String folioName, String tickerSym, int quantity,  double price) {
-		   	this.addStock(tickerSym, quantity); 
-	   }
+//	   public void addStock(String folioName, String tickerSym, int quantity,  double price) {
+//		   	this.addStock(tickerSym, quantity); 
+//	   }
 	   
 	   public void editHolding(String folioName,String tickerSym, int newQuantity, double newPrice) {
 		   this.editHolding(tickerSym, newQuantity, newPrice); 	

@@ -46,6 +46,7 @@ public class GUI implements IGUI, Observer {
 	private JLabel folioValue;
 	private JTextField tickerSText;
 	private JTextField shareNumberText;
+	private DefaultTableModel model;
 
 	public JTabbedPane getTabbedPane() {
 		return tabbedPane;
@@ -126,7 +127,7 @@ public class GUI implements IGUI, Observer {
 		tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 		frame.getContentPane().add(tabbedPane);
 		tabbedPane.addChangeListener(new TabChangeListener(this, tracker));
-		tabbedPane.addTab("Welcome", null, null, null);
+		tabbedPane.addTab("Please create or open a portfolio", null, null, null);
 
 		// Bottom Panel
 		JPanel bottomPanel = new JPanel();
@@ -190,11 +191,6 @@ public class GUI implements IGUI, Observer {
 		portfolioMenu.add(pfMRefresh);
 		portfolioMenu.add(pfMSeparator);
 		portfolioMenu.add(pfMClose);
-		
-		// Help Menu
-		JMenuItem hMAbout = new JMenuItem("About Folio Tracker");
-		hMAbout.addActionListener(new MenuListener(this, tracker));
-		helpMenu.add(hMAbout);
 	}
 
 	public String showNewFolioAlert() {
@@ -233,12 +229,15 @@ public class GUI implements IGUI, Observer {
 
 	// CREATE NEW PORTFOLIO TAB
 	public void createPortfolioTab(String PortfolioName) {
-		DefaultTableModel model = new DefaultTableModel();
+		model = new DefaultTableModel();
 		model.addColumn("Ticker Symbol");
 		model.addColumn("Number of Shares");
 		model.addColumn("Price per Share ($)");
 		model.addColumn("Holding Value ($)");
 		model.addColumn("Change (%)");
+		
+		String[] socrates = {"a", "", "469-399 B.C." };
+	    model.addRow(socrates);
 
 		// MAKE TABLE NON EDITABLE
 		JTable table = new JTable(model) {
@@ -272,14 +271,16 @@ public void update(Observable obs, Object obj){
 	//check that there is a table to modify
 	if (this.tables.size() > 0) {
 		//put selected table into a defaulttablemodel to clear it
-		DefaultTableModel modelTable = (DefaultTableModel) this.tables.get(this.getTabbedPane().getSelectedIndex()).getModel();
+		model = (DefaultTableModel) this.tables.get(this.getTabbedPane().getSelectedIndex()).getModel();
 
 		// Clear the table
-		modelTable.setRowCount(0);
+		model.setRowCount(0);
+		String[] socrates = { "g2", "", "469-399 B.C." };
+	    model.addRow(socrates);
 	
-		for (Stock s : folio.getHoldings()){
+		for (IStock s : folio.getStocks()){
 			double change = ((s.getLast()-s.getPrice())/s.getLast())*100;
-			modelTable.insertRow(0, new Object[] { s.getTickerSym(),s.getQuantity(), s.getPrice(), s.calculateValue(), change});
+			model.insertRow(0, new Object[] { s.getTickerSym(),s.getQuantity(), s.getPrice(), s.calculateValue(), change});
 		}
 			
 	}
