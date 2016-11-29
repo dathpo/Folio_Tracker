@@ -37,7 +37,7 @@ public class Tracker extends Observable implements ITracker {
 
 	public void closeFolio(IFolio folio) {
 		
-		currentFolio = folios.get((folios.indexOf(currentFolio)-1));
+		currentFolio = folios.get((folios.indexOf(currentFolio)));
 		folios.remove(folio);
 	
 		notifyObservers();
@@ -54,4 +54,6 @@ public void changeCurrFolio(int index){
 	currentFolio = folios.get(index);
 }
 
+	
 }
+

@@ -57,11 +57,12 @@ public class MenuListener implements ActionListener {
 		}
 
 		else if(e.getActionCommand().equals("CloseFolio"))
-		{
+		{	
 			IFolio folio = tracker.getCurrFolio();
-			System.out.println(tracker.getCurrFolio().getFolioName());
+			System.out.println("CURRENT BEFORE DELETE - "+ tracker.getCurrFolio().getFolioName());
 			tracker.closeFolio(folio);
-			System.out.println(tracker.getCurrFolio().getFolioName());
+			gui.getTabbedPane().remove(gui.getTabbedPane().getSelectedIndex());
+			System.out.println("CURRENT AFTER DELETE - " + tracker.getCurrFolio().getFolioName());
 		}
 	}
 }
