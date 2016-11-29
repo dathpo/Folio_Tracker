@@ -92,11 +92,7 @@ public class Folio extends Observable implements IFolio {
 		
 	}
 	
-	   
-//	   public void addStock(String folioName, String tickerSym, int quantity,  double price) {
-//		   	this.addStock(tickerSym, quantity); 
-//	   }
-	
+
 	   
 
 		

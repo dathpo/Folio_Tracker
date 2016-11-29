@@ -10,7 +10,7 @@ public interface IFolio {
 	
 	public boolean editHolding(String tickerSym, int newQuantity);
 	
-	public double calculateValue(IFolio folio);
+	public double calculateValue();
 	
 	public ArrayList<IStock> getStocks();
 	
