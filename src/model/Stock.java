@@ -8,7 +8,6 @@ public class Stock extends Observable implements IStock {
 	private double highestPrice;
 	private double lowestPrice;
 	private double price;
-	private String stockName;
 	private String tickerSym;
 	private int quantity;
 	private double lastPrice;
@@ -40,8 +39,9 @@ public class Stock extends Observable implements IStock {
 	}
 
 	public void setQuantity(int value) {
-		this.quantity = value;
+		this.quantity = value + this.quantity ;
 	}
+
 
 	public int getQuantity() {
 		return this.quantity;

@@ -23,11 +23,7 @@ public class Folio extends Observable implements IFolio {
 		return this.folioName;
 	}
 	
-	public IStock createStock(String tickerSym, int quantity) {
-		stock = new Stock(tickerSym, quantity);
-		return stock;
-	}
-	
+
 	public void addStock(IStock stock) {
 		stocks.add(stock);
 		setChanged();
@@ -77,6 +73,7 @@ public class Folio extends Observable implements IFolio {
 	}
 	@Override
 	public void sellShares(String tickerSym, int numSold) {
+		System.out.println("SellShares");
 		for (IStock s: stocks){
 			System.out.println("tickerSym"+tickerSym+ "s.gettickerSym"+s.getTickerSym());
 			if (tickerSym.equals(s.getTickerSym())){

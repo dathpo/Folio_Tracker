@@ -5,8 +5,6 @@ import java.util.ArrayList;
 public interface IFolio {
 	
 	public String getFolioName();
-
-	public IStock createStock(String tickerSym, int quantity);
 	
 	public void addStock(IStock stock);
 	

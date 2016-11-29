@@ -22,15 +22,21 @@ public class BuyShareListener implements ActionListener {
 		if (e.getActionCommand().equals("Buy")){
 			String  ticker = gui.getTickerSText().getText();
 			int numShares = Integer.parseInt(gui.getShareNumberText().getText());
-			IStock newStock = new Stock(ticker, numShares);
-			track.getCurrFolio().addStock(newStock);
-	
+			if(track.getCurrFolio().getStocks().contains(ticker)){
+				int indexStock = track.getCurrFolio().getStocks().indexOf(ticker);
+				track.getCurrFolio().getStocks().get(indexStock).setQuantity(numShares);
+			}else{
+				IStock newStock = new Stock(ticker, numShares);
+				track.getCurrFolio().addStock(newStock);
+			}
 		}
 	
 	if (e.getActionCommand().equals("Sell")){
 		String  ticker = gui.getTickerSText().getText();
 		int numShares = Integer.parseInt(gui.getShareNumberText().getText());
-		track.getCurrFolio().editHolding(ticker, numShares);
+		numShares= numShares*-1;
+		int indexStock = track.getCurrFolio().getStocks().indexOf(ticker);
+		track.getCurrFolio().getStocks().get(indexStock).setQuantity(numShares);
 		System.out.println("Sold "+ track.getCurrFolio().getStocks().get(0).getQuantity());
 		
 	}
