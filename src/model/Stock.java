@@ -21,7 +21,6 @@ public class Stock extends Observable implements IStock {
 				q.setValues(tickerSym);
 			
 				lastPrice = this.getPrice();
-				q.setValues(tickerSym);
 				setPrice(q.getLatest());
 				}catch(Exception e){
 					e.printStackTrace();
