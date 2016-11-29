@@ -44,10 +44,11 @@ public class MenuListener implements ActionListener {
 		}
 		
 		else if(e.getActionCommand().equals("NewFolio")) {
-			String folioName = gui.showNewFolioAlert();
+			String folioName = gui.newFolioAlert();
 			IFolio folio = new Folio(folioName);
 			
 			tracker.newFolio(folio);
+			gui.getTabbedPane().setSelectedIndex(tracker.getFolios().size()-1);
 			
 		}
 

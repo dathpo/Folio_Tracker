@@ -134,7 +134,7 @@ public class GUI implements IGUI, Observer {
 		contentPanel.add(bottomPanel, BorderLayout.SOUTH);
 		
 		// Portfolio Value label
-		JLabel folioValueLabel = new JLabel("Total Portfolio Value:" + tracker.getCurrFolio().getTotalValue());
+		JLabel folioValueLabel = new JLabel("Total Portfolio Value:");
 		bottomPanel.add(folioValueLabel);
 
 		// Portfolio Value
@@ -280,6 +280,7 @@ public class GUI implements IGUI, Observer {
 			System.out.println("obs instanceof ITracker");
 		}
 	}
+
 }
 
 

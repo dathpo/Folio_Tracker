@@ -18,7 +18,7 @@ public class TabChangeListener implements ChangeListener {
 	public void stateChanged(ChangeEvent arg0) {
 		if (!(track.getFolios().isEmpty())){
 		track.changeCurrFolio(gui.getTabbedPane().getSelectedIndex());
-		System.out.println(track.getCurrFolio());
+		System.out.println("Tab changed to "+track.getCurrFolio());
 	}
 	}
 }
