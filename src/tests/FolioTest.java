@@ -42,8 +42,6 @@ public class FolioTest {
 		  catch (Exception e){
 			 e.printStackTrace(); 
 		  }
-		  System.out.println(price);
-		  System.out.println(testFolio2.calculateValue(testFolio2));
 		  assertTrue(price == (testFolio2.calculateValue(testFolio2)));
 	}
 
