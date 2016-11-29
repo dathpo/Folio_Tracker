@@ -44,5 +44,17 @@ public class FolioTest {
 		  }
 		  assertTrue(price == (testFolio2.calculateValue(testFolio2)));
 	}
+	@Test
+	public void testSellShares(){
+		IFolio folio = new Folio("test");
+		IStock stock = new Stock("GOOG", 1);
+		folio.addStock(stock);
+		folio.sellShares("GOOG", 1);
+		ArrayList<IStock> stocks = folio.getStocks();
+		System.out.println(stocks.size());
+		assertTrue(stocks.isEmpty());
+	}
+	
+	
 
 }
