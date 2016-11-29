@@ -55,15 +55,15 @@ public class Folio extends Observable implements IFolio {
 		return true;
 	}
 	
-	public double calculateValue(String tickerSym) {
+	public double calculateValue(IFolio folio) {
+		double folioValue = 0;
 		for (IStock s : stocks) {
-			if (s.getTickerSym() == tickerSym) {
 				double p = s.getPrice();
 				int q = s.getQuantity();
-				return p * q;
-			}
+				double stockValue = p * q;
+				folioValue = folioValue + stockValue;
 		}
-		return 0;
+		return folioValue;
 	}
 	
 	public void refreshFolioData() {

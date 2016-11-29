@@ -29,21 +29,22 @@ public class FolioTest {
 	public void testCalculateValue(){
 		IFolio testFolio2 = new Folio("test2");
 		IStock stock1 = new Stock("MSFT", 1);
-		IStock stock2 = new Stock("GOOG", 2);
+		IStock stock2 = new Stock("GOOG", 1);
 		testFolio2.addStock(stock1);
 		testFolio2.addStock(stock2);
 		IQuote q = new Quote(false);
 		double price=0;
 		  try{
-			  q.setValues("MSFT");
 			  q.setValues("GOOG");
-			  price=q.getLatest();
+			  q.setValues("MSFT"); 
+			  price=stock1.getPrice()+stock2.getPrice();
 		  }
 		  catch (Exception e){
 			 e.printStackTrace(); 
 		  }
-		  System.out.println();
-		  assertTrue(!(price == (testFolio2.calculateValue("GOOG")+(testFolio2.calculateValue("MSFT")))));
+		  System.out.println(price);
+		  System.out.println(testFolio2.calculateValue(testFolio2));
+		  assertTrue(price == (testFolio2.calculateValue(testFolio2)));
 	}
 
 }
