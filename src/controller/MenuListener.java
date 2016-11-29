@@ -45,11 +45,10 @@ public class MenuListener implements ActionListener {
 		
 		else if(e.getActionCommand().equals("NewFolio")) {
 			String folioName = gui.showNewFolioAlert();
-			System.out.println(folioName+" newFolio action");
 			IFolio folio = new Folio(folioName);
 			
 			tracker.newFolio(folio);
-			System.out.println(tracker.getCurrFolio().getFolioName());
+			
 		}
 
 		else if(e.getActionCommand().equals("RefreshData")) {
@@ -59,10 +58,10 @@ public class MenuListener implements ActionListener {
 		else if(e.getActionCommand().equals("CloseFolio"))
 		{	
 			IFolio folio = tracker.getCurrFolio();
-			System.out.println("CURRENT BEFORE DELETE - "+ tracker.getCurrFolio().getFolioName());
+		
 			tracker.closeFolio(folio);
 			gui.getTabbedPane().remove(gui.getTabbedPane().getSelectedIndex());
-			System.out.println("CURRENT AFTER DELETE - " + tracker.getCurrFolio().getFolioName());
+
 		}
 	}
 }

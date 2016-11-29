@@ -74,14 +74,20 @@ public class Folio extends Observable implements IFolio {
 	@Override
 	public void sellShares(String tickerSym, int numSold) {
 		System.out.println("SellShares");
+		IStock stockRM= null;
 		for (IStock s: stocks){
-			System.out.println("tickerSym"+tickerSym+ "s.gettickerSym"+s.getTickerSym());
 			if (tickerSym.equals(s.getTickerSym())){
 				System.out.println(s.getQuantity());
 				s.setQuantity(s.getQuantity()- numSold);
+				if(s.getQuantity()<=0){
+					 stockRM= s;
+				}
 			}
-		}
 		
+		}
+		if ( stockRM !=null){
+			stocks.remove(stockRM);
+		}
 	}
 	
 	   

@@ -18,7 +18,7 @@ public class BuyShareListener implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		System.out.println(e.getActionCommand());
+		
 		if (e.getActionCommand().equals("Buy")){
 			String  ticker = gui.getTickerSText().getText();
 			int numShares = Integer.parseInt(gui.getShareNumberText().getText());
@@ -39,10 +39,10 @@ public class BuyShareListener implements ActionListener {
 		System.out.println("Stock s"+ticker+s.toString());
 			if (s.getTickerSym().equals(ticker)){
 				s.setQuantity(numShares);
-				System.out.println("number of shares"+numShares);
+			
 			}
 		}
-		System.out.println("Sold "+ track.getCurrFolio().getStocks().get(0).getQuantity());
+		
 		
 	}
 

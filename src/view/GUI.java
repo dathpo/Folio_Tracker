@@ -207,7 +207,7 @@ public class GUI implements IGUI, Observer {
 		portFolioPanel.add(portFolioName);
 
 		int result = JOptionPane.showConfirmDialog(null, portFolioPanel, "Create New PortFolio",
-				JOptionPane.OK_OPTION);
+				JOptionPane.PLAIN_MESSAGE);
 
 		String folioName = (portFolioName.getText());
 
