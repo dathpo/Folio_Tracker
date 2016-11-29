@@ -41,10 +41,10 @@ public class TrackerTest {
 		t1.newFolio(Folio);
 		IStock stock = new Stock("GOOG", 1);
 		Folio.addStock(stock);
-		double amount = Folio.calculateValue(Folio);
+		double amount = Folio.getTotalValue();
 		Folio.addStock(stock);
 		Folio.refreshFolioData();
-		double amount2 = Folio.calculateValue(Folio);
+		double amount2 = Folio.getTotalValue();
 		assertTrue(amount2==(amount*2));
 
 	}
