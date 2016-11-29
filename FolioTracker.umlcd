@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_JK8iYLY4EeaIgsSsuDlqtA">
   <modelElement href="FolioTracker.uml#_JDB8gLY4EeaIgsSsuDlqtA"/>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_J5lxELY4EeaIgsSsuDlqtA" sourceAnchor="184.0,74.0" targetAnchor="292.0,20.0" target="_J8xA4LY4EeaIgsSsuDlqtA" source="_J5mYKbY4EeaIgsSsuDlqtA">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_J5lxELY4EeaIgsSsuDlqtA" sourceAnchor="182.0,74.0" targetAnchor="292.0,18.0" target="_J8xA4LY4EeaIgsSsuDlqtA" source="_J5mYKbY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_JxzuEbY4EeaIgsSsuDlqtA"/>
-    <bendpoints xmi:id="_thYeALY6EeaIgsSsuDlqtA" sourceX="1" sourceY="14" targetX="709"/>
+    <bendpoints xmi:id="_6CVdILY6EeaIgsSsuDlqtA" sourceY="11" targetX="706" targetY="-1"/>
     <stereotypes xmi:id="_J5lxEbY4EeaIgsSsuDlqtA" name="Reference">
       <modelElement href="FolioTracker.uml#_Jx0VILY4EeaIgsSsuDlqtA"/>
     </stereotypes>
     <nameVisual xmi:id="_J5lxErY4EeaIgsSsuDlqtA" text="">
-      <visualProperties xmi:id="_KI28ILY4EeaIgsSsuDlqtA" position="-374.0,-18.999999999999943"/>
+      <visualProperties xmi:id="_KI28ILY4EeaIgsSsuDlqtA" position="-374.0,-19.00000000000003"/>
     </nameVisual>
     <sourceRole xmi:id="_J5lxE7Y4EeaIgsSsuDlqtA" aggregationKind="NONE" name="">
       <modelElement href="FolioTracker.uml#_JxzuErY4EeaIgsSsuDlqtA"/>
@@ -18,16 +18,16 @@
     </sourceRole>
     <targetRole xmi:id="_J5lxFrY4EeaIgsSsuDlqtA" aggregationKind="NONE" name="gui" navigable="true">
       <modelElement href="FolioTracker.uml#_JxPGULY4EeaIgsSsuDlqtA"/>
-      <visualProperties xmi:id="_KI28IbY4EeaIgsSsuDlqtA" position="43.0,1.9999999999998863"/>
+      <visualProperties xmi:id="_KI28IbY4EeaIgsSsuDlqtA" position="43.0,1.999999999999858"/>
       <visibility xmi:id="_J5lxF7Y4EeaIgsSsuDlqtA" label="-"/>
       <cardinality xmi:id="_J5lxGLY4EeaIgsSsuDlqtA" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_J5mYILY4EeaIgsSsuDlqtA" sourceAnchor="0.0,64.0" targetAnchor="173.0,0.0" target="_J6bemLY4EeaIgsSsuDlqtA" source="_J5mYKbY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_Jx0VIbY4EeaIgsSsuDlqtA"/>
-    <bendpoints xmi:id="_thZFELY6EeaIgsSsuDlqtA" sourceX="-125" targetX="937" targetY="-472"/>
-    <bendpoints xmi:id="_thZFEbY6EeaIgsSsuDlqtA" sourceX="-126" sourceY="312" targetX="936" targetY="-160"/>
-    <bendpoints xmi:id="_thZFErY6EeaIgsSsuDlqtA" sourceX="-1062" sourceY="313" targetY="-159"/>
+    <bendpoints xmi:id="_6CVdIbY6EeaIgsSsuDlqtA" sourceX="-125" targetX="937" targetY="-472"/>
+    <bendpoints xmi:id="_6CVdIrY6EeaIgsSsuDlqtA" sourceX="-126" sourceY="312" targetX="936" targetY="-160"/>
+    <bendpoints xmi:id="_6CVdI7Y6EeaIgsSsuDlqtA" sourceX="-1062" sourceY="313" targetY="-159"/>
     <stereotypes xmi:id="_J5mYIbY4EeaIgsSsuDlqtA" name="Reference">
       <modelElement href="FolioTracker.uml#_Jx08MLY4EeaIgsSsuDlqtA"/>
     </stereotypes>
@@ -49,12 +49,12 @@
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_J6ODMLY4EeaIgsSsuDlqtA" sourceAnchor="0.0,36.0" targetAnchor="146.0,212.0" target="_J8xA4LY4EeaIgsSsuDlqtA" source="_J6QfcLY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_Jx08MbY4EeaIgsSsuDlqtA"/>
-    <bendpoints xmi:id="_thaTMLY6EeaIgsSsuDlqtA" sourceX="-670" sourceY="-1" targetY="85"/>
+    <bendpoints xmi:id="_6CWEMLY6EeaIgsSsuDlqtA" sourceX="-670" sourceY="-4" targetY="82"/>
     <stereotypes xmi:id="_J6OqQ7Y4EeaIgsSsuDlqtA" name="Reference">
       <modelElement href="FolioTracker.uml#_Jx1jQLY4EeaIgsSsuDlqtA"/>
     </stereotypes>
     <nameVisual xmi:id="_J6OqQLY4EeaIgsSsuDlqtA" text="">
-      <visualProperties xmi:id="_KI4xUbY4EeaIgsSsuDlqtA" position="40.0,-18.0000000000001"/>
+      <visualProperties xmi:id="_KI4xUbY4EeaIgsSsuDlqtA" position="40.0,-17.999999999999957"/>
     </nameVisual>
     <sourceRole xmi:id="_J6OqQbY4EeaIgsSsuDlqtA" aggregationKind="NONE" name="">
       <modelElement href="FolioTracker.uml#_Jx08MrY4EeaIgsSsuDlqtA"/>
@@ -71,7 +71,7 @@
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_J6ODMbY4EeaIgsSsuDlqtA" sourceAnchor="0.0,66.0" targetAnchor="201.0,0.0" target="_J6bemLY4EeaIgsSsuDlqtA" source="_J6QfcLY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_Jx1jQbY4EeaIgsSsuDlqtA"/>
-    <bendpoints xmi:id="_thaTMbY6EeaIgsSsuDlqtA" sourceX="-1034" sourceY="-1" targetY="-141"/>
+    <bendpoints xmi:id="_6CWEMbY6EeaIgsSsuDlqtA" sourceX="-1034" sourceY="-1" targetY="-141"/>
     <stereotypes xmi:id="_J6PRUrY4EeaIgsSsuDlqtA" name="Reference">
       <modelElement href="FolioTracker.uml#_Jx1jQ7Y4EeaIgsSsuDlqtA"/>
     </stereotypes>
@@ -133,7 +133,7 @@
     <modelElement href="FolioTracker.uml#_JwNyoLY4EeaIgsSsuDlqtA"/>
     <visualProperties xmi:id="_Lqdm4LY6EeaIgsSsuDlqtA" position="73.0,347.0"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_J7PW4LY4EeaIgsSsuDlqtA" sourceAnchor="158.0,0.0" targetAnchor="162.0,192.0" dashed="true" superClass="_J6bemLY4EeaIgsSsuDlqtA" subClass="_J7ToULY4EeaIgsSsuDlqtA">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_J7PW4LY4EeaIgsSsuDlqtA" sourceAnchor="157.0,0.0" targetAnchor="161.0,193.0" dashed="true" superClass="_J6bemLY4EeaIgsSsuDlqtA" subClass="_J7ToULY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_JwQO4LY4EeaIgsSsuDlqtA"/>
     <visualProperties xmi:id="_buShwLY4EeaIgsSsuDlqtA" position="-1171.0,365.0"/>
   </edges>
@@ -154,15 +154,15 @@
       <cardinality xmi:id="_J7SaMrY4EeaIgsSsuDlqtA" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_J7QlAbY4EeaIgsSsuDlqtA" sourceAnchor="326.0,97.0" targetAnchor="0.0,115.0" target="_J7nxYLY4EeaIgsSsuDlqtA" source="_J7ToULY4EeaIgsSsuDlqtA">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_J7QlAbY4EeaIgsSsuDlqtA" sourceAnchor="327.0,96.0" targetAnchor="0.0,115.0" target="_J7nxYLY4EeaIgsSsuDlqtA" source="_J7ToULY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_Jx2xYbY4EeaIgsSsuDlqtA"/>
-    <bendpoints xmi:id="_tha6QLY6EeaIgsSsuDlqtA" sourceX="49" targetX="-55" targetY="237"/>
-    <bendpoints xmi:id="_tha6QbY6EeaIgsSsuDlqtA" sourceX="49" sourceY="-237" targetX="-55"/>
+    <bendpoints xmi:id="_6CWrQrY6EeaIgsSsuDlqtA" sourceX="47" targetX="-55" targetY="236"/>
+    <bendpoints xmi:id="_6CWrQ7Y6EeaIgsSsuDlqtA" sourceX="47" sourceY="-236" targetX="-55"/>
     <stereotypes xmi:id="_J7RzJ7Y4EeaIgsSsuDlqtA" name="Reference">
       <modelElement href="FolioTracker.uml#_Jx3YcLY4EeaIgsSsuDlqtA"/>
     </stereotypes>
     <nameVisual xmi:id="_J7RzJLY4EeaIgsSsuDlqtA" text="">
-      <visualProperties xmi:id="_KI70obY4EeaIgsSsuDlqtA" position="-39.0,1.909090909090878"/>
+      <visualProperties xmi:id="_KI70obY4EeaIgsSsuDlqtA" position="-39.0,1.0"/>
     </nameVisual>
     <sourceRole xmi:id="_J7RzJbY4EeaIgsSsuDlqtA" aggregationKind="NONE" name="">
       <modelElement href="FolioTracker.uml#_Jx2xYrY4EeaIgsSsuDlqtA"/>
@@ -172,7 +172,7 @@
     </sourceRole>
     <targetRole xmi:id="_J7RzJrY4EeaIgsSsuDlqtA" aggregationKind="NONE" name="currentFolio" navigable="true">
       <modelElement href="FolioTracker.uml#_JxVM8bY4EeaIgsSsuDlqtA"/>
-      <visualProperties xmi:id="_KI8bsLY4EeaIgsSsuDlqtA" position="-53.0,64.33333333333337"/>
+      <visualProperties xmi:id="_KI8bsLY4EeaIgsSsuDlqtA" position="-53.0,64.0"/>
       <visibility xmi:id="_J7TBQrY4EeaIgsSsuDlqtA" label="-"/>
       <cardinality xmi:id="_J7TBQbY4EeaIgsSsuDlqtA" label="1" max="1" min="1"/>
     </targetRole>
@@ -244,13 +244,13 @@
   <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_J8DPMbY4EeaIgsSsuDlqtA" targetItem="_J8EdobY4EeaIgsSsuDlqtA" sourceItem="_J8DPMLY4EeaIgsSsuDlqtA"/>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_J8TG0LY4EeaIgsSsuDlqtA" sourceAnchor="316.0,39.0" targetAnchor="0.0,85.0" superClass="_J8UU8LY4EeaIgsSsuDlqtA" subClass="_J7w7ULY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_JxFVULY4EeaIgsSsuDlqtA"/>
-    <bendpoints xmi:id="_thaTMrY6EeaIgsSsuDlqtA" sourceX="101" targetX="-51" targetY="-128"/>
-    <bendpoints xmi:id="_thaTM7Y6EeaIgsSsuDlqtA" sourceX="101" sourceY="128" targetX="-51"/>
+    <bendpoints xmi:id="_6CWEMrY6EeaIgsSsuDlqtA" sourceX="101" targetX="-51" targetY="-128"/>
+    <bendpoints xmi:id="_6CWEM7Y6EeaIgsSsuDlqtA" sourceX="101" sourceY="128" targetX="-51"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_J8TG0bY4EeaIgsSsuDlqtA" sourceAnchor="381.0,40.0" targetAnchor="0.0,85.0" superClass="_J8UU8LY4EeaIgsSsuDlqtA" subClass="_J7ufELY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_JxF8YLY4EeaIgsSsuDlqtA"/>
-    <bendpoints xmi:id="_thaTNLY6EeaIgsSsuDlqtA" sourceX="16" targetX="-64" targetY="142"/>
-    <bendpoints xmi:id="_thaTNbY6EeaIgsSsuDlqtA" sourceX="29" sourceY="-142" targetX="-51"/>
+    <bendpoints xmi:id="_6CWrQLY6EeaIgsSsuDlqtA" sourceX="10" targetX="-70" targetY="142"/>
+    <bendpoints xmi:id="_6CWrQbY6EeaIgsSsuDlqtA" sourceX="29" sourceY="-142" targetX="-51"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_J8TG0rY4EeaIgsSsuDlqtA" sourceAnchor="365.0,35.0" targetAnchor="0.0,85.0" superClass="_J8UU8LY4EeaIgsSsuDlqtA" subClass="_J79voLY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_JxF8YbY4EeaIgsSsuDlqtA"/>
@@ -505,11 +505,11 @@
     <modelElement href="FolioTracker.uml#_JxHKgLY4EeaIgsSsuDlqtA"/>
     <visualProperties xmi:id="_P6BCdbY4EeaIgsSsuDlqtA" position="-1172.0,-177.0"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cWM2ULY4EeaIgsSsuDlqtA" sourceAnchor="539.0,135.0" targetAnchor="0.0,143.0" superClass="_cWNdYLY4EeaIgsSsuDlqtA" subClass="_J7f1kLY4EeaIgsSsuDlqtA">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cWM2ULY4EeaIgsSsuDlqtA" sourceAnchor="539.0,134.0" targetAnchor="0.0,143.0" superClass="_cWNdYLY4EeaIgsSsuDlqtA" subClass="_J7f1kLY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_Jw9ZgrY4EeaIgsSsuDlqtA"/>
     <visualProperties xmi:id="_cWNdZLY4EeaIgsSsuDlqtA" position="-195.0,412.0"/>
-    <bendpoints xmi:id="_thX28LY6EeaIgsSsuDlqtA" sourceX="29" targetX="-28" targetY="245"/>
-    <bendpoints xmi:id="_thX28bY6EeaIgsSsuDlqtA" sourceX="29" sourceY="-245" targetX="-28"/>
+    <bendpoints xmi:id="_6CU2ELY6EeaIgsSsuDlqtA" sourceX="29" targetX="-27" targetY="244"/>
+    <bendpoints xmi:id="_6CU2EbY6EeaIgsSsuDlqtA" sourceX="28" sourceY="-244" targetX="-28"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cWM2UbY4EeaIgsSsuDlqtA" sourceAnchor="15.0,0.0" targetAnchor="193.0,287.0" superClass="_cWNdYLY4EeaIgsSsuDlqtA" subClass="_J7Fl4LY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_Jw_1wLY4EeaIgsSsuDlqtA"/>
@@ -518,9 +518,9 @@
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cWM2UrY4EeaIgsSsuDlqtA" sourceAnchor="249.0,194.0" targetAnchor="0.0,143.0" superClass="_cWNdYLY4EeaIgsSsuDlqtA" subClass="_J7ToULY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_JxCSALY4EeaIgsSsuDlqtA"/>
     <visualProperties xmi:id="_CLPTYLY6EeaIgsSsuDlqtA" position="-195.0,412.0"/>
-    <bendpoints xmi:id="_tha6QrY6EeaIgsSsuDlqtA" sourceY="409" targetX="-751" targetY="713"/>
-    <bendpoints xmi:id="_tha6Q7Y6EeaIgsSsuDlqtA" sourceX="723" sourceY="409" targetX="-28" targetY="713"/>
-    <bendpoints xmi:id="_tha6RLY6EeaIgsSsuDlqtA" sourceX="723" sourceY="-304" targetX="-28"/>
+    <bendpoints xmi:id="_6CWrRLY6EeaIgsSsuDlqtA" sourceY="409" targetX="-750" targetY="713"/>
+    <bendpoints xmi:id="_6CWrRbY6EeaIgsSsuDlqtA" sourceX="722" sourceY="409" targetX="-28" targetY="713"/>
+    <bendpoints xmi:id="_6CWrRrY6EeaIgsSsuDlqtA" sourceX="722" sourceY="-304" targetX="-28"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_dazt8LY4EeaIgsSsuDlqtA" source="_cWNdYLY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_dU4sILY4EeaIgsSsuDlqtA"/>
@@ -552,21 +552,21 @@
     <modelElement href="FolioTracker.uml#_Jw7kUbY4EeaIgsSsuDlqtA"/>
     <visualProperties xmi:id="_KBgFBLY6EeaIgsSsuDlqtA" position="97.0,101.0"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_KXTV4LY6EeaIgsSsuDlqtA" sourceAnchor="379.0,38.0" targetAnchor="0.0,44.0" dashed="true" superClass="_KXUkALY6EeaIgsSsuDlqtA" subClass="_J6H8kLY4EeaIgsSsuDlqtA">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_KXTV4LY6EeaIgsSsuDlqtA" sourceAnchor="378.0,34.0" targetAnchor="0.0,44.0" dashed="true" superClass="_KXUkALY6EeaIgsSsuDlqtA" subClass="_J6H8kLY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_Jw358LY4EeaIgsSsuDlqtA"/>
     <visualProperties xmi:id="_Kp1QULY6EeaIgsSsuDlqtA" position="90.0,-122.0"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_KXT88LY6EeaIgsSsuDlqtA" sourceAnchor="372.0,36.0" targetAnchor="0.0,44.0" dashed="true" superClass="_KXUkALY6EeaIgsSsuDlqtA" subClass="_J5mYKbY4EeaIgsSsuDlqtA">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_KXT88LY6EeaIgsSsuDlqtA" sourceAnchor="372.0,37.0" targetAnchor="0.0,44.0" dashed="true" superClass="_KXUkALY6EeaIgsSsuDlqtA" subClass="_J5mYKbY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_Jw5IELY4EeaIgsSsuDlqtA"/>
     <visualProperties xmi:id="_K8EP0LY6EeaIgsSsuDlqtA" position="88.0,-232.0"/>
-    <bendpoints xmi:id="_thZFE7Y6EeaIgsSsuDlqtA" sourceX="35" targetX="-59" targetY="-112"/>
-    <bendpoints xmi:id="_thZFFLY6EeaIgsSsuDlqtA" sourceX="35" sourceY="112" targetX="-59"/>
+    <bendpoints xmi:id="_6CVdJLY6EeaIgsSsuDlqtA" sourceX="35" targetX="-63" targetY="-107"/>
+    <bendpoints xmi:id="_6CVdJbY6EeaIgsSsuDlqtA" sourceX="35" sourceY="107" targetX="-63"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_KXT88bY6EeaIgsSsuDlqtA" sourceAnchor="375.0,36.0" targetAnchor="0.0,44.0" dashed="true" superClass="_KXUkALY6EeaIgsSsuDlqtA" subClass="_J6K_4LY4EeaIgsSsuDlqtA">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_KXT88bY6EeaIgsSsuDlqtA" sourceAnchor="374.0,37.0" targetAnchor="0.0,44.0" dashed="true" superClass="_KXUkALY6EeaIgsSsuDlqtA" subClass="_J6K_4LY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_Jw6WMLY4EeaIgsSsuDlqtA"/>
     <visualProperties xmi:id="_KXUkBLY6EeaIgsSsuDlqtA" position="89.0,-15.0"/>
-    <bendpoints xmi:id="_thZsILY6EeaIgsSsuDlqtA" sourceX="24" targetX="-66" targetY="104"/>
-    <bendpoints xmi:id="_thZsIbY6EeaIgsSsuDlqtA" sourceX="31" sourceY="-104" targetX="-59"/>
+    <bendpoints xmi:id="_6CVdJrY6EeaIgsSsuDlqtA" sourceX="32" targetX="-63" targetY="109"/>
+    <bendpoints xmi:id="_6CVdJ7Y6EeaIgsSsuDlqtA" sourceX="32" sourceY="-109" targetX="-63"/>
   </edges>
   <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_J7ywgLY4EeaIgsSsuDlqtA" sourceConnectionVisual="_J7zXkLY4EeaIgsSsuDlqtA" text="public interface that allows the setting of and retrieval of share stock values&#xD;&#xA;&#xD;&#xA;@author mark meiklejohn&#xD;&#xA; *&#xD;&#xA;@version v1 - interface added to complement &lt;code>Quote&lt;/code> class&#xD;&#xA; *&#xD;&#xA;All rights reserved. Copyright: 21 Nov 2008 15:06:18" item="_J72a4LY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_JxoH4LY4EeaIgsSsuDlqtA"/>
@@ -2440,32 +2440,6 @@
       </parameters>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_KXUkALY6EeaIgsSsuDlqtA" name="ActionListener" abstractClass="true" subclassedBy="_KXTV4LY6EeaIgsSsuDlqtA _KXT88LY6EeaIgsSsuDlqtA _KXT88bY6EeaIgsSsuDlqtA">
-    <modelElement href="FolioTracker.uml#_Jv7ewbY4EeaIgsSsuDlqtA"/>
-    <visualProperties xmi:id="_KXUkAbY6EeaIgsSsuDlqtA" position="368.0,-164.0" size="-1.0,-1.0"/>
-    <stereotypes xmi:id="_KXUkArY6EeaIgsSsuDlqtA" name="Reference">
-      <modelElement href="FolioTracker.uml#_Jv8F0LY4EeaIgsSsuDlqtA"/>
-    </stereotypes>
-    <visibility xmi:id="_KXUkA7Y6EeaIgsSsuDlqtA" label="+"/>
-    <operations xmi:id="_VV38QLY6EeaIgsSsuDlqtA" abstractOperation="true" name="actionPerformed">
-      <modelElement href="FolioTracker.uml#_VUrCYrY6EeaIgsSsuDlqtA"/>
-      <visibility xmi:id="_VV38QbY6EeaIgsSsuDlqtA" label="+"/>
-      <cardinality xmi:id="_VV38QrY6EeaIgsSsuDlqtA" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_VV38Q7Y6EeaIgsSsuDlqtA">
-        <modelElement href="FolioTracker.uml#_VUrCZLY6EeaIgsSsuDlqtA"/>
-        <type xmi:id="_VV38RLY6EeaIgsSsuDlqtA" name="void">
-          <modelElement href="FolioTracker.uml#_dU0asLY4EeaIgsSsuDlqtA"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_VV38RbY6EeaIgsSsuDlqtA" name="arg0">
-        <modelElement href="FolioTracker.uml#_VUrCY7Y6EeaIgsSsuDlqtA"/>
-        <cardinality xmi:id="_VV38RrY6EeaIgsSsuDlqtA" label="1" max="1" min="1"/>
-        <type xmi:id="_VV38R7Y6EeaIgsSsuDlqtA" name="ActionEvent">
-          <modelElement href="FolioTracker.uml#_Jv63sLY4EeaIgsSsuDlqtA"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_J8xA4LY4EeaIgsSsuDlqtA" name="IGUI" associationsIn="_J5lxELY4EeaIgsSsuDlqtA _J6ODMLY4EeaIgsSsuDlqtA" associationsOut="_J8giMLY4EeaIgsSsuDlqtA _J8giMbY4EeaIgsSsuDlqtA _J8hJQLY4EeaIgsSsuDlqtA _J8hJQbY4EeaIgsSsuDlqtA _J8hJQrY4EeaIgsSsuDlqtA" subclassedBy="_J8c30LY4EeaIgsSsuDlqtA">
     <modelElement href="FolioTracker.uml#_Jsw2ALY4EeaIgsSsuDlqtA"/>
     <visualProperties xmi:id="_J8xA4bY4EeaIgsSsuDlqtA" position="-914.0,-200.0" size="-1.0,-1.0"/>
@@ -2939,6 +2913,32 @@
         <cardinality xmi:id="_J7ToirY4EeaIgsSsuDlqtA" label="1" max="1" min="1"/>
         <type xmi:id="_J7Toi7Y4EeaIgsSsuDlqtA" name="IGUI">
           <modelElement href="FolioTracker.uml#_Jsw2ALY4EeaIgsSsuDlqtA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_KXUkALY6EeaIgsSsuDlqtA" name="ActionListener" abstractClass="true" subclassedBy="_KXTV4LY6EeaIgsSsuDlqtA _KXT88LY6EeaIgsSsuDlqtA _KXT88bY6EeaIgsSsuDlqtA">
+    <modelElement href="FolioTracker.uml#_Jv7ewbY4EeaIgsSsuDlqtA"/>
+    <visualProperties xmi:id="_KXUkAbY6EeaIgsSsuDlqtA" position="372.0,-168.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_KXUkArY6EeaIgsSsuDlqtA" name="Reference">
+      <modelElement href="FolioTracker.uml#_Jv8F0LY4EeaIgsSsuDlqtA"/>
+    </stereotypes>
+    <visibility xmi:id="_KXUkA7Y6EeaIgsSsuDlqtA" label="+"/>
+    <operations xmi:id="_VV38QLY6EeaIgsSsuDlqtA" abstractOperation="true" name="actionPerformed">
+      <modelElement href="FolioTracker.uml#_VUrCYrY6EeaIgsSsuDlqtA"/>
+      <visibility xmi:id="_VV38QbY6EeaIgsSsuDlqtA" label="+"/>
+      <cardinality xmi:id="_VV38QrY6EeaIgsSsuDlqtA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VV38Q7Y6EeaIgsSsuDlqtA">
+        <modelElement href="FolioTracker.uml#_VUrCZLY6EeaIgsSsuDlqtA"/>
+        <type xmi:id="_VV38RLY6EeaIgsSsuDlqtA" name="void">
+          <modelElement href="FolioTracker.uml#_dU0asLY4EeaIgsSsuDlqtA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VV38RbY6EeaIgsSsuDlqtA" name="arg0">
+        <modelElement href="FolioTracker.uml#_VUrCY7Y6EeaIgsSsuDlqtA"/>
+        <cardinality xmi:id="_VV38RrY6EeaIgsSsuDlqtA" label="1" max="1" min="1"/>
+        <type xmi:id="_VV38R7Y6EeaIgsSsuDlqtA" name="ActionEvent">
+          <modelElement href="FolioTracker.uml#_Jv63sLY4EeaIgsSsuDlqtA"/>
         </type>
       </parameters>
     </operations>
