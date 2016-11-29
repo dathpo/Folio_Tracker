@@ -193,10 +193,10 @@ public class GUI implements IGUI, Observer {
 		portfolioMenu.add(pfMClose);
 	}
 
-	public String showNewFolioAlert() {
+	public String newFolioAlert() {
 
 		JTextField portFolioName = new JTextField(20);
-		JLabel portFolioNameLabel = new JLabel("Enter PortFolio Name:");
+		JLabel portFolioNameLabel = new JLabel("Enter Portfolio Name:");
 		JPanel portFolioPanel = new JPanel();
 
 		portFolioPanel.setLayout(new BoxLayout(portFolioPanel, BoxLayout.Y_AXIS));
@@ -206,42 +206,35 @@ public class GUI implements IGUI, Observer {
 		portFolioPanel.add(portFolioNameLabel);
 		portFolioPanel.add(portFolioName);
 
-		int result = JOptionPane.showConfirmDialog(null, portFolioPanel, "Create New PortFolio",
-				JOptionPane.PLAIN_MESSAGE);
+		String folioName = "";
+		int result = 1; // 1 = NO
+		do {
+			result = JOptionPane.showConfirmDialog(null, portFolioPanel, "Create a New Portfolio",
+					JOptionPane.OK_OPTION);
+			folioName = portFolioName.getText();
 
-		String folioName = (portFolioName.getText());
+		} while (folioName.equals("") && result == 0);
 
-		
-		if (folioName.equals("")) {
-			JLabel enterFilenameLabel = new JLabel("Portfolio Name cannot blank.");
-			portFolioPanel.add(enterFilenameLabel);
-			JOptionPane.showMessageDialog(null, "Error");
-			showNewFolioAlert();
-
-		} else {
-			// Creates the tab and portfolio
-			createPortfolioTab(folioName);
-			return folioName;
-
-		}
-		return null;
+		if (result == 0)
+			newTab(folioName);
+		return folioName;
 	}
 
+
 	// CREATE NEW PORTFOLIO TAB
-	public void createPortfolioTab(String PortfolioName) {
+	public void newTab(String PortfolioName) {
 		model = new DefaultTableModel();
 		model.addColumn("Ticker Symbol");
 		model.addColumn("Number of Shares");
 		model.addColumn("Price per Share ($)");
 		model.addColumn("Holding Value ($)");
 		model.addColumn("Change (%)");
-		
-		String[] socrates = {"a", "", "469-399 B.C." };
-	    model.addRow(socrates);
+
+		// String[] socrates = {"a", "", "469-399 B.C." };
+		// model.addRow(socrates);
 
 		// MAKE TABLE NON EDITABLE
 		JTable table = new JTable(model) {
-			private static final long serialVersionUID = 1L;
 
 			// Stops the cells from being edited individually
 			public boolean isCellEditable(int row, int column) {
@@ -255,36 +248,38 @@ public class GUI implements IGUI, Observer {
 
 		tabbedPane.addTab(PortfolioName, null, scrollPane, null);
 
-//		 REMOVE EMPTY INITIAL TAB
+		// REMOVE EMPTY INITIAL TAB
 		if (tabbedPane.getTabCount() > 0 && tables.isEmpty()) {
 			tabbedPane.removeTabAt(0);
 		}
 		tables.add(table);
-		
 	}
 	
 
 	// UPDATE SHARE DATA IN TABLe
-public void update(Observable obs, Object obj){
-	IFolio folio = (IFolio) obs;
-	folio.refreshFolioData();
-	//check that there is a table to modify
-	if (this.tables.size() > 0) {
-		//put selected table into a defaulttablemodel to clear it
-		model = (DefaultTableModel) this.tables.get(this.getTabbedPane().getSelectedIndex()).getModel();
+	public void update(Observable obs, Object arg) {
+		if (obs instanceof Folio) {
+			System.out.println("obs instanceof Folio");
+			IFolio folio = (IFolio) obs;
+			folio.refreshFolioData();
+			Object[] row = { "", "469-399 B.C." };
+			model.addRow(row);
 
-		// Clear the table
-		model.setRowCount(0);
-		String[] socrates = { "g2", "", "469-399 B.C." };
-	    model.addRow(socrates);
-	
-		for (IStock s : folio.getStocks()){
-			double change = ((s.getLast()-s.getPrice())/s.getLast())*100;
-			model.insertRow(0, new Object[] { s.getTickerSym(),s.getQuantity(), s.getPrice(), s.calculateValue(), change});
+			// check that there is a table to modify
+			if (this.tables.size() > 0) {
+				// put selected table into a defaulttablemodel to clear it
+				model = (DefaultTableModel) this.tables.get(this.getTabbedPane().getSelectedIndex()).getModel();
+
+				for (IStock s : folio.getStocks()) {
+					double change = ((s.getLast() - s.getPrice()) / s.getLast()) * 100;
+					model.insertRow(0, new Object[] { s.getTickerSym(), s.getQuantity(), s.getPrice(),
+							s.calculateValue(), change });
+				}
+			}
+		} else if (obs instanceof ITracker) {
+			System.out.println("obs instanceof ITracker");
 		}
-			
 	}
-}
 }
 
 
