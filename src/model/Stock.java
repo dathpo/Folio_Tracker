@@ -39,7 +39,7 @@ public class Stock extends Observable implements IStock {
 	}
 
 	public void setQuantity(int value) {
-		this.quantity = value + this.quantity ;
+		this.quantity = value + this.quantity;
 	}
 
 
@@ -91,4 +91,8 @@ public class Stock extends Observable implements IStock {
 		      result = (this.getTickerSym() == obj.getTickerSym());
 		    return result;
 		  }
+	@Override
+	public String toString(){
+		return this.tickerSym;
+	}
 	}

@@ -17,5 +17,7 @@ public interface IFolio {
 	void refreshFolioData();
 	
 	void sellShares(String tickerSym, int numSold);
+	
+	public double getTotalValue();
 
    }

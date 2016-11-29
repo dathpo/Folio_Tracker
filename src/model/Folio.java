@@ -9,6 +9,7 @@ public class Folio extends Observable implements IFolio {
 	public String folioName;
 	private double newPrice;
 	private ArrayList<IStock> stocks;
+	private double portfolioVal; 
 	
 	public ArrayList<IStock> getStocks() {
 		return this.stocks;
@@ -67,27 +68,29 @@ public class Folio extends Observable implements IFolio {
 	public void refreshFolioData() {
 		for(IStock s : stocks){
 			s.refreshPrice();
+			portfolioVal+=s.calculateValue();
 			notifyObservers();
 
 		}
 	}
+	public double getTotalValue(){
+		return portfolioVal;
+	}
 	@Override
 	public void sellShares(String tickerSym, int numSold) {
-		System.out.println("SellShares");
 		IStock stockRM= null;
 		for (IStock s: stocks){
 			if (tickerSym.equals(s.getTickerSym())){
-				System.out.println(s.getQuantity());
 				s.setQuantity(s.getQuantity()- numSold);
+				System.out.println(s.getQuantity());
 				if(s.getQuantity()<=0){
-					 stockRM= s;
+					 stocks.remove(s);
 				}
+				
 			}
 		
 		}
-		if ( stockRM !=null){
-			stocks.remove(stockRM);
-		}
+		
 	}
 	
 	   

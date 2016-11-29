@@ -39,7 +39,7 @@ public class Tracker extends Observable implements ITracker {
 		
 		currentFolio = folios.get((folios.indexOf(currentFolio)));
 		folios.remove(folio);
-	
+
 		notifyObservers();
 
 	}
