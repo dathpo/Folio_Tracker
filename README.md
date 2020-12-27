@@ -1,2 +1,1 @@
-Folio Tracker
-George
+Folio Tracker George

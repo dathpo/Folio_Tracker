@@ -6,6 +6,7 @@ bin/
 tmp/
 *.tmp
 *.bak
+*.iml
 *.swp
 *~.nib
 local.properties
